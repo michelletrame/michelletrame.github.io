@@ -1,0 +1,350 @@
+
+<section>
+  <h2>Text editors</h2>
+  <ul>
+    <li>You should have at least two different text editors on your laptops already: Atom and Sublime. If you didn't already find them during the scavenger hunt, find them and open them.</li>
+    <li>When you are done, save your work as a <a href="https://gist.github.com/" target="_blank">public gist<span class='icon'>&#x238B;</span></a> and share it in Slack.</li>
+  </ul>
+</section>
+<section>
+  <h2>What is HTML?</h2>
+  <p>HTML is a <b>markup</b> language for describing the <b>structure</b> and <b>content</b> of web documents (web pages). It is comprised of markup <b>tags</b> and text content nested inside each other. <a href="assets/images/html_breakdown.png" target="_blank">Check it out <span class='icon'>&#x238B;</span></a></p>
+
+    <h3>HTML Tags</h3>
+    <p>HTML tags are <b>keywords</b> (tag names) surrounded by <b>angle brackets</b>:</p>
+    <div style="font-size:20px;padding:10px;margin-bottom:10px;word-wrap:break-word;font-family:Consolas,'courier new'">
+    &lt;tagname&gt;content&lt;/tagname&gt;
+    </div>
+
+    <ul>
+      <li>HTML tags normally come <b>in pairs</b> like &lt;p&gt; and &lt;/p&gt;</li>
+      <li>The first tag in a pair is the <b> start tag,</b> the second tag is the <b> end tag</b></li>
+      <li>The end tag is written like the start tag, but with a <b>slash</b> before the tag name </li>
+    </ul>
+<h3>A small HTML file</h3>
+<p>As written by the programmer in a code editor, it is an inert document- data sitting on the hard drive- until its code is <b>executed</b> by an HTML interpreter like your web browser:</p>
+<pre><code class="html">&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;My First Heading&lt;/h1&gt;
+    &lt;p&gt;My first paragraph.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h3>Web Browsers</h3>
+<p>The purpose of a web browser (Chrome, IE, Firefox, Safari) is to read HTML documents and display them.</p>
+<h3>Reading &amp; Parsing</h3>
+<p>By following the proscribed rules of HTML, a web browser understands this to be a document with a heading and a paragraph. Here is what the browser <b>interpreter</b> thinks when given this code.</p>
+  <ul>
+    <li>The text between <b>&lt;html&gt;</b> and <b>&lt;/html&gt;</b> describes an HTML document</li>
+     <li>The text between <b>&lt;head&gt;</b> and <b>&lt;/head&gt;</b> provides information about the document</li>
+     <li>The text between <b>&lt;title&gt;</b> and <b>&lt;/title&gt;</b> provides a title for the document</li>
+     <li>The text between <b>&lt;body&gt;</b> and <b>&lt;/body&gt;</b> describes the visible page content</li>
+     <li>The text between <b>&lt;h1&gt;</b> and <b>&lt;/h1&gt;</b> describes a heading</li>
+     <li>The text between <b>&lt;p&gt;</b> and <b>&lt;/p&gt;</b> describes a paragraph</li>
+  </ul>
+<p>It then <b>parses</b> apart the file. The white area below (inside the &lt;body&gt; tag) is the only part that actually appears in the <b>browser window</b> (visible to the user).</p>
+
+    <div style="width:99%;border:1px solid grey;padding:3px;margin:0;background-color:#ddd">&lt;html&gt;
+    <div style="width:90%;border:1px solid grey;padding:3px;margin:20px">&lt;head&gt;
+    <div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;title&gt;Page title&lt;/title&gt;
+    </div>
+    &lt;/head&gt;
+    </div>
+    <div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#fff">&lt;body&gt;
+    <div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;h1&gt;This is a heading&lt;/h1&gt;</div>
+    <div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
+    &lt;/body&gt;
+    </div>
+    &lt;/html&gt;
+    </div>
+
+  <p>It builds an in-memory representation of a new web page called a <b>Document Object Model</b></p>
+  <img src="assets/images/dom.png" alt="document object model">
+  <p>And <b>renders</b> into the browser <code>window</code> for the user to see and interact with:</p>
+  <p><img alt="View in Browser" style="height:auto;width:635px;border:5px solid grey;" src="assets/images/browser.png" class="img-responsive"></p>
+
+  <h3>See for yourself:</h3>
+  <ol>
+    <li><a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Download Chrome<span class='icon'>&#x238B;</span></a> (web browser)</li>
+    <li> <a href="students/examples/1-basic-html.html" target="_blank">Open this file<span class='icon'>&#x238B;</span></a> and view its source <code>[CMD + OPTION + U]</code>.</li>
+    <li>Use the Elements panel of the Chrome developer tools [CMD + OPTION + I] to answer the following questions:</li>
+    <img src="assets/images/elements.png" alt="elements panel">
+
+    <ol>
+      <li>What font-size does the browser give an &lt;h1&gt; element by default?</li>
+      <li>What font-weight does the browser give an &lt;h1&gt; element by default?</li>
+      <li>How does the browser render the extra spaces and new lines in the last paragraph?</li>
+      <li>Are there any parts of the body that are not rendered into the browser window?</li>
+    </ol>
+    <li>Copy the example file into your code editor (Atom) and save it to your computer.</li>
+    <li>Make few changes and load it in your web browser. Experiment!</li>
+  </ol>
+</section>
+  <section>
+    <h2>Project</h2>
+    <p>Over the course of this class, you are going to build a personal website that you can use to tell the world about yourself and whatever you are passionate about.</p>
+
+  <ol>
+    <li>Take a moment to think of a couple of ideas. They can be funny or serious or anything else. No rules.</li>
+    <li>Close your eyes and envision what type of person might visit your website in as much detail as possible. How will they want to interact with your site? How will you present yourself to these visitors?</li>
+    <li>Ask some of the other scholars about their ideas. Also take some time to get to know them a little.</li>
+  </ol>
+
+  </section>
+  <h3>My First HTML Document</h3>
+  <ol>
+    <li>Create your own HTML document similar to the above, without copy &amp; pasting.</li>
+    <li>Make it the landing page for your personal website.</li>
+    <li>Describe what content exists on this site. It doesn't have to be perfect or finalized. We can always refactor later.</li>
+    <li>Correctly set up the HTML document with a head and body tag</li>
+    <li>The page should have a title tag in the head</li>
+    <li>Use an h1 tag</li>
+    <li>We'll need some paragraphs of text</li>
+    <li>Save the file as <code>index.html</code> in your code folder.</li>
+    <li>View your <code>html</code> file rendered in the browser by switching focus <code>[CMD + TAB]</code> to the <code>Finder</code> GUI and Opening the File System to your Desktop folder <code>[CMD + SHIFT + D]</code>. Open the context menu <code>[CTRL + click]</code> and send the file as an input to the Chrome (web browser) application.</li>
+    <li>View Source <code>[CMD + OPT + U]</code> to see your file's source code from the browser's point of view.</li>
+  </ol>
+
+  <h3>A few new HTML tags</h3>
+  <p>Now check out <a href="students/examples/2-basic-html.html" target="_blank">this page! <span class='icon'>&#x238B;</span></a></p>
+  <ol>
+    <li>Use the Elements panel of the Chrome developer tools <code>[CMD + OPT + I]</code> to answer the following questions:</li>
+    <ol>
+      <li>What font-size does the browser give an &lt;h2&gt; element by default?</li>
+      <li>What font-size does the browser give an &lt;h6&gt; element by default?</li>
+      <li>What font-style does the browser give an &lt;em&gt; element by default?</li>
+      <li>What text-decoration does the browser give an &lt;a&gt; element by default?</li>
+      <li>What list-style-type does the browser give an &lt;li&gt; element which is a child of a  &lt;ul&gt; by default?</li>
+
+    </ol>
+  </ol>
+  <h3>Some things to note:</h3>
+  <img src="assets/images/links.png" alt="links">
+  <p>This link tag has an attribute whose name is <b>href</b> and whose value is a url.</p>
+  <p>Attributes provide additional information about an element. They appear on the opening tag of the element and are made up of two parts: a <b>name</b> and a <b>value</b>, separated by an equals sign.</p>
+  <pre><code class="htlm">&lt;img src="https://i.imgur.com/81qyN1y.jpg" alt="This text will show up, only if the image doesn't (also good for screen readers)"&gt;</code></pre>
+  <p>Image tags have an attribute named <b>src</b> whose <b>value</b> is the location of the image to be displayed.</p>
+
+  <h3>Exercise: About Us</h3>
+  <p>Let's write an "About Us" page introducing (the potentially fictional) individuals running your community site.</p>
+  <ol>
+    <li>Correctly set up the HTML document with a head and body tag</li>
+    <li>The page should have a title tag in the head</li>
+    <li>Use a few "horizontal rule" delimiters or line break tags as appropriate</li>
+    <li>Use at least three different sizes of header tags</li>
+    <li>Use ordered and unordered lists</li>
+    <li>Use some &lt;em&gt; and &lt;b&gt; tags</li>
+    <li>Use some &lt;br&gt; and &lt;hr&gt; tags</li>
+    <li>Include profile photos</li>
+    <li>In fact, we'll need plenty of images (on your computer or on the web). Users love images!</li>
+    <li>Link to some external websites</li>
+    <li>Create a "navigation bar" to allow users to click between the landing page and the "about us" section</li>
+    <li>We need easter eggs! Have at least a few SECRET COMMENTS that visitors can only see if they view your source code!</li>
+  </ol>
+
+</section>
+
+<h2>Styling Web Pages with CSS</h2>
+<section>
+  <h3>Introducing the <i>style</i> attribute</h3>
+  <p>Okay, so structured text is nice, but add some <i>style</i>. Create a new HTML document and try out all of the following:</p>
+  <alert>Write it out!! Don't use copy &amp; paste, you are only cheating yourself!!!</alert>
+  <pre><code class="html">  &lt;body style="background-color:lightgrey"&gt;
+  &lt;h1 style="color:blue"&gt;This is a heading&lt;/h1&gt;
+  &lt;h1 style="color:#AA22FF"&gt;Also a heading&lt;/h1&gt;
+  &lt;h1 style="color:rgb(0,255,255)"&gt;Moar!!&lt;/h1&gt;
+  &lt;p style="color:red;background-color:green"&gt;This is a paragraph.&lt;/p&gt;
+  &lt;img src="https://i.imgur.com/81qyN1y.jpg" style="height:100px;width:100px"&gt;</code></pre>
+
+  <p>What have we learned?</p>
+  <ol>
+    <li>The value of the HTML attribute named <code>style</code> styles HTML elements</li>
+    <li>The styles are described using a language called CSS. Here are the rules of CSS:</li>
+    <ol>
+      <li>CSS rules are key-value pairs (similar to HTML attributes)</li>
+      <li>The key represent the property to be changed (like 'color' or 'background-color')</li>
+      <li>The value represents what it should be changed to ('blue' or 'red')</li>
+      <li>The key and value are seperated by a colon</li>
+      <li>Each key-value pair is separated  with a semi-colon</li>
+    </ol>
+      <li>Colors can be described by name, as eight digit <a href="//simple.wikipedia.org/wiki/Base_(mathematics)" class="popup">hex (base 16) values</a> between <code>0</code> (black) and <code>F</code> (white), or as Red Green Blue triplets from <code>0</code> to <code>255</code></li>
+      <li>We can use the following css colors for our <code>background-color</code> and <code>color</code> attributes:</li>
+    </ol>
+  </ol>
+  <img src="assets/images/css_colors.jpg" alt="css colors" class="full">
+  <h3>Add Styling to Your Community Site</h3>
+  <ol>
+    <li>Let's add some color to our web site</li>
+    <li>This should be the world's most fabulously colorful web page!</li>
+    <li>Use all three styles of declaring CSS colors</li>
+    <li>There should be at least 20 HTML elements on the page</li>
+    <li>Some elements should be nested at least three layers deep.</li>
+    <pre><code class="html">&lt;p&gt;This code is layer one&lt;b&gt;This is nested &lt;i&gt;third layer!&lt;/i&gt; back out&lt;/b&gt; to layer one.&lt;/p&gt;</code></pre>
+    <li>Include some links to other websites.</li>
+    <li>Throw some animated gifs of Richard Simmons dancing on there, or something...</li>
+    <li>Don't forget some secret comments!</li>
+    <li>HAVE FUN WITH YOUR WORK! We're web developers, dammit, not morticians!</li>
+  </ol>
+  <p>Here's some inspiration for you:</p>
+  <img src="assets/images/r_simmons.jpg" alt="Richard Simmons being Fabulous!">
+
+  <h3>What's all this?</h3>
+  <p>Try adding the below into the body of a fresh HTML document:</p>
+  <pre><code class="html">  &lt;h1 style="font-family:verdana;color:orange;"&gt;This is a heading&lt;/h1&gt;
+  &lt;p style="color:green;"&gt;This &lt;i style="color:orange;font-size:300%"&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+  &lt;p style="color:green;"&gt;This &lt;i style="font-size:300%;"&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+  &lt;p style="color:green;font-size:40px;text-align:center;font-family:'Times New Roman';"&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+  <p>What have we learned?</p>
+  <ol>
+    <li>Styles applied to <b>parent</b> elements effect their <b>children</b> (nested) elements, unless that style is overwritten.</li>
+    <li>We can put a lot of styles on a single HTML element, but it gets messy.</li>
+    <li>We can apply the same style to every tag of a particular type (all paragraphs should be green), but we have to reapply it on each element.</li>
+  </ol>
+
+  <p>Think over the last two points. How can we improve the situation? We'll look at the solution the designers of CSS chose in the next section.</p>
+
+  </section>
+  <section>
+    <h2>Better styling with the &lt;style&gt; tag</h2>
+    <pre><code class="html">&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1 style="font-family:verdana;color:orange;"&gt;This is a heading&lt;/h1&gt;
+    &lt;p style="color:green;"&gt;This &lt;i style="color:orange;font-size:300%"&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+    &lt;p style="color:green;"&gt;This &lt;i style="font-size:300%;"&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+    &lt;p style="color:green;font-size:300%;text-align:center;font-family:'Times New Roman';"&gt;This is by far the most important part of the page!&lt;/p&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;</code></pre>
+    <p>So let's begin to refactor the mess above. CSS rules can be applied to an HTML page by placing them inside a <strong>&lt;style&gt; element</strong> inside the &lt;head&gt; element of the page.</p>
+    <p>We begin with a <strong>selector</strong> to indicate which elements the rules apply to. Then, inside of curly braces, we indicate how the elements should be styled. Declarations are split into two parts (a property and a value), are separated by a colon, and end with a semicolon</p>
+    <pre><code class="html">&lt;html&gt;
+    &lt;head&gt;
+    &lt;style&gt;
+      h1 {
+        font-family: verdana;
+      }
+      p {
+        color: green;
+      }
+      i {
+        font-size: 300%;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1 style="color:orange;"&gt;This is a heading&lt;/h1&gt;
+    &lt;p&gt;This &lt;i style="color:orange;"&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+    &lt;p&gt;This &lt;i&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+    &lt;p style="font-size:300%;text-align:center;font-family:'Times New Roman';"&gt;This is by far the most important part of the page!&lt;/p&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;</code></pre>
+
+  <p>Ok, so far, so good. We have styles common to tags of the same type as shared styles. How can we represent all the extra styling on that last &lt;p&gt; tag?</p>
+  <p>Every HTML element can carry an <strong>id attribute</strong> to uniquely identify it. No two elements on the same page may have the same value for their id attributes. The css selector to match for an id starts with a hash.</p>
+  <pre><code class="html">&lt;html&gt;
+  &lt;head&gt;
+  &lt;style&gt;
+    h1 {
+      font-family: verdana;
+    }
+    p {
+      color: green;
+    }
+    i {
+      font-size: 300%;
+    }
+    #primary {
+      font-size: 300%;
+      text-align: center;
+      font-family: 'Times New Roman';
+    }
+  &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;h1 style="color:orange;"&gt;This is a heading&lt;/h1&gt;
+  &lt;p&gt;This &lt;i style="color:orange;"&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+  &lt;p&gt;This &lt;i&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+  &lt;p id="primary"&gt;This is by far the most important part of the page!&lt;/p&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;</code></pre>
+  <p>Okay, now what about the two oranged elements?</p>
+  <p>Every HTML element can also carry one or more class names in a <strong>class attribute</strong> to identify several elements as being different from the other elements on the page. The css selector to match for a class starts with a period.</p>
+  <pre><code class="html">&lt;html&gt;
+  &lt;head&gt;
+  &lt;style&gt;
+    h1 {
+      font-family: verdana;
+    }
+    p {
+      color: green;
+    }
+    i {
+      font-size: 300%;
+    }
+    #primary {
+      font-size: 40px;
+      text-align: center;
+      font-family: 'Times New Roman';
+    }
+    .important {
+      color: orange;
+    }
+  &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1 class="important"&gt;This is a heading&lt;/h1&gt;
+    &lt;p&gt;This &lt;i class="important"&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+    &lt;p&gt;This &lt;i&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+    &lt;p id="primary"&gt;This is by far the most important part of the page!&lt;/p&gt;
+  &lt;/body&gt;
+  &lt;html&gt;</code></pre>
+  <p>Elements can have more than one class, but should only ever have a single id. <strong>Why is that?</strong></p>
+
+  <pre><code class="html">&lt;html&gt;
+  &lt;head&gt;
+  &lt;style&gt;
+    h1 {
+        font-family: verdana;
+    }
+    p {
+      color: green;
+    }
+    .big {
+      font-size: 300%;
+    }
+    #primary {
+      text-align: center;
+      font-family: 'Times New Roman';
+    }
+    .important {
+      color: orange;
+    }
+  &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1 class="important"&gt;This is a heading&lt;/h1&gt;
+    &lt;p&gt;This &lt;i class="important big"&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+    &lt;p&gt;This &lt;i class="big"&gt;is&lt;/i&gt; a paragraph.&lt;/p&gt;
+    &lt;p  id="primary" class="big"&gt;This is by far the most important part of the page!&lt;/p&gt;
+  &lt;/body&gt;
+  &lt;html&gt;</code></pre>
+
+  <p>Now we have seperated <strong>presentation</strong> from <strong>content</strong>. We can easily read the content of our HTML document without it being cluttered up with styles. By sharing styles we also save ourselves a lot of typing as we create larger and larger HTML documents.</p>
+  <h3>Exercise: Refactor</h3>
+  <p><strong>You will be judged</strong> by professional developers for placing styles directly on HTML elements. Revisit all of the HTML code you have written for your community page and purge your HTML elements of "style" attributes. Move all styling to a <strong>&lt;style&gt; tag</strong> in the &lt;head&gt; and look for (or change your code to create) opportunities to use <strong>id</strong> and <strong>class</strong> attributes.</p>
+
+  <h3>Deploy!</h3>
+  <p>Okay! Great work so far. Now let's get our web pages live in the internet.</p>
+  <ol>
+    <li>Head over to <a href="https://www.bitballoon.com" target="_blank">Bit Balloon<span class='icon'>&#x238B;</span></a> <a href="javascript:void(0)" class="tooltip" data-tip="A static web site is a collection of HTML documents stored as files in the file system of a web server. They are delivered to the user exactly as stored (like a blog), in contrast to dynamic web application which are generated on a per-request basis depending the user and the state of the application (like Facebook).">static hosting</a>.</li>
+    <li>Make sure your main page is named <code>index.html</code>, so that it will show up when you visit your Bit Balloon sub-domain: <code>myapp.bitballoon.com</code></li>
+    <li>Select the folder containing your <code>index.html</code> file<code>[CTRL + click]</code> to bring up the context menu, and select "compress files"</li>
+    <li>Drag the "Archive.zip" compressed file onto the Bit Balloon</li>
+    <li>Post your site URL in Slack channel for your classmates to check out</li>
+    <li>Open your classmates sites and <b>read their source code</b>, check out what secret comments they've left you. (reading source code is one of the most effective and under-utilized learning strategies)</li>
+  </ol>
+
+  </section>
