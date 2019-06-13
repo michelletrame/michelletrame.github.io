@@ -1,18 +1,142 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Index</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/smash">Smash</a></li>
-        		<li><a href="https://github.com/michelletrame">Github</a></li>
-        		<li><a href="https://medium.com/@michelle.trame">Medium</a></li>
-    		</ul>
-		</nav>
-	</body>
+<head>
+  <title>SMASH computer science 1</title>
+    <link rel="stylesheet" href="assets/css/lib.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+  </style>
+
+</head>
+<body onload="load()">
+<div id="container">
+  <header>SMASH computer science 1 <form id=name_form><input type="text" id='name' placeholder='Enter Your Name'><input type="submit" value=submit></form></header>
+  <nav>
+    <section>
+    <p>Week 1:</p>
+    <ol>
+
+<li><a class="load done" href="#01.html">Day 1 </a></li>
+<!-- <li><a class="load done" href="#02.html">Larger Web Documents</a></li>
+<li><a class="load done" href="#03.html">Forms </a></li>
+<li><a class="load done" href="#04.html">Page Layouts</a></li>
+<li><a class="load done" href="#05.html">5: CSS Frameworks</a></li> 
+<li><a class="load done" href="#06.html">JavaScript & the DOM</a></li>-->
+
+</ol>
+
+</section>
+<!-- <section>
+  <p>Week 2:</p>
+  <ol>
+    <li><a class="load done" href="#07.html">If / Else</a></li>
+    <li><a class="load done" href="#08.html">While Loops</a></li>
+    <li><a class="load done" href="#09.html">jQuery</a></li>
+    <li><a class="load done" href="#10.html">Hackathon</a></li>
+  </ol>
+
+  </section>
+  <section>
+    <p>Week 3:</p>
+    <ol>
+    <li><a class="load done" href="#11.html">Functions</a></li>
+    <li><a class="load done" href="#12.html">Events</a></li>
+    <li><a class="load done" href="#13.html">Arrays</a></li>
+    <li><a class="load done" href="#14.html">Objects</a></li>
+  </ol>
+</section>
+
+
+  <section>
+  <p>Week 4:</p>
+  <ol>
+    <li><a class="load done" href="#15.html">Single Page Apps</a></li>
+    <li><a class="load done" href="#16.html">AJAX & JSON</a></li>
+    <li><a class="load done" href="#17.html">Advanced Functions</a></li>
+    <li><a class="load done" href="#175.html">Functional Programming</a></li>
+  </ol>
+</section>
+
+<section>
+<p>Week 5:</p>
+<ol>
+  <li><a class="load done" href="#18.html">Object Oriented JS</a></li>
+  <li><a class="load done" href="#19.html">Simple MVC</a></li>
+  <li><a class="" href="exercises/index.html">Exercises</a></li>
+  <!-- <li><a class="load done" href="#20.html">5: Portfolio & Hiring</a></li>  -->
+</ol>
+</section> -->
+
+  </nav>
+  <div id="content"></div>
+</div>
+
+<script src="assets/js/lib.js"></script>
+<script>
+var completed
+
+function load (e) {
+  $.ajaxSetup ({cache: false})
+
+  completed = JSON.parse(localStorage.getItem('completed')) || []
+  $('#content').load(location.hash.substring(1) || localStorage.getItem('last_visited') || '01.html', function () {
+    $('.popup').each(function (i, el) {
+      $(el).magnificPopup({type:$(el).attr('href').substring(0,2) === '//' ? 'iframe': 'ajax'})
+    })
+    $('pre code').each(function(i, block) {
+      hljs.highlightBlock(block)
+    })
+
+    $('code-submission-form').each(function(){
+      var content = completed.indexOf($(this).attr('id')) > -1 ? '<p>Code submitted... Thank you!</p>' : "<form class='student_code'><h4>Submit Your Code</h4><textarea name=code id=code_sample rows=10></textarea><br><input type=submit value=Send></form>"
+
+      $(this).html(content)
+    })
+    localStorage.setItem('last_visited', location.hash.substring(1))
+    localStorage.getItem('name') && $('#name_form').text(localStorage.getItem('name'))
+  })
+
+}
+
+function add_name (e) {
+  e.preventDefault()
+  var name = $(this).find('#name').val()
+  localStorage.setItem('name', name)
+  $(this).text(name)
+}
+
+function load_event (event) {
+  var dest = $(this).attr("href")
+  event.preventDefault()
+  history.pushState(null, event.target.textContent, event.target.href)
+  load()
+}
+
+function show_hint (event) {
+    $(event.target).hide().parent().find('secret').fadeIn(2000)
+}
+
+function submit_code (e) {
+  e.preventDefault()
+  var exercise_name = $(this).parent('code-submission-form').attr('id')
+
+  $.post('submission', $(this).serialize() +'&exercise='+ exercise_name + '&name=' + localStorage.getItem('name'))
+
+  completed.push(exercise_name)
+  localStorage.setItem('completed', JSON.stringify(completed) )
+  $(this).html('<p>Code submitted... Thank you!</p>')
+}
+
+$('body').on('click', '.load', load_event)
+         .on('click', 'hint text', show_hint)
+         .on('submit', '.student_code', submit_code)
+         .on('submit', '#name_form', add_name)
+
+
+$(window).on('popstate', load)
+
+
+
+</script>
+</body>
 </html>
