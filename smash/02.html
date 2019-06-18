@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SMASH computer science 1</title>
+    <link rel="stylesheet" href="michelle.trame.github.io/css/main.css">
+  <style>
+  </style>
+
+</head>
+<body onload="load()">
+<div id="container">
+  <header><h1>SMASH computer science 1</h1></header>
+<section>
+  <h2>Text editors</h2>
+  <ul>
+    <li>You should have at least two different text editors on your laptops already: Atom and Sublime.</li> 
+    <li>If you didn't already find them during the scavenger hunt, find them and open them.</li>
+  </ul>
+</section>
+<section>
+  <h2>What is HTML?</h2>
+  <p>HTML is a <b>markup</b> language for describing the <b>structure</b> and <b>content</b> of web documents (web pages). It is comprised of markup <b>tags</b> and text content nested inside each other. <a href="https://reactorprep.herokuapp.com/assets/images/html_breakdown.png" target="_blank">Check it out <span class='icon'>&#x238B;</span></a></p>
+
+    <h3>HTML Tags</h3>
+    <p>HTML tags are <b>keywords</b> (tag names) surrounded by <b>angle brackets</b>:</p>
+    <div style="font-size:20px;padding:10px;margin-bottom:10px;word-wrap:break-word;font-family:Consolas,'courier new'">
+    &lt;tagname&gt;content&lt;/tagname&gt;
+    </div>
+
+    <ul>
+      <li>HTML tags normally come <b>in pairs</b> like &lt;p&gt; and &lt;/p&gt;</li>
+      <li>The first tag in a pair is the <b> start tag,</b> the second tag is the <b> end tag</b></li>
+      <li>The end tag is written like the start tag, but with a <b>slash</b> before the tag name </li>
+    </ul>
+<h3>A small HTML file</h3>
+<p>As written by the programmer in a code editor, it is an inert document- data sitting on the hard drive- until its code is <b>executed</b> by an HTML interpreter like your web browser:</p>
+<pre><code class="html">&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;My First Heading&lt;/h1&gt;
+    &lt;p&gt;My first paragraph.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h3>Web Browsers</h3>
+<p>The purpose of a web browser (Chrome, IE, Firefox, Safari) is to read HTML documents and display them.</p>
+<h3>Reading &amp; Parsing</h3>
+<p>By following the proscribed rules of HTML, a web browser understands this to be a document with a heading and a paragraph. Here is what the browser <b>interpreter</b> thinks when given this code.</p>
+  <ul>
+    <li>The text between <b>&lt;html&gt;</b> and <b>&lt;/html&gt;</b> describes an HTML document</li>
+     <li>The text between <b>&lt;head&gt;</b> and <b>&lt;/head&gt;</b> provides information about the document</li>
+     <li>The text between <b>&lt;title&gt;</b> and <b>&lt;/title&gt;</b> provides a title for the document</li>
+     <li>The text between <b>&lt;body&gt;</b> and <b>&lt;/body&gt;</b> describes the visible page content</li>
+     <li>The text between <b>&lt;h1&gt;</b> and <b>&lt;/h1&gt;</b> describes a heading</li>
+     <li>The text between <b>&lt;p&gt;</b> and <b>&lt;/p&gt;</b> describes a paragraph</li>
+  </ul>
+<p>It then <b>parses</b> apart the file. The white area below (inside the &lt;body&gt; tag) is the only part that actually appears in the <b>browser window</b> (visible to the user).</p>
+
+    <div style="width:99%;border:1px solid grey;padding:3px;margin:0;background-color:#ddd">&lt;html&gt;
+    <div style="width:90%;border:1px solid grey;padding:3px;margin:20px">&lt;head&gt;
+    <div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;title&gt;Page title&lt;/title&gt;
+    </div>
+    &lt;/head&gt;
+    </div>
+    <div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#fff">&lt;body&gt;
+    <div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;h1&gt;This is a heading&lt;/h1&gt;</div>
+    <div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
+    &lt;/body&gt;
+    </div>
+    &lt;/html&gt;
+    </div>
+
+  <p>It builds an in-memory representation of a new web page called a <b>Document Object Model</b></p>
+  <img src="https://reactorprep.herokuapp.com/assets/images/dom.png" alt="document object model">
+  <p>And <b>renders</b> into the browser <code>window</code> for the user to see and interact with:</p>
+  <p><img alt="View in Browser" style="height:auto;width:635px;border:5px solid grey;" src="https://reactorprep.herokuapp.com/assets/images/browser.png" class="img-responsive"></p>
+
+  <h3>See for yourself:</h3>
+  <ol>
+    <li>Open Chrome</li>
+    <li> <a href="students/examples/1-basic-html.html" target="_blank">Open this file<span class='icon'>&#x238B;</span></a> and view its source <code>[Ctrl + U]</code>.</li>
+    <li>Use the Elements panel of the Chrome developer tools [Ctrl + Shift + j or F12] to answer the following questions:</li>
+    <img src="https://reactorprep.herokuapp.com/assets/images/elements.png" alt="elements panel">
+
+    <ol>
+      <li>What font-size does the browser give an &lt;h1&gt; element by default?</li>
+      <li>What font-weight does the browser give an &lt;h1&gt; element by default?</li>
+      <li>How does the browser render the extra spaces and new lines in the last paragraph?</li>
+      <li>Are there any parts of the body that are not rendered into the browser window?</li>
+    </ol>
+    <li>Copy the example file into your code editor (Atom) and save it to your computer.</li>
+    <li>Make few changes and load it in your web browser. Experiment!</li>
+  </ol>
+</section>
+  <section>
+    <h2>Project</h2>
+    <p>Over the course of this class, you are going to build a personal website that you can use to tell the world about yourself and whatever you are passionate about.</p>
+
+  <ol>
+    <li>Take a moment to think of a couple of ideas. They can be funny or serious or anything else.</li>
+    <li>Close your eyes and envision what type of person might visit your website in as much detail as possible. How will they want to interact with your site? How will you present yourself to these visitors?</li>
+    <li>Ask some of the other scholars about their ideas. Also take some time to get to know them a little.</li>
+  </ol>
+
+  </section>
+  <h3>My First HTML Document</h3>
+  <ol>
+    <li>Create your own HTML document similar to the above, without copy &amp; pasting.</li>
+    <li>Make it the landing page for your personal website.</li>
+    <li>Describe what content exists on this site. It doesn't have to be perfect or finalized. We can always refactor later.</li>
+    <li>Correctly set up the HTML document with a head and body tag</li>
+    <li>The page should have a title tag in the head</li>
+    <li>Use an h1 tag</li>
+    <li>We'll need some paragraphs of text</li>
+    <li>Save the file as <code>index.html</code> in your code folder.</li>
+    <li>View your <code>html</code> file rendered in the browser by finding the file on your computer and opening it in Chrome.</li>
+    <li>View Source <code>[Ctrl + U]</code> to see your file's source code from the browser's point of view.</li>
+  </ol>
+
+  <h3>A few new HTML tags</h3>
+  <p>Now check out <a href="https://reactorprep.herokuapp.com/students/examples/2-basic-html.html" target="_blank">this page! <span class='icon'>&#x238B;</span></a></p>
+  <ol>
+    <li>Use the Elements panel of the Chrome developer tools <code>[Ctrl + Shift + j or F12]</code> to answer the following questions:</li>
+    <ol>
+      <li>What font-size does the browser give an &lt;h2&gt; element by default?</li>
+      <li>What font-size does the browser give an &lt;h6&gt; element by default?</li>
+      <li>What font-style does the browser give an &lt;em&gt; element by default?</li>
+      <li>What text-decoration does the browser give an &lt;a&gt; element by default?</li>
+      <li>What list-style-type does the browser give an &lt;li&gt; element which is a child of a  &lt;ul&gt; by default?</li>
+
+    </ol>
+  </ol>
+  <h3>Some things to note:</h3>
+  <img src="https://reactorprep.herokuapp.com/assets/images/links.png" alt="links">
+  <p>This link tag has an attribute whose name is <b>href</b> and whose value is a url.</p>
+  <p>Attributes provide additional information about an element. They appear on the opening tag of the element and are made up of two parts: a <b>name</b> and a <b>value</b>, separated by an equals sign.</p>
+  <pre><code class="htlm">&lt;img src="https://i.imgur.com/81qyN1y.jpg" alt="This text will show up, only if the image doesn't (also good for screen readers)"&gt;</code></pre>
+  <p>Image tags have an attribute named <b>src</b> whose <b>value</b> is the location of the image to be displayed.</p>
+
+  <h3>Exercise: About Me</h3>
+  <p>Let's write an "About Me" page introducing yourself.</p>
+  <ol>
+    <li>Correctly set up the HTML document with a head and body tag</li>
+    <li>The page should have a title tag in the head</li>
+    <li>Use a few "horizontal rule" delimiters or line break tags as appropriate</li>
+    <li>Use at least three different sizes of header tags</li>
+    <li>Use ordered and unordered lists</li>
+    <li>Use some &lt;em&gt; and &lt;b&gt; tags</li>
+    <li>Use some &lt;br&gt; and &lt;hr&gt; tags</li>
+    <li>Include profile photos</li>
+    <li>In fact, we'll need plenty of images (on your computer or on the web). Users love images!</li>
+    <li>Link to some external websites</li>
+    <li>Create a "navigation bar" to allow users to click between the landing page and the "about us" section</li>
+    <li>We need easter eggs! Have at least a few SECRET COMMENTS that visitors can only see if they view your source code!</li>
+  </ol>
+
+</section>
+</body>
+</html>
