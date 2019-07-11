@@ -1,0 +1,174 @@
+.title {
+	color: white;
+	font-family: 'Literata', serif;
+	font-size: 4em;
+	text-align: center;
+	opacity: 1;
+	margin-top: 100px;
+	padding-top: 200px;
+
+
+}
+.subtitle {
+	color: white;
+	font-family: 'Literata', serif;
+	text-align: center;
+	opacity: 1;
+	margin-top: 40px;
+
+}
+
+#shadow {
+	background-color: black;
+	opacity: .7;
+	margin: 60px auto;
+	height: 500px;
+	width: 800px;
+
+}
+
+#navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  background-color: #111;	
+}
+
+.navitem {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+
+}
+
+.navitem:nth-child(1) {
+margin-left: 0px;
+}
+
+.navitem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Literata', serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navitem a:hover {
+  background-color: #333;
+}
+
+
+textarea {
+  width: 350px;
+  height: 100px;
+  display: block;
+  margin-bottom: 20px;
+  border: 3px dotted gray;
+}
+
+
+
+label {
+  display: block;
+  font-size: 1.252em;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: 'Literata', serif;
+
+}
+
+h1 {
+   font-family: 'Literata', serif;
+   font-size: 3.5em;
+   margin-left: 40px;
+    }
+      
+#checkbox-label {
+	display: inline;
+	font-size: 1em;
+}
+
+#check-swear {
+	margin-bottom: 20px;
+}
+
+
+button {
+    font-family: 'Literata', serif; 
+    background-color: #5bc964;
+    color: white;
+    font-size: 1.2em;}
+
+form {
+	margin-left: 40px;
+}
+
+#photos {
+	background-color: white;
+}
+#resume-page {
+	background-color: lightblue;
+}
+    
+iframe {
+	height: 500px;
+	width:100%;
+}
+
+.resume {
+	margin: 30px auto;
+}
+#obnoxious {
+	margin-left: 100px;
+	 margin-top: 20px;
+	  margin-bottom: 25px;
+	
+}
+
+.columns{
+	column-count: 2;
+	margin: 15px 0px;
+}
+
+#intro-text{
+	break-inside: avoid;
+	
+}
+
+#links {
+	margin: 10px auto;
+}
+
+#links p {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+#links a {
+	font-family: Arial;
+	font-size: 14px;
+	font-color=: #CCFF00;
+}
+
+#threemonkeys {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#monkeyring {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.small {
+	font-size: 11px;
+}
+
