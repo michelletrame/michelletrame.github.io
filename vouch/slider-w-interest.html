@@ -1,0 +1,172 @@
+<html>
+
+<!-- remaking my GEOCITIES.WS archive-->
+<head>
+	<title>Repayment Calculator</title>
+	<meta name="author" content="Michelle Trame">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<style>
+	.wrapper {
+    width: 300px;
+    margin: 50px auto 0;
+    padding: 60px 30px;
+    border: 1px solid #000;
+}
+
+.wrapper__title {
+    text-transform: capitalize;
+    margin: 0 0 40px;
+}
+
+.calculator__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 30px;
+}
+
+.calculator__row:last-child {
+    margin-bottom: 0;
+}
+
+.calculator__row label {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.calculator__principle {
+    width: 60%;
+}
+
+.calculator__repayment {
+    width: 50%;
+}
+
+.calculator__info {
+    text-transform: capitalize;
+    margin: 0;
+}
+	</style>
+	</head>
+
+
+<body>
+
+
+
+<div class="wrapper">
+		<h1 class="wrapper__title">repayment calculator</h1>
+		<form class="calculator">
+				<div class="calculator__row">
+						<label for="principle">amount you want to borrow: $</label>
+						<input type="text" id="principle" class="calculator__principle" value="5000" required/>
+				</div>
+				<!-- 	<form class="calculator"> -->
+				<div class="calculator__row">
+						<label for="interval">Repayment interval:</label>
+  						<select id="interval" name="interval">
+    					<option value=.019231>weekly</option>
+    					<option value=.083333 selected>monthly</option>
+    					<option value=1 >yearly</option>
+  						</select>						
+				</div>
+				<div class="calculator__row">
+						<label for="interest-rate">interest rate: <span class="interest-rate"></span></label>
+						<input type="range" min="0" max="100" value="7" step="1" class="calculator__interest__rate" id="interest-rate" required/>
+				</div>
+				<div class="calculator__row">
+						<label for="repayment-amount">Repayment amount: <span class="repayment-amount"></span></label>
+						<input type="range" min="0" max="1000" value="200" step="10" class="calculator__repayment" id="repayment-amount" required/>
+				</div>
+				<div class="calculator__row">
+						<h2 class="calculator__info">Number of repayments: <span class="calculator__result"></span></h2>
+				</div>
+
+				<div class="calculator__row">
+						<h2 class="calculator__interest__payment">Total interest to lender: <span class="calculator__interest__total"></span></h2>
+				</div>
+		</form>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+
+<script type="text/javascript">
+	$(document).ready( function () {
+
+
+    // VARIABLES
+    // ----------------------------------------------------------
+
+    var principle, repayment, result, interval;
+    var calculator = $('.calculator');
+    var calculatorPrinciple = calculator.find('.calculator__principle');
+    var calculatorRepayment = calculator.find('.calculator__repayment');
+    var calculatorInterestRate = calculator.find('.calculator__interest__rate');
+
+    var repaymentAmount = calculator.find('.repayment-amount');
+    var interestRate = calculator.find('.interest-rate');
+
+    var interestTotal = calculator.find('.calculator__interest__total');
+    var calculatorResult = calculator.find('.calculator__result');
+
+    var intervalChoice = calculator.find('.interval');
+
+    // INIT BILL
+    // ----------------------------------------------------------
+
+    $(window).on('DOMContentLoaded', function () {
+        repaymentAmount.text( '$' + calculatorRepayment.val() );
+        principle = calculatorPrinciple.val() * 1;
+        repayment = calculatorRepayment.val() * 1;
+        result = principle / repayment;
+        calculatorResult.text( result.toFixed(1) );
+    });
+
+        $(window).on('DOMContentLoaded', function () {
+        interestRate.text( calculatorInterestRate.val() + "%" );
+        principle = calculatorPrinciple.val() * 1;
+        repayment = calculatorRepayment.val() * 1;
+        interval = intervalChoice.val() * 1;
+        interest = interestRate.val() * 1;
+        total = principle / repayment * interval * interest * principle / 100;
+        interestTotal.text( total.toFixed(1) );
+    });
+
+
+    // RANGE FUNCTION
+    // ----------------------------------------------------------
+
+    calculatorRepayment.on('change', function () {
+
+        if ( calculatorPrinciple.val() === '' || isNaN( calculatorPrinciple.val() ) ) {
+            alert('Enter loan amount, please!')
+        } else {
+            principle = calculatorPrinciple.val() * 1;
+        }
+
+        repaymentAmount.text( "$" + calculatorRepayment.val() );
+        principle = calculatorPrinciple.val() * 1;
+        repayment = calculatorRepayment.val() * 1;
+        result = principle / repayment;
+        calculatorResult.text( result.toFixed(1) );
+	});
+
+calculatorRepayment.on('change', function () {
+
+        interestRate.text( calculatorInterestRate.val() + "%" );
+        principle = calculatorPrinciple.val() * 1;
+        repayment = calculatorRepayment.val() * 1;
+        interval = intervalChoice.val() * 1;
+        interest = interestRate.val() * 1;
+        total = principle / repayment * interval * interest * principle / 100;
+        interestTotal.text( total.toFixed(1) );
+    
+
+    });
+
+});
+</script>
+
+</body>
+</html>
