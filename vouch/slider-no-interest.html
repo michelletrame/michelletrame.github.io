@@ -56,33 +56,36 @@
 
 
 <div class="wrapper">
-		<h1 class="wrapper__title">repayment calculator</h1>
-		<form class="calculator">
-				<div class="calculator__row">
-						<label for="principle">amount you want to borrow: $</label>
-						<input type="text" id="principle" class="calculator__principle" value="5000" required/>
-				</div>
-				<!-- 	<form class="calculator"> -->
-				<div class="calculator__row">
-						<label for="interval">Repayment interval:</label>
-  						<select id="interval" name="interval">
-    					<option value="weekly">weekly</option>
-    					<option value="monthly" selected>monthly</option>
-    					<option value="yearly" >yearly</option>
-  						</select>						
-				</div>
-<!-- 				<div class="calculator__row">
-						<label for="interest">interest amount: <span class="tip-amount"></span></label>
-						<input type="range" min="0" max="100" value="0" step="1" class="calculator__tip" id="interest" required/>
-				</div> -->
-				<div class="calculator__row">
-						<label for="repayment-amount">Repayment amount: <span class="repayment-amount"></span></label>
-						<input type="range" min="0" max="1000" value="200" step="10" class="calculator__repayment" id="repayment-amount" required/>
-				</div>
-				<div class="calculator__row">
-						<h2 class="calculator__info">Time to payoff in (months/weeks/years): <span class="calculator__result"></span></h2>
-				</div>
-		</form>
+	<h1 class="wrapper__title">repayment calculator</h1>
+	<form class="calculator" onsubmit="return false;">
+		<div class="calculator__row">
+			<label for="principle">amount you want to borrow: $</label>
+			<input type="text" id="principle" class="calculator__principle" value="5000" required onchange="range()"/>
+		</div>
+		<!-- 	<form class="calculator"> -->
+		<div class="calculator__row">
+			<label for="interval">Repayment interval:</label>
+  			<select id="interval" class="interval" name="interval" onchange="range()">
+    				<option value="weekly">weekly</option>
+    				<option value="monthly" selected>monthly</option>
+    				<option value="yearly" >yearly</option>
+  			</select>						
+		</div>
+<!-- 		<div class="calculator__row">
+			<label for="interest">interest amount: <span class="tip-amount"></span></label>
+			<input type="range" min="0" max="100" value="0" step="1" class="calculator__tip" id="interest" required/>
+		</div> -->
+		<div class="calculator__row">
+			<label for="repayment-amount">Repayment amount: <span class="repayment-amount"></span></label>
+			<input type="range" min="0" max="1000" value="200" step="10" class="calculator__repayment" id="repayment-amount" required onchange="range()"/>
+		</div>
+		<div class="calculator__row">
+			<h2 class="calculator__info">
+				Time to payoff in (months/weeks/years): 
+				<span class="calculator__result"></span>
+			</h2>
+		</div>
+	</form>
 </div>
 
 <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
@@ -101,34 +104,22 @@
     var calculatorResult = calculator.find('.calculator__result');
     var repaymentAmount = calculator.find('.repayment-amount');
 
+    // this is wrong selector...
     var intervalChoice = calculator.find('.interval');
 
     // INIT BILL
     // ----------------------------------------------------------
 
-    $(window).on('DOMContentLoaded', function () {
-        repaymentAmount.text( '$' + calculatorRepayment.val() );
-        principle = calculatorPrinciple.val() * 1;
-        repayment = calculatorRepayment.val() * 1;
-        result = principle / repayment;
-        calculatorResult.text( result.toFixed(1) );
-    });
-
-        $(window).on('DOMContentLoaded', function () {
-        intervalChoice.text( '$' + calculatorRepayment.val() );
-        principle = calculatorPrinciple.val() * 1;
-        repayment = calculatorRepayment.val() * 1;
-        result = principle / repayment;
-        calculatorResult.text( result.toFixed(1) );
-    });
+    $(window).on('DOMContentLoaded', range);
 
 
     // RANGE FUNCTION
     // ----------------------------------------------------------
-
-    calculatorRepayment.on('change', function () {
-
-        if ( calculatorPrinciple.val() === '' || isNaN( calculatorPrinciple.val() ) ) {
+    // read all inputs from all the element values
+    // calculates the time to payoff
+    // sets the text of the payoff element to the payoff
+    function range() {
+    	if ( calculatorPrinciple.val() === '' || isNaN( calculatorPrinciple.val() ) ) {
             alert('Enter loan amount, please!')
         } else {
             principle = calculatorPrinciple.val() * 1;
@@ -138,10 +129,9 @@
         repayment = calculatorRepayment.val() * 1;
         result = principle / repayment;
         calculatorResult.text( result.toFixed(1) );
-    
+    }
 
-    });
-
+    window.range = range;
 });
 </script>
 
