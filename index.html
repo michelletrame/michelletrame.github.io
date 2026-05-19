@@ -68,7 +68,7 @@
     <div class="work-grid">
 
       <!-- 1. Canvas / FEATURED -->
-      <a href="https://www.michelletrame.com/work/canvas" class="work-card">
+      <a href="work-canvas.html" class="work-card">
         <div class="work-card-image">
           <img
             src="https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/68f6ad262d5aad502896e132_ChatGPT%20Image%20Oct%2020%2C%202025%2C%2002_43_47%20PM.png"
@@ -89,7 +89,7 @@
       </a>
 
       <!-- 2. REI Co-op / FEATURED -->
-      <a href="https://www.michelletrame.com/work/rei-co-op" class="work-card">
+      <a href="work-rei.html" class="work-card">
         <div class="work-card-image">
           <img
             src="https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/68f6dd29e9cd6d3926fc251f_PXL_20220628_184436577.jpg"
@@ -109,7 +109,7 @@
       </a>
 
       <!-- 3. AT&T / FEATURED -->
-      <a href="https://www.michelletrame.com/work/att" class="work-card">
+      <a href="work-att.html" class="work-card">
         <div class="work-card-image">
           <img
             src="https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/6453b76492e0e724ec179d8d_att-bill.png"
@@ -189,7 +189,7 @@
       </a>
 
       <!-- 7. IxDA / Meet Vera -->
-      <a href="https://www.michelletrame.com/work/ixda-vera-ember" class="work-card">
+      <a href="https://www.michelletrame.com/work/ixda-vera-ember" class="work-card work-card-extra">
         <div class="work-card-image">
           <img
             src="https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec607d0686a146b0c703aab_vera-cover.png"
@@ -209,7 +209,7 @@
       </a>
 
       <!-- 8. Backcountry Babes -->
-      <a href="https://www.michelletrame.com/work/backcountry-babes" class="work-card">
+      <a href="https://www.michelletrame.com/work/backcountry-babes" class="work-card work-card-extra">
         <div class="work-card-image">
           <img
             src="https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e8f82851a603278a10f123d_Backcountry%20Splitboard%20Touring%20Breckenridge.jpg"
@@ -228,7 +228,7 @@
       </a>
 
       <!-- 9. Hack Reactor -->
-      <a href="https://www.michelletrame.com/work/hack-reactor" class="work-card">
+      <a href="https://www.michelletrame.com/work/hack-reactor" class="work-card work-card-extra">
         <div class="work-card-image">
           <img
             src="https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e98c5c307757a6ae3dc8292_HR-four-pairs-tall.jpg"
@@ -247,7 +247,24 @@
       </a>
 
     </div><!-- /work-grid -->
+
+    <div class="show-more-row">
+      <button class="show-more-btn" id="showMoreBtn" onclick="toggleExtra()">
+        More work
+      </button>
+    </div>
+
   </section>
+
+  <script>
+    function toggleExtra() {
+      const cards = document.querySelectorAll('.work-card-extra');
+      const btn = document.getElementById('showMoreBtn');
+      const isHidden = cards[0].style.display === '' || cards[0].style.display === 'none';
+      cards.forEach(c => c.style.display = isHidden ? 'block' : 'none');
+      btn.textContent = isHidden ? 'Less work' : 'More work';
+    }
+  </script>
 
   <!-- FOOTER -->
   <footer class="footer">
