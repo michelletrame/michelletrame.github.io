@@ -13,11 +13,14 @@
         <meta http-equiv="pragma" content="no-cache" />
 
         <style>
+            @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap");
+
+
             .staticrypt-hr {
                 margin-top: 20px;
                 margin-bottom: 20px;
                 border: 0;
-                border-top: 1px solid #eee;
+                border-top: 1px solid rgba(26,25,23,0.1);
             }
 
             .staticrypt-page {
@@ -30,12 +33,14 @@
             .staticrypt-form {
                 position: relative;
                 z-index: 1;
-                background: #ffffff;
+                background: #f2f1ec;
                 max-width: 360px;
                 margin: 0 auto 100px;
                 padding: 45px;
                 text-align: center;
-                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+                box-shadow: none;
+            border: 1px solid rgba(26,25,23,0.12);
+            border-radius: 2px;
             }
 
             .staticrypt-form input[type="password"],
@@ -52,7 +57,7 @@
             .staticrypt-password-container {
                 position: relative;
                 outline: 0;
-                background: #f2f2f2;
+                background: #e8e6de;
                 width: 100%;
                 border: 0;
                 margin: 0 0 15px;
@@ -74,7 +79,7 @@
             .staticrypt-form .staticrypt-decrypt-button {
                 text-transform: uppercase;
                 outline: 0;
-                background: #4CAF50;
+                background: #0f0e0d;
                 width: 100%;
                 border: 0;
                 padding: 15px;
@@ -86,8 +91,8 @@
             .staticrypt-form .staticrypt-decrypt-button:hover,
             .staticrypt-form .staticrypt-decrypt-button:active,
             .staticrypt-form .staticrypt-decrypt-button:focus {
-                background: #4CAF50;
-                filter: brightness(92%);
+                background: #0f0e0d;
+                filter: brightness(130%);
             }
 
             .staticrypt-html {
@@ -102,8 +107,8 @@
             .staticrypt-content {
                 height: 100%;
                 margin-bottom: 1em;
-                background: #76B852;
-                font-family: "Arial", sans-serif;
+                background: #0f0e0d;
+                font-family: "DM Sans", -apple-system, sans-serif;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
             }
@@ -114,7 +119,11 @@
             }
 
             .staticrypt-title {
-                font-size: 1.5em;
+                font-family: "Cormorant Garamond", Georgia, serif;
+                font-size: 22px;
+                font-weight: 500;
+                letter-spacing: -0.01em;
+                color: #1a1917;
             }
 
             label.staticrypt-remember {
@@ -183,7 +192,7 @@
             <div class="staticrypt-page">
                 <div class="staticrypt-form">
                     <div class="staticrypt-instructions">
-                        <p class="staticrypt-title">Protected Page</p>
+                        <p class="staticrypt-title">This work is password protected.</p>
                         <p></p>
                     </div>
 
