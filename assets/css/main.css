@@ -327,3 +327,51 @@ ul[role="list"], .plain { list-style: none; padding: 0; }
   .j-event { margin-top: 2px; }
 }
 .principle-no + h2 { margin-top: .35em; }
+
+/* 13 Iteration log: numbered "we made / we learned" steps --------------- */
+.steps { list-style: none; padding: 0 !important; max-width: var(--wide) !important; counter-reset: step; display: grid; gap: 20px; }
+.steps > li { counter-increment: step; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(20px, 3vw, 40px); align-items: center; background: var(--cream-2); border-radius: var(--radius-lg); padding: clamp(18px, 3vw, 32px); margin: 0 !important; }
+.steps h3 { margin: 0 0 12px !important; font-size: clamp(20px, 2.2vw, 26px); }
+.steps h3::before { content: counter(step, decimal-leading-zero); display: inline-block; margin-right: 12px; font-size: 14px; background: var(--accent); border-radius: 99px; padding: 3px 10px; vertical-align: middle; }
+.steps dl > div + div { margin-top: 12px; }
+.steps dt { font-family: var(--display); font-weight: 700; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.steps dd { font-size: 17px; line-height: 1.5; margin-top: 2px; }
+.steps .fig { margin: 0 !important; }
+.steps .fig img { background: var(--white); max-height: 420px; object-fit: contain; }
+.pairs { display: grid; gap: 14px; max-width: var(--wide) !important; padding: 0 !important; list-style: none; counter-reset: pair; }
+.pairs li { counter-increment: pair; display: grid; grid-template-columns: 1fr auto 1fr; gap: 20px; align-items: center; margin: 0 !important; }
+.pairs .ins, .pairs .pri { border-radius: var(--radius); padding: 18px 22px; font-family: var(--display); font-weight: 600; font-size: 19px; line-height: 1.25; }
+.pairs .ins { background: var(--white); }
+.pairs .pri { background: var(--accent); }
+.pairs .ins::before, .pairs .pri::before { display: block; margin-bottom: 6px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; font-weight: 600; color: var(--muted); }
+.pairs .ins::before { content: "Insight " counter(pair); }
+.pairs .pri::before { content: "Principle " counter(pair); color: var(--plum); }
+.pairs .arrow { font-family: var(--display); font-size: 24px; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; list-style: none; padding: 0 !important; max-width: var(--wide) !important; }
+.stats li { background: var(--white); border-radius: var(--radius); padding: 20px; margin: 0 !important; font-size: 17px; line-height: 1.45; }
+.stats strong { display: block; font-family: var(--display); font-size: clamp(30px, 3.4vw, 44px); line-height: 1; letter-spacing: -.02em; margin-bottom: 8px; }
+@media (max-width: 900px) {
+  .steps > li { grid-template-columns: 1fr; }
+  .pairs li { grid-template-columns: 1fr; gap: 6px; }
+  .pairs .arrow { transform: rotate(90deg); justify-self: center; }
+  .stats { grid-template-columns: 1fr; }
+}
+.callout--light { background: var(--cream-2); color: var(--plum); }
+.logo-strip { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 28px 40px; list-style: none; background: var(--plum); border-radius: var(--radius-lg); padding: clamp(24px, 4vw, 40px) !important; max-width: var(--wide) !important; }
+.logo-strip li { margin: 0 !important; }
+.logo-strip img { height: 40px; width: auto; max-width: 160px; object-fit: contain; }
+.objectives { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; list-style: none; padding: 0 !important; max-width: var(--wide) !important; counter-reset: obj; }
+.objectives li { counter-increment: obj; background: var(--accent); border-radius: var(--radius); padding: 20px 22px; margin: 0 !important; font-size: 17px; line-height: 1.45; }
+.objectives li::before { content: var(--label, "Objective") " " counter(obj); display: block; margin-bottom: 8px; font-family: var(--display); font-weight: 600; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+@media (max-width: 900px) { .objectives { grid-template-columns: 1fr; } }
+.pairs--process .ins::before { content: "Old process"; }
+.pairs--process .pri::before { content: "New process"; }
+.stats--4 { grid-template-columns: repeat(4, 1fr); }
+.stats--4 li { background: var(--plum); color: var(--cream); text-align: center; }
+@media (max-width: 900px) { .stats--4 { grid-template-columns: 1fr 1fr; } }
+
+/* Keep tall images (phone screens, portrait photos) from dominating the page */
+.fig img { max-height: min(80vh, 760px); object-fit: contain; }
+.principle .fig img, .pair .fig img { max-height: 560px; }
+.objectives--observations { --label: "Staff observation"; }
+.objectives--insights { --label: "Insight"; }

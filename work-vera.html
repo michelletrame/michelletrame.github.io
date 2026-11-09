@@ -1,0 +1,91 @@
+---
+layout: case-study
+slug: ixda-vera-ember
+title: Creating space for emotional sharing
+dek: In a design charrette at IxDA20 in Milan, our team designed Vera, a voice companion that helps people receiving care share how they feel with the people caring for them.
+cover: ixda-vera-ember/vera-cover
+cover_alt: A person silhouetted at a sunny street corner beside a phone screen from the Vera app, connected to Margaret's Vera and showing her older moments.
+meta:
+  Event: IxDA20 Design Charrette in Milan, briefed by IxDA and Amazon
+  Role: Designer and researcher in a team of three
+  Methods: Interviews, paper prototyping, concept testing, secondary research
+  Outcome: Presented on the main stage at IxDA20
+challenge: As finalists in the IxDA20 Design Charrette, we received a brief from IxDA and Amazon to create a device or service that improves the lives of people facing unique challenges.
+contribution: I did collaborative research and design in a team of three. We made low-fidelity prototypes, ran interviews and tests, used the feedback to develop a final concept, and presented it on the main stage at IxDA20 in Milan.
+solution: A voice interface that prompts asynchronous emotional sharing between a person receiving care and their care and support team, and uses metadata from those conversations to surface mental and physical health insights.
+---
+<section class="cs-section" aria-labelledby="iso-h">
+  <p class="eyebrow">Context</p>
+  <h2 id="iso-h">The emotional isolation of receiving care</h2>
+  {% include quote.html text="[When I was in the hospital] I stopped being a complete person. The only thing they could see about me was my illness." who="Jasmine" %}
+  <p>Our team met for the first time in Milan and had to choose who to design for. With very little time and limited access to research participants, we picked a problem we knew firsthand. Two of us had powerful experiences of receiving care in a hospital and of caring for a family member, and both related strongly to how hard it is to communicate emotional needs at those times.</p>
+  <p class="lead">People receiving care often struggle to connect with their families and health care professionals. How can we make sure they get the emotional and medical support they need?</p>
+  {% include figure.html src="ixda-vera-ember/group" alt="Three photos of the team at work around a table covered in sticky notes, laptops and coffee cups." caption="The team: Shib, Michelle and Lynne. Furrowed brows, cups of coffee and so many sticky notes." %}
+</section>
+
+<section class="cs-section" aria-labelledby="neuro-h">
+  <p class="eyebrow">Secondary research</p>
+  <h2 id="neuro-h">How we relate to machines</h2>
+  <p>Early research in human-computer interaction showed how a brain wired for emotional connection can relate to even a minimal interface. I won't tell my blender my secrets, but some of the first computer interfaces were remarkably good at getting people to share their feelings. We've long known that pets and even houseplants can meet some of our need for connection, and the first computer therapist suggested digital interactions could too.</p>
+  {% include figure.html src="ixda-vera-ember/elizabot" alt="A green-on-black terminal running ELIZA, a mock Rogerian psychotherapist, in a short conversation where the user complains about the weather and ELIZA asks why they are concerned." caption="ELIZA, a natural language program created at the MIT Artificial Intelligence Laboratory by Joseph Weizenbaum between 1964 and 1966, was an early success at prompting emotional sharing." %}
+  <h3>Digital interfaces make sharing easier</h3>
+  <p>Researchers at USC built a modern ELIZA called Ellie, which works with veterans returning from deployment. Ellie uses AI to analyze language and helps diagnose depression and PTSD more precisely than human diagnosis. Talking to a person, in person or on screen, can make people anxious about being judged, and veterans shared significantly more with Ellie than with a human therapist.</p>
+  {% include figure.html src="ixda-vera-ember/ellie" alt="A veteran sits facing a large screen showing Ellie, an animated virtual interviewer seated in an armchair." caption="Ellie uses biometric and speech data to respond during conversations, and builds a profile of the patient's mental and emotional health." %}
+</section>
+
+<section class="cs-section" aria-labelledby="trust-h">
+  <p class="eyebrow">Concept</p>
+  <h2 id="trust-h">Building trust and honoring privacy</h2>
+  <p>Our concept, Ember, would use open-ended prompts to start emotional sharing with people receiving care, and pass their thoughts and feelings to their family care team. It would also analyze the voice to provide mental and physical health data. Before deciding how to communicate that data, we needed to understand how it would flow between different people:</p>
+  <ul>
+    <li>Would the person receiving care need to reconfirm consent every time something was shared?</li>
+    <li>What would people be comfortable sharing with doctors, and with family caregivers?</li>
+    <li>Would knowing Ember shares data break trust, or change what people want to say?</li>
+  </ul>
+  {% include figure.html src="ixda-vera-ember/ember-map" diagram=true alt="A data flow diagram: Ember sends conversation content, mental health data and physical health data to two groups, family caregivers and professional caregivers." caption="With privacy at the center of ethical debates about voice interfaces, we set out to learn how people felt about sharing personal information and metadata with Ember." %}
+  {% include quote.html text="I never thought my doctors gave a shit at all [about my emotional wellness], so if they were using [Ember] to access data about my mental health, that would only be a plus." who="Caroline" %}
+  <p>Interviews with people who had been through long-term care, as caregivers or as patients, showed little concern about privacy or sharing with the care team. People were confident that this information in the hands of family or doctors would only improve care, and were almost all comfortable sharing both what they said and the health data drawn from it.</p>
+</section>
+
+<section class="cs-section" aria-labelledby="form-h">
+  <p class="eyebrow">Form</p>
+  <h2 id="form-h">Form following function</h2>
+  {% include figure.html src="ixda-vera-ember/img-20200207-142402" variant="inset" alt="Paper sketches taped to a pegboard: Ember as a cartoon dog on a smart display, on a phone and inside a custom housing, under a sticky note reading Form factor." caption="Early sketches of Ember on the Echo Show, on a phone, or in a form built to house an Echo." %}
+  <p>With a rough idea of how Ember would work, we prototyped the form it might take. We wanted a form that would:</p>
+  <ul>
+    <li>Invite engagement in a passive, non-intrusive way</li>
+    <li>Stand apart from the cast of semi-anonymous medical professionals who cycle through a patient's life</li>
+    <li>Preserve or enhance the independence of the person receiving care</li>
+  </ul>
+  <h3>Learning from IxDA20's thought leaders</h3>
+  <p>We reached out to leading researchers and practitioners at the conference to understand how people connect emotionally with interfaces. Hadar Maximov and Carla Diana both shaped our concept. Their work on the emotional side of our relationships with robots led us to ask what makes a digital companion a beloved family member or a pesky annoyance. We were especially captivated by Hadar's work on how people bond with even unemotional robots, like a military robot that disarms landmines or one that mows the lawn or cleans the pool. How could we design Ember so its interactions spark an emotional connection?</p>
+  {% include figure.html src="ixda-vera-ember/roomba-tweet" variant="inset" alt="Two tweets by Michaela Okland showing text messages with her mom: 'Roomba has gone crazy', and her mom replying 'Of course I believe you over Roomba. You are my actual child. Roomba is a step child.'" caption="Tweets from Michaela Okland that sum up how we project feelings onto robots like Roomba." %}
+</section>
+
+<section class="cs-section" aria-labelledby="clippy-h">
+  <p class="eyebrow">Prototyping</p>
+  <h2 id="clippy-h">Why do we love houseplants and Roomba, and hate Clippy?</h2>
+  {% include figure.html src="ixda-vera-ember/venn" diagram=true alt="A Venn diagram comparing houseplants, Roomba and Clippy. Houseplants are living, need care and can die; Roomba performs a service and moves on its own; Clippy shows up uninvited and has a personality. All three are non-human domestic actors." caption="Exploring what our beloved and reviled non-human companions have in common." %}
+  <p>To find what works best for emotional sharing, we made simple paper prototypes of different characters: a human, several pets (dog, turtle, cat), Clippy (Microsoft's infamous assistant) and a robot, with a short script. We also asked people about the digital characters in their lives. Who was fun? Frustrating? Effective? Comforting?</p>
+  <p>People responded best to Ember as a dog, and many said they liked the idea of a dog as a companion for a family member. Our Clippy evoked visceral negative reactions, and sparked conversations about how characters go wrong.</p>
+  <div class="pair">
+    {% include figure.html src="ixda-vera-ember/ember-prototype" alt="A paper prototype of a cartoon dog taped onto a smart display, with paper ears on top." %}
+    {% include figure.html src="ixda-vera-ember/ember-prototype-2" alt="The same paper prototype showing 9:05 and the words Ember misses you, as a hand reaches toward it." caption="Paper prototypes of Ember as a dog." %}
+  </div>
+  {% include quote.html text="My dad got a dog a few years ago after he retired. A beagle. And he is crazy about her… The feeling of agency can be important to someone who is losing their agency in other respects." who="Luna" %}
+  <p>Our participants' preferences led us to make Ember look like a dog, but the more useful feedback was why some interactions were fun and others frustrating. Clippy could have looked like a dog and been just as annoying as a talking paper clip.</p>
+  <p>Our takeaways: coming on strong with a "personality" makes an interaction less pleasant, so, like ELIZA and Roomba, Ember would have a minimal one. People should connect with Ember when the time is right, not have it pop up demanding attention like a notification. And people should be able to care for Ember, reading subtle cues as an invitation to connect and seeing the positive effect of their attention.</p>
+  {% include figure.html src="ixda-vera-ember/ember-fox" alt="A smart display on a counter showing a friendly cartoon fox face." caption="Our first mock-up of Ember on the Echo Show. A neutral expression invites people to interact; after a conversation, her expression is happier." %}
+</section>
+
+<section class="cs-section" aria-labelledby="pivot-h">
+  <p class="eyebrow">One final pivot</p>
+  <h2 id="pivot-h">From Ember the fox to Vera the houseplant</h2>
+  <p>In the last moments of the charrette, as we finished our presentation, we pivoted. People had clearly preferred Ember as a pet, but we worried she felt childish. Would someone receiving care feel condescended to if their doctor asked them to talk to a cartoon dog?</p>
+  <p class="lead">We reimagined Ember the fox as Vera the houseplant. Our design principles of a minimal personality, connection on the user's terms, and something to care for were a natural fit for a houseplant.</p>
+  {% include figure.html src="ixda-vera-ember/ember-plant-screen-2perky" alt="A smart display on a wooden table showing a cartoon houseplant with perky leaves on a coral background." caption="Vera (formerly Ember) looking perked up after a conversation." %}
+  <div class="pair">
+    {% include figure.html src="ixda-vera-ember/vera-data" alt="A tablet screen titled Week of Feb 1–7, 2020, showing stress, energy, mood and engagement on scales from concerning to optimal, with checkmarks for heart rate, blood pressure and respiration rate." caption="A mental and physical health summary for care providers." %}
+    {% include figure.html src="ixda-vera-ember/vera-cover" alt="A person at a sunny street corner beside a phone screen connected to Margaret's Vera, with a row of her older moments to listen to." caption="An interface for family members to listen to important Vera moments." %}
+  </div>
+</section>

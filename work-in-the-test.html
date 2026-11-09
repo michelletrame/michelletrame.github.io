@@ -1,0 +1,155 @@
+---
+layout: case-study
+slug: in-the-test
+title: Raising the bar for test prep apps
+dek: Standardized tests are starting to measure what students can do, not just what they know. Test prep apps hadn't caught up, so we designed one that plays like a game.
+cover: in-the-test/hero
+cover_alt: Five phone screens from the In the Test app on a starry navy background, from a rocket title screen to an astronaut guide and a solar system of topic planets.
+meta:
+  Product: In the Test, a test prep app for the NY Regents Earth Science exam
+  Role: Sole designer on the team
+  Scope: Wireframes, process flows, user testing, visual design, plus shared research and competitive analysis
+  Methods: Competitive analysis, analogous research, usability testing with teenagers
+challenge: Create an app that prepares students to show their process knowledge, the ability to find the solution to a problem, which is a fast-growing model for standardized tests.
+contribution: I was the only designer on the team and did all the wireframes, process flows, user testing and visual design. I collaborated with teammates on some of the user research and competitive analysis.
+solution: An educational experience unlike any other, which supports success in process knowledge testing while breaking the lackluster patterns of existing test prep apps.
+---
+<section class="cs-section" aria-labelledby="kn-h">
+  <p class="eyebrow">Context</p>
+  <h2 id="kn-h">Content knowledge vs. process knowledge</h2>
+  <p class="lead">Earlier generations relied on content knowledge (what you know) to succeed in school and at work. Education is shifting toward process knowledge (what you can do).</p>
+  <p>As educators retool to teach in new ways, assessment is changing too. A new wave of standardized tests tries to gauge students' process knowledge. We set out to build a tool that helps students succeed on these new exams and builds confidence in their problem-solving.</p>
+  <div class="pair">
+    <div class="callout callout--light">
+      <h3>Content knowledge</h3>
+      <ul><li>The US state capitals</li><li>The number of bones in the human hand</li><li>The definition of "penumbra"</li></ul>
+    </div>
+    <div class="callout">
+      <h3>Process knowledge</h3>
+      <ul><li>How to find who was mayor of your hometown 100 years ago</li><li>How to interpret a graph of voter registration data</li><li>How to troubleshoot buggy code</li></ul>
+    </div>
+  </div>
+  {% include figure.html src="in-the-test/star-reference" diagram=true alt="The Characteristics of Stars reference chart from the NY Regents exam: luminosity plotted against surface temperature, with supergiants, giants, the main sequence and white dwarfs labeled, and named stars such as Rigel, Polaris, the Sun and Proxima Centauri." caption="Sample Regents questions use this reference table: “Phecda has a surface temperature of approximately 9,500 K and a luminosity of 63. Identify the star closest to Phecda,” and “Which star is cooler and less luminous than the Sun? (1) Proxima Centauri (2) Pollux (3) Rigel (4) 40 Eridani B.”" %}
+  <p>The NY Regents Exam was an early adopter of process knowledge testing, and the Regents have made decades of questions and answers public. We used that data for the first version of the app, planning future versions with other process knowledge exams.</p>
+</section>
+
+<section class="cs-section" aria-labelledby="dead-h">
+  <p class="eyebrow">Competitive analysis</p>
+  <h2 id="dead-h">Finding dead ends</h2>
+  <p>We explored test prep and general learning apps, including popular language, coding and STEM apps for high school students and adults.</p>
+  <div class="principle">
+    <div class="principle-text">
+      <h3>Everyone is copying everyone else</h3>
+      <p>They all rely on more or less the same model: ask a multiple-choice question and give instant feedback on the answer.</p>
+      <h3>None of them are actually fun</h3>
+      <p>Gold stars and badges "gamify" an essentially dull experience. Many of the most popular apps carefully pace challenges so that successes outweigh failures and the task feels easy.</p>
+      <h3>Teachers endorse these models</h3>
+      <p>Educators we interviewed early on were confident that this repetition builds knowledge and makes students more comfortable with the test format.</p>
+    </div>
+    {% include figure.html src="in-the-test/traditional-flow" variant="inset" diagram=true alt="A three-step flow on sticky notes: get a test-style question, provide the answer, find out if the answer is correct." caption="The traditional test prep loop." %}
+  </div>
+</section>
+
+<section class="cs-section" aria-labelledby="proto-h">
+  <p class="eyebrow">First prototype</p>
+  <h2 id="proto-h">Following the familiar path</h2>
+  <p>Our first prototype borrowed many existing educational app conventions, with the plan to layer on features that made it more engaging or rewarding later.</p>
+  <ul>
+    <li><strong>Adapting the format to a new kind of test.</strong> The first version solved some unique problems, like showing large, complex graphs and diagrams on a small phone screen and organizing data to mimic the testing context.</li>
+    <li><strong>Following existing patterns.</strong> We used a familiar question-and-answer format with instant feedback on whether an answer was right.</li>
+    <li><strong>Gamifying?</strong> Knowing the app wasn't rewarding in itself, we brainstormed external rewards. Unlocking AR experiences? Earning badges?</li>
+    <li><strong>Getting student buy-in.</strong> Testing showed the app was usable, and learners were cautiously optimistic it would raise their scores. But they described their progress in terms of content knowledge, not process knowledge.</li>
+    <li><strong>Setting the tone.</strong> We tried to break students' expectations by reminding them that this was a different kind of test.</li>
+  </ul>
+</section>
+
+<section class="cs-section" aria-labelledby="ana-h">
+  <p class="eyebrow">Analogous research</p>
+  <h2 id="ana-h">Forging a new path</h2>
+  <p>Our first round of research had only led us to reproduce a well-worn solution. So we zoomed out and reframed the challenge of designing for process knowledge.</p>
+  <div class="pair">
+    {% include figure.html src="in-the-test/laptops" alt="Three students work together around laptops at a table, one pointing at a screen." %}
+    {% include figure.html src="in-the-test/postits" alt="Two students stick pink and yellow sticky notes on a wall during a class activity." %}
+  </div>
+  <h3>How does process knowledge develop in real life?</h3>
+  <p>We observed and analyzed students in a web development course that took a process knowledge approach to learning. (I was the teacher.)</p>
+  <h3>How do students' beliefs about themselves shape how they approach process tasks?</h3>
+  <p>Through conversations, written self-reflections and course feedback, we learned how students felt about a process knowledge approach. Shifting mindsets after a decade or more of content-focused schooling was hard!</p>
+  <h3>Synthesizing the student experience</h3>
+  <p>We developed fresh insights about the learner experience, and new design criteria to guide a truly different solution.</p>
+</section>
+
+<section class="cs-section" aria-labelledby="old-h">
+  <p class="eyebrow">Insights</p>
+  <h2 id="old-h">Old solutions won't solve new problems</h2>
+  <p class="lead">Students have deeply ingrained beliefs about tests and schoolwork. They may help with content knowledge, but they get in the way of process knowledge.</p>
+  <ul>
+    <li>Students believe that getting the right answer matters more than having an effective process for finding it.</li>
+    <li>Students believe that a "fair" test only covers topics they've had the chance to memorize.</li>
+    <li>Students believe that feedback on how they're doing now predicts how they'll do in the future.</li>
+  </ul>
+  <h3>Breaking out of existing patterns</h3>
+  <p>We needed an experience free of those expectations, which meant abandoning, or deliberately inverting, the usual patterns and language of tests and school.</p>
+  <ul>
+    <li><strong>Normalize guessing.</strong> Guessing can lead to a correct answer, and it takes the sting out of negative feedback, which shifts the focus away from "right answers."</li>
+    <li><strong>Let students show process independent of outcomes.</strong> Give them a chance to flex their process muscles before asking anything that could be mistaken for a content question. Don't just tell students this is a different kind of task; show them.</li>
+    <li><strong>Separate wrong answers from feedback.</strong> Instant feedback undermines the satisfaction of finishing an intellectual task. Crosswords and sudoku don't tell you you're wrong after every square.</li>
+  </ul>
+  {% include figure.html src="in-the-test/new-flow" diagram=true alt="A new user flow on color-coded sticky notes in three rows. Each row has the student get a question from the lab director, arrive at a planet, explore its data and capture it with the camera; the third row ends in a multiple-choice question and a reward." caption="The new flow. Stage one practices finding information, stage two practices drawing inferences from data, and stage three uses those inferences to answer a question. Feedback is about the success of the whole mission, not each answer." %}
+</section>
+
+<section class="cs-section" aria-labelledby="new-h">
+  <p class="eyebrow">Redesign</p>
+  <h2 id="new-h">A totally new approach</h2>
+  {% include figure.html src="in-the-test/sketches" alt="An open sketchbook with pencil sketches of planet-based navigation and phone screen layouts, a pen resting across the page." %}
+  <p>We kept the outer space imagery but scrapped almost everything else. Instead of a "gamified" test prep app, we made something that feels like a game. We still used Regents Earth Science content, but designed the interface to hold other kinds of test content someday.</p>
+</section>
+
+<section class="cs-section">
+  <div class="principle">
+    <div class="principle-text">
+      <span class="principle-no">Story arc</span>
+      <h2>Missions, not questions</h2>
+      <p>Before, every question stood alone. Now challenges are grouped into multi-step missions, so quitting after a few questions feels like leaving a party early (almost).</p>
+      <p>The length of a mission signals how much time is the right amount to spend in the app, and a finish line makes completing it rewarding in itself.</p>
+    </div>
+    {% include figure.html src="in-the-test/story" variant="inset" alt="A phone screen where a cartoon astronaut says: So glad you're here! Some of our engineers need some more data for a project they're working on. Can you bring back some info about the brightness of stars in our galaxy? A Yeah button sits below." %}
+  </div>
+</section>
+
+<section class="cs-section">
+  <div class="principle principle--flip">
+    <div class="principle-text">
+      <span class="principle-no">Wayfinding</span>
+      <h2>Playful wayfinding</h2>
+      <p>Testing with teenagers showed how comfortable they were with gestures like scrolling, zooming and swiping, which let us strip back the interface and remove controls.</p>
+      <p>Our first-version "resource drawer" worked for exploring big test materials on a small screen. Putting those materials on their own themed planets, explored by tilting the phone, was far more playful.</p>
+    </div>
+    <div class="pair">
+      {% include figure.html src="in-the-test/multi-planet" alt="A phone screen showing a solar system of topic planets: Tectonia, Meteorologia, Celestia, Hydron and Geologia." %}
+      {% include figure.html src="in-the-test/one-planet" alt="A phone screen zoomed in on the planet Tectonia, with labels linking to reference materials such as a map of Earth's tectonic plates and earthquake wave travel times." %}
+    </div>
+  </div>
+</section>
+
+<section class="cs-section">
+  <div class="principle">
+    <div class="principle-text">
+      <span class="principle-no">Feedback</span>
+      <h2>No wrong answers</h2>
+      <p>Our analogous research showed how frustrated students got hunting for answers that seemed out of reach. To reinforce that with process knowledge it's the journey, not the destination, we ask students to capture their journey, many times, before they ever give an answer.</p>
+      <p>Process tests still require a final answer, but plenty of practice with the process sets students up to succeed.</p>
+    </div>
+    {% include figure.html src="in-the-test/journey" variant="inset" alt="A phone screen with a yellow checklist of captured topics (rock cycle, density of water, temperature of Earth's interior) above thumbnails of the reference diagrams the student collected." %}
+  </div>
+</section>
+
+<section class="cs-section" aria-labelledby="impact-h">
+  <div class="callout">
+    <p class="eyebrow">Impact and next steps</p>
+    <h2 id="impact-h">Less anxious, less frustrated</h2>
+    <p>Because we showed rather than told, students were less intimidated, less anxious and less frustrated when a question seemed impossible at first. Usability testing also revealed more intuitive, visually simpler ways to navigate the app. Measuring success by finding the relevant data, rather than by the right answer, makes the app less like the test but a more accurate proxy for the skills being tested.</p>
+    <p>Next, we'd love to test with students taking the Regents Earth Science exam and see how the app affects their scores. Two groups often prep for the Regents: advanced students who take it as early as 8th grade to get ahead, and special education students who need to pass a minimum number of exams to graduate. Neither was among our testers, and understanding both matters for equity.</p>
+    <p>We're also eager to adapt In the Test to other content. California recently introduced process knowledge science tests in 5th, 8th and 10th grade, and we'd like to go beyond science too. And we want to explore AR, so students with printed reference tables can capture them with their phone's camera.</p>
+  </div>
+</section>

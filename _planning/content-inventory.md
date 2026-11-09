@@ -109,3 +109,12 @@ What it's missing (and what every case study should add): **outcomes**
 ## ⚠️ Before the final push (merge to master)
 - [ ] Michelle to confirm type-of-work tags in `_data/work.yml`. Webflow reused tag images, so these may be borrowed from other projects:
   REI (= APF's), Backcountry Babes (= AT&T's), Canvas and In the Test (= Vouch's).
+
+### Vouch, In the Test, Vera, Backcountry Babes, Hack Reactor (migrated)
+Michelle to review:
+- **Vouch**: "My co-founders and I are continuing to work on Vouch" (2020) changed to past tense ("continued"). The old "Let us help you manage your loan / vouchtogether.com" call to action was dropped as likely out of date. Confirm what's true now.
+- **Vouch**: the three insights are paired one-to-one with the three principles (Webflow listed them side by side without saying so).
+- **Vouch**: the stats ($183B, 46%, 4% vs 700%) have no sources on the page.
+- **Vera**: page uses the homepage title "Creating space for emotional sharing" (the Webflow page said "Creating space for sharing").
+- **Hack Reactor**: photos are only 700–900px wide, so the hero is soft on large screens. Higher-res originals from the Desktop folder would help.
+- **All**: meta strip details (role, methods, partner) are drawn from the existing copy; check wording.

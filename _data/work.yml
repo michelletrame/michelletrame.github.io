@@ -1,5 +1,5 @@
 # One entry per case study, in homepage order.
-# url: where the card links. Not-yet-migrated case studies still point at Webflow.
+# url: where the card links.
 # cover: key in _data/images.yml (folder/name, no size suffix).
 # cover_position: optional CSS object-position for the card crop (default: center).
 # color: tile color on the homepage and accent on the case study (lemon, sky, blush, sage, plum, white).
@@ -53,7 +53,7 @@
   tags: [Generative Research, Service Design]
 
 - slug: vouch
-  url: https://www.michelletrame.com/work/vouch
+  url: /work-vouch.html
   title: Borrowing money and protecting relationships
   org: Vouch
   summary: A lending platform for friends and family, built from research with gig workers.
@@ -63,7 +63,7 @@
   tags: [Product Design, User Research, Usability Testing]
 
 - slug: in-the-test
-  url: https://www.michelletrame.com/work/in-the-test
+  url: /work-in-the-test.html
   title: Raising the bar for test prep apps
   org: In the Test
   summary: Turning earth science test prep into a story students explore, planet by planet.
@@ -73,7 +73,7 @@
   tags: [Product Design, User Research, Usability Testing]
 
 - slug: ixda-vera-ember
-  url: https://www.michelletrame.com/work/ixda-vera-ember
+  url: /work-vera.html
   title: Creating space for emotional sharing
   org: "IxDA20: Meet Vera"
   summary: A design charrette concept for a companion device that helps care recipients share how they feel.
@@ -84,7 +84,7 @@
   tags: [Product Design, Prototyping, Secondary Research]
 
 - slug: backcountry-babes
-  url: https://www.michelletrame.com/work/backcountry-babes
+  url: /work-backcountry-babes.html
   title: Rebuilding sponsor relationships
   org: Backcountry Babes
   summary: Using community data to win back outdoor-industry sponsors.
@@ -94,7 +94,7 @@
   tags: [Interaction Design, User Research]
 
 - slug: hack-reactor
-  url: https://www.michelletrame.com/work/hack-reactor
+  url: /work-hack-reactor.html
   title: Co-designing for perfect teams
   org: Hack Reactor
   summary: Co-creating a fairer way to form student project teams, and fewer conflicts to defuse.
