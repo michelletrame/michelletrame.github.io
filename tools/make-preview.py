@@ -18,8 +18,9 @@ OUT = Path(sys.argv[1])
 SITE = Path(sys.argv[2] if len(sys.argv) > 2 else '_site')
 PAGES = ['index.html', 'about.html', 'work-canvas.html', 'work-apf.html', 'work-vouch.html',
          'work-in-the-test.html', 'work-vera.html', 'work-backcountry-babes.html', 'work-hack-reactor.html']
-if 'staticrypt' not in (SITE / 'work-att.html').read_text()[:2000]:
-    PAGES.append('work-att.html')  # private build: the new AT&T page
+for page in ('work-att.html', 'work-rei.html'):
+    if 'staticrypt' not in (SITE / page).read_text()[:2000]:
+        PAGES.append(page)  # private build: the new confidential pages
 LIVE = 'https://michelletrame.github.io/'
 
 if OUT.exists():

@@ -1,4 +1,4 @@
 # Private preview build. Use with:
 #   bundle exec jekyll build --config _config.yml,_config.private.yml -d _site-private
 # Renders private/ (gitignored) and drops the old encrypted pages it replaces.
-exclude: [Gemfile, Gemfile.lock, vendor, tools, README.md, private/src-img, work-att.html]
+exclude: [Gemfile, Gemfile.lock, vendor, tools, README.md, private/src-img, work-att.html, work-rei.html]

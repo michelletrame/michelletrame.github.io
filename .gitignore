@@ -3,7 +3,8 @@ _site/
 .bundle/
 vendor/
 
-# Confidential case study sources (AT&T): rendered into the private preview only, never committed.
+# Confidential case study sources (AT&T, REI): rendered into the private preview only, never committed.
 private/
 assets/img/att-private/
+assets/img/rei-private/
 _site-private/

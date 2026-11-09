@@ -118,3 +118,9 @@ Michelle to review:
 - **Vera**: page uses the homepage title "Creating space for emotional sharing" (the Webflow page said "Creating space for sharing").
 - **Hack Reactor**: photos are only 700–900px wide, so the hero is soft on large screens. Higher-res originals from the Desktop folder would help.
 - **All**: meta strip details (role, methods, partner) are drawn from the existing copy; check wording.
+
+### REI (rebuilt as a private page, like AT&T)
+Source lives in gitignored `private/rei.html`; images via `private/make-rei-images.py`. Michelle to review:
+- Store count corrected to **7** (5 observation + 2 interview stores, per the methodology slide); the homepage card previously said eight.
+- No outcome yet: the page ends with the deck's next steps. Add what was pursued or shipped. (TODO comment marks the spot.)
+- Competitor screenshots (Amazon, Instacart, Target) are shown as references; the Target one is Michelle's own order email.

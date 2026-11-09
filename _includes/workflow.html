@@ -1,0 +1,29 @@
+{%- comment -%}
+  Workflow map. Param: stages (array of {name, steps: [{text, tool, opp: [digital|process|reporting]}]}).
+{%- endcomment -%}
+<div class="workflow">
+  <ul class="wf-legend" role="list" aria-label="Opportunity types">
+    <li><span class="wf-dot wf-digital" aria-hidden="true"></span>Software or digital opportunity</li>
+    <li><span class="wf-dot wf-process" aria-hidden="true"></span>Employee process opportunity</li>
+    <li><span class="wf-dot wf-reporting" aria-hidden="true"></span>Reporting opportunity</li>
+  </ul>
+  <ol class="wf-stages">
+    {%- for st in include.stages %}
+    <li class="wf-stage">
+      <h3>{{ st.name }}</h3>
+      <ol class="wf-steps">
+        {%- for s in st.steps %}
+        <li{% if s.branch %} class="wf-branch"{% endif %}>
+          {%- if s.branch %}<span class="wf-branch-label">{{ s.branch }}</span>{% endif %}
+          <span class="wf-text">{{ s.text }}</span>
+          <span class="wf-meta">
+            {%- if s.tool %}<span class="wf-tool">{{ s.tool }}</span>{% endif %}
+            {%- for o in s.opp %}<span class="wf-dot wf-{{ o }}" role="img" aria-label="{{ o | capitalize }} opportunity"></span>{% endfor %}
+          </span>
+        </li>
+        {%- endfor %}
+      </ol>
+    </li>
+    {%- endfor %}
+  </ol>
+</div>
