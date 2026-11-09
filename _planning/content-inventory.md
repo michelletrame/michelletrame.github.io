@@ -107,7 +107,7 @@ What it's missing (and what every case study should add): **outcomes**
 - Still missing: an outcome. What did APF do with the recommendations?
 
 ## ⚠️ Before the final push (merge to master)
-- [ ] Michelle to confirm type-of-work tags in `_data/work.yml`. Webflow reused tag images, so these may be borrowed from other projects:
+- [x] Michelle confirmed type-of-work tags in `_data/work.yml` (REI and AT&T updated; the rest confirmed as is). Webflow reused tag images, so these may be borrowed from other projects:
   REI (= APF's), Backcountry Babes (= AT&T's), Canvas and In the Test (= Vouch's).
 
 ### Vouch, In the Test, Vera, Backcountry Babes, Hack Reactor (migrated)
