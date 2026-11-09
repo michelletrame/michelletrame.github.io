@@ -128,5 +128,5 @@ Source lives in gitignored `private/rei.html`; images via `private/make-rei-imag
 ### Grading case study (new; replaces the Canvas interim page in the private build)
 Source: gitignored `private/grading.html` (permalink /work-canvas.html), materials in `private/gradebook/`.
 - Password protected per Michelle. University and teammates not named (roles only).
-- Paper prototype photos added. Still waiting on the rubric builder screenshot as a file. Drop them into `private/src-img/grading-private/` as faculty-paper-prototype-wall, faculty-paper-prototype-table, faculty-prototypes-board, faculty-sticky-notes, rubric-builder; the page shows them automatically.
+- Paper prototype photos and rubric builder screenshot added. Drop them into `private/src-img/grading-private/` as faculty-paper-prototype-wall, faculty-paper-prototype-table, faculty-prototypes-board, faculty-sticky-notes, rubric-builder; the page shows them automatically.
 - Public build still serves the old interim Canvas page under the new card title until the password gate is decided.

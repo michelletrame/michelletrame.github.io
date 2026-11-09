@@ -416,3 +416,4 @@ kbd { font-family: var(--display); font-size: .85em; font-weight: 600; backgroun
 .photo-row .fig { margin: 0 !important; }
 .photo-row .fig img { aspect-ratio: 3 / 4; object-fit: cover; }
 @media (max-width: 560px) { .photo-row { grid-template-columns: 1fr 1fr; } }
+.principle-text--solo { max-width: var(--measure); margin-inline: auto; } .principle-text--solo > * + * { margin-top: 1em; } .principle-text--solo h2 { font-size: clamp(30px, 3.6vw, 44px); margin-top: .35em; }
