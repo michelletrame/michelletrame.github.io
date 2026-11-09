@@ -130,3 +130,6 @@ Source: gitignored `private/grading.html` (permalink /work-canvas.html), materia
 - Password protected per Michelle. University and teammates not named (roles only).
 - Paper prototype photos and rubric builder screenshot added. Drop them into `private/src-img/grading-private/` as faculty-paper-prototype-wall, faculty-paper-prototype-table, faculty-prototypes-board, faculty-sticky-notes, rubric-builder; the page shows them automatically.
 - Public build still serves the old interim Canvas page under the new card title until the password gate is decided.
+
+### Outcomes (decided)
+Michelle had moved on before REI and AT&T shipped, so no impact data. Decision: no outcomes sections; both pages end on what the work led to (AT&T: reference designs for production; REI: next steps). Don't add outcome claims.
