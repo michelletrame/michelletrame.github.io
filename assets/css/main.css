@@ -420,3 +420,5 @@ kbd { font-family: var(--display); font-size: .85em; font-weight: 600; backgroun
 .callout-link { display: inline-block; margin-top: .4em; font-family: var(--display); font-weight: 700; color: var(--lemon); }
 .photo-credits { flex-basis: 100%; font-size: 13px; color: var(--muted); }
 .photo-credits a { color: inherit; }
+.ethos-photo { width: min(100%, 320px); aspect-ratio: 1; object-fit: cover; object-position: 50% 45%; border-radius: 50%; margin-top: 28px; box-shadow: 0 0 0 8px var(--lemon); }
+@media (max-width: 900px) { .ethos-photo { width: min(60vw, 240px); } }
