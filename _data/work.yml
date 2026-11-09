@@ -8,15 +8,16 @@
 
 - slug: canvas
   url: /work-canvas.html
-  title: Making teaching tools work for teachers
+  title: Grading that's personal and fair
   org: Canvas
   company: Instructure
-  summary: A lightweight way for teachers to sort students and assign differentiated work, shipped in two stages to learn how big the demand really was.
+  summary: Some teachers wanted grading to feel like a conversation; others wanted it fast and unbiased. A Canvas gradebook designed for both.
   cover: home/color # placeholder until the Unsplash cover is added
   cover_alt: Overhead view of five people's hands coloring an intricate pattern together with colored pencils.
   color: lemon
   tags: [Product Design, User Research, Usability Testing]
   featured: true
+  locked: true
 
 - slug: rei
   url: /work-rei.html

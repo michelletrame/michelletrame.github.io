@@ -406,3 +406,7 @@ ul[role="list"], .plain { list-style: none; padding: 0; }
 .glossary dt { font-family: var(--display); font-weight: 700; font-size: 15px; }
 .glossary dd { font-size: 16px; line-height: 1.45; }
 @media (max-width: 560px) { .glossary div { grid-template-columns: 1fr; gap: 2px; } }
+.small-note { font-size: 15px; color: var(--muted); }
+kbd { font-family: var(--display); font-size: .85em; font-weight: 600; background: var(--white); border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 5px; padding: 1px 6px; }
+.objectives--pillars { --label: "Pillar"; grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 900px) { .objectives--pillars { grid-template-columns: 1fr; } }

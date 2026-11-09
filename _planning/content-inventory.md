@@ -124,3 +124,9 @@ Source lives in gitignored `private/rei.html`; images via `private/make-rei-imag
 - Store count corrected to **7** (5 observation + 2 interview stores, per the methodology slide); the homepage card previously said eight.
 - No outcome yet: the page ends with the deck's next steps. Add what was pursued or shipped. (TODO comment marks the spot.)
 - Competitor screenshots (Amazon, Instacart, Target) are shown as references; the Target one is Michelle's own order email.
+
+### Grading case study (new; replaces the Canvas interim page in the private build)
+Source: gitignored `private/grading.html` (permalink /work-canvas.html), materials in `private/gradebook/`.
+- Password protected per Michelle. University and teammates not named (roles only).
+- Waiting on photo files: paper prototypes (4) and rubric builder screenshot. Drop them into `private/src-img/grading-private/` as faculty-paper-prototype-wall, faculty-paper-prototype-table, faculty-prototypes-board, faculty-sticky-notes, rubric-builder; the page shows them automatically.
+- Public build still serves the old interim Canvas page under the new card title until the password gate is decided.
