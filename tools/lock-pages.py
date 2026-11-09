@@ -24,6 +24,9 @@ PAGES = ['work-att.html', 'work-rei.html', 'work-canvas.html']
 SITE = Path('_site-private')
 PRIVATE_IMG = re.compile(r'/assets/img/[a-z-]+-private/[^"\s,]+\.webp')
 PRIVATE_AUDIO = re.compile(r'/assets/audio/[a-z-]+-private/[^"\s]+\.m4a')
+ICONS = ('        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
+         '        <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />\n'
+         '        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />')
 STATICRYPT = os.environ.get('STATICRYPT', 'npx staticrypt')
 
 password = os.environ.get('LOCK_PASSWORD')
@@ -69,7 +72,10 @@ with tempfile.TemporaryDirectory() as tmp:
         sys.exit(r.stdout + r.stderr)
     for page in PAGES:
         out = Path(tmp) / 'out' / page
-        if password in out.read_text():
+        locked = out.read_text()
+        if password in locked:
             sys.exit(f'{page}: password found in output, refusing to write')
-        shutil.copy(out, page)
+        # StaticCrypt's password screen has its own <head>: give it the site favicon.
+        locked = locked.replace('<head>', '<head>\n' + ICONS, 1)
+        Path(page).write_text(locked)
         print(f'{page}: {out.stat().st_size / 1e6:.1f} MB encrypted')

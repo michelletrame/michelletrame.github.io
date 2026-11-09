@@ -107,12 +107,25 @@ ul[role="list"], .plain { list-style: none; padding: 0; }
 .hero-intro p:last-child { color: var(--muted); font-style: italic; }
 .hero-fruit { position: absolute; right: calc(var(--gutter) - 60px); top: 10px; width: min(36vw, 500px); z-index: 0; }
 
-.ribbon { overflow: hidden; background: var(--plum); color: var(--cream); padding: 14px 0; }
+.ribbon { background: var(--plum); color: var(--cream); padding: clamp(14px, 1.6vw, 22px) var(--gutter); }
 .ribbon ul {
-  display: flex; gap: 40px; width: max-content; list-style: none; padding: 0 0 0 var(--gutter);
-  font-family: var(--display); font-weight: 600; font-size: 15px; letter-spacing: .04em; text-transform: uppercase;
+  display: flex; list-style: none; padding: 0; margin: 0;
+  font-family: var(--display); font-weight: 600; font-size: clamp(13px, 1.3vw, 20px); letter-spacing: .04em; text-transform: uppercase;
 }
-.ribbon li::after { content: "✺"; margin-left: 40px; color: var(--lemon); }
+/* Wide: items share the full width; each grows by the same amount, so the star on
+   every boundary sits midway between its neighbours. */
+.ribbon li { position: relative; flex: 1 1 auto; padding: 0 1.1em; text-align: center; white-space: nowrap; }
+.ribbon li + li::before {
+  content: "✺"; position: absolute; left: 0; top: 50%; transform: translate(-50%, -50%); color: var(--lemon);
+}
+/* Narrow: wrap onto centred lines; each item carries its own star so none dangle at a line end. */
+@media (max-width: 760px) {
+  .ribbon ul { flex-wrap: wrap; justify-content: center; gap: 8px 22px; }
+  .ribbon li { flex: 0 0 auto; padding: 0; }
+  .ribbon li::before, .ribbon li + li::before {
+    content: "✺"; position: static; transform: none; margin-right: 8px; color: var(--lemon);
+  }
+}
 
 .section { padding: 72px var(--gutter); }
 .section > h2 { font-size: clamp(30px, 4vw, 48px); margin-bottom: 32px; }
