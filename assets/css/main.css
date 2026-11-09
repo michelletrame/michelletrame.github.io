@@ -410,3 +410,5 @@ ul[role="list"], .plain { list-style: none; padding: 0; }
 kbd { font-family: var(--display); font-size: .85em; font-weight: 600; background: var(--white); border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 5px; padding: 1px 6px; }
 .objectives--pillars { --label: "Pillar"; grid-template-columns: repeat(2, 1fr); }
 @media (max-width: 900px) { .objectives--pillars { grid-template-columns: 1fr; } }
+.pair--2-1 { grid-template-columns: 2fr 1fr; }
+@media (max-width: 900px) { .pair--2-1 { grid-template-columns: 1fr; } .pair--2-1 > :last-child { max-width: 360px; } }
