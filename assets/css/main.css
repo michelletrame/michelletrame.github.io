@@ -418,3 +418,5 @@ kbd { font-family: var(--display); font-size: .85em; font-weight: 600; backgroun
 @media (max-width: 560px) { .photo-row { grid-template-columns: 1fr 1fr; } }
 .principle-text--solo { max-width: var(--measure); margin-inline: auto; } .principle-text--solo > * + * { margin-top: 1em; } .principle-text--solo h2 { font-size: clamp(30px, 3.6vw, 44px); margin-top: .35em; }
 .callout-link { display: inline-block; margin-top: .4em; font-family: var(--display); font-weight: 700; color: var(--lemon); }
+.photo-credits { flex-basis: 100%; font-size: 13px; color: var(--muted); }
+.photo-credits a { color: inherit; }

@@ -5,4 +5,10 @@
     <li><a href="https://www.linkedin.com/in/michelletrame">LinkedIn</a></li>
     <li><a href="https://github.com/michelletrame">GitHub</a></li>
   </ul>
+  {%- if page.url == "/" -%}
+  {%- assign credited = site.data.work | where_exp: "p", "p.credit" -%}
+  {%- if credited.size > 0 %}
+  <p class="photo-credits">Photos by {% for p in credited %}<a href="{{ p.credit.profile }}">{{ p.credit.name }}</a> (<a href="{{ p.credit.photo }}">{{ p.org }}</a>){% unless forloop.last %}, {% endunless %}{% endfor %} on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+  {%- endif %}
+  {%- endif %}
 </footer>

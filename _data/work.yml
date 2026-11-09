@@ -1,6 +1,7 @@
 # One entry per case study, in homepage order.
 # url: where the card links.
 # cover: key in _data/images.yml (folder/name, no size suffix).
+# credit: {name, profile, photo} for stock photos; shown in the homepage footer.
 # cover_position: optional CSS object-position for the card crop (default: center).
 # color: tile color on the homepage and accent on the case study (lemon, sky, blush, sage, plum, white).
 # locked: shows a password note on the card.
@@ -12,8 +13,10 @@
   org: Canvas
   company: Instructure
   summary: Some teachers wanted grading to feel like a conversation; others wanted it fast and unbiased. A Canvas gradebook designed for both.
-  cover: home/color # placeholder until the Unsplash cover is added
-  cover_alt: Overhead view of five people's hands coloring an intricate pattern together with colored pencils.
+  cover: canvas/cover-thisisengineering-unsplash
+  cover_position: 70% center
+  credit: {name: ThisisEngineering, profile: "https://unsplash.com/@thisisengineering?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText", photo: "https://unsplash.com/photos/woman-in-black-sleeveless-top-h6gCRTCxM7o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"}
+  cover_alt: A smiling teacher with long red hair stands beside a whiteboard covered in notes, her reflection visible in the glass.
   color: lemon
   tags: [Product Design, User Research, Usability Testing]
   featured: true
@@ -36,8 +39,10 @@
   title: A high-trust, low-stress phone bill
   org: AT&T
   summary: Six design principles that rebuilt billing, the top driver of support calls, across app, web and print.
-  cover: att/card-att-bill
-  cover_alt: Illustrated woman seated beside two phone screens, a text message confirming an autopay date and a bill showing $60 paid.
+  cover: att/cover-vitaly-gariev-unsplash
+  cover_position: 60% center
+  credit: {name: Vitaly Gariev, profile: "https://unsplash.com/@silverkblack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText", photo: "https://unsplash.com/photos/woman-talking-on-phone-while-working-on-laptop-at-desk-vbd1ONgbZlY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"}
+  cover_alt: A smiling woman talks on her phone at a desk with a laptop, a mug and an open notebook, in a brightly painted living room.
   color: blush
   tags: [Interaction Design, Discovery Research, Usability Testing]
   featured: true
