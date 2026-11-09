@@ -105,3 +105,7 @@ What it's missing (and what every case study should add): **outcomes**
 - The "Robert" quote was an image caption on Webflow; it stays a caption on the photo of him.
 - `ac4dxapf.org` link kept but unverified (can't reach it from the build environment). Check it's still live.
 - Still missing: an outcome. What did APF do with the recommendations?
+
+## ⚠️ Before the final push (merge to master)
+- [ ] Michelle to confirm type-of-work tags in `_data/work.yml`. Webflow reused tag images, so these may be borrowed from other projects:
+  REI (= APF's), Backcountry Babes (= AT&T's), Canvas and In the Test (= Vouch's).

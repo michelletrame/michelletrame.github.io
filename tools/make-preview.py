@@ -44,7 +44,7 @@ def rewrite(html):
 refs = set()
 for page in PAGES:
     html = rewrite((SITE / page).read_text())
-    refs |= set(re.findall(r'(?:href|src)="((?:assets|[\w-]+\.(?:pdf|svg))[^"#]*)"', html))
+    refs |= set(re.findall(r'(?:href|src)="((?:assets|[\w-]+\.(?:pdf|svg|png))[^"#]*)"', html))
     for srcset in re.findall(r'srcset="([^"]*)"', html):
         refs |= {part.split()[0] for part in srcset.split(', ')}
     if page == 'index.html':

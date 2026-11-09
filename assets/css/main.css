@@ -278,7 +278,7 @@ ul[role="list"], .plain { list-style: none; padding: 0; }
   .site-header ul { gap: 0; }
   .site-header nav a { padding: 8px 9px; font-size: 14px; }
   .logo { gap: 6px; font-size: 16px; }
-  .logo svg { width: 24px; height: 24px; }
+  .logo .lemon { width: 24px; height: 24px; }
   .cs-meta { grid-template-columns: 1fr; }
 }
 
