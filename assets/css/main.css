@@ -432,3 +432,7 @@ kbd { font-family: var(--display); font-size: .85em; font-weight: 600; backgroun
 .voice details { margin-top: 14px; font-size: 16px; }
 .voice summary { cursor: pointer; font-family: var(--display); font-weight: 600; font-size: 15px; }
 .voice details p { margin-top: 8px; color: var(--muted); }
+figure.cs-cover { margin: 24px 0 0; overflow: visible; background: none; border-radius: 0; }
+figure.cs-cover img { border-radius: var(--radius-lg); background: var(--accent); }
+.cover-credit { font-size: 13px; color: var(--muted); margin-top: 8px; text-align: right; }
+.cover-credit a { color: inherit; }

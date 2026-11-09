@@ -20,7 +20,7 @@ layout: default
       {%- for m in page.meta %}<div><dt>{{ m[0] }}</dt><dd>{{ m[1] }}</dd></div>{% endfor %}
     </dl>
     {%- endif %}
-    <div class="cs-cover">{% include img.html src=page.cover alt=page.cover_alt eager=true sizes="(min-width: 1300px) 1200px, 100vw" %}</div>
+    <figure class="cs-cover">{% include img.html src=page.cover alt=page.cover_alt eager=true sizes="(min-width: 1300px) 1200px, 100vw" position=page.cover_position %}{% if page.cover_credit %}<figcaption class="cover-credit">{{ page.cover_credit }}</figcaption>{% endif %}</figure>
   </header>
 
   <section class="cs-trio" aria-labelledby="summary-h">
