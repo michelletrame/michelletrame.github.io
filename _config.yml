@@ -1,4 +1,4 @@
 title: Michelle Trame
 description: Product designer working on Canvas, formerly at REI Co-op and AT&T.
 url: https://michelletrame.github.io
-exclude: [Gemfile, Gemfile.lock, vendor, tools, README.md, private]
+exclude: [Gemfile, Gemfile.lock, vendor, tools, README.md, private, assets/img/att-private, assets/img/rei-private, assets/img/grading-private]
