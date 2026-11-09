@@ -1,0 +1,9 @@
+{%- comment -%}
+  Responsive WebP image. Params: src (key in _data/images.yml), alt (required; "" for decorative),
+  sizes (default 100vw), eager (true for the first, above-the-fold image), class.
+{%- endcomment -%}
+{%- assign dims = site.data.images[include.src] -%}
+{%- assign w = dims[0] -%}{%- assign h = dims[1] -%}
+{%- if w > 800 -%}{%- assign w1 = 800 -%}{%- assign h1 = h | times: 800 | divided_by: w -%}{%- else -%}{%- assign w1 = w -%}{%- assign h1 = h -%}{%- endif -%}
+{%- if w > 1600 -%}{%- assign w2 = 1600 -%}{%- else -%}{%- assign w2 = w -%}{%- endif -%}
+<img src="/assets/img/{{ include.src }}-800.webp"{% if w > 800 %} srcset="/assets/img/{{ include.src }}-800.webp 800w, /assets/img/{{ include.src }}-1600.webp {{ w2 }}w" sizes="{{ include.sizes | default: '100vw' }}"{% endif %} width="{{ w1 }}" height="{{ h1 }}" alt="{{ include.alt | escape }}"{% if include.eager %} fetchpriority="high"{% else %} loading="lazy"{% endif %} decoding="async"{% if include.class %} class="{{ include.class }}"{% endif %}>

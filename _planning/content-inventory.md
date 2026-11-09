@@ -96,3 +96,12 @@ What it's missing (and what every case study should add): **outcomes**
 - Resume link → `resume-2026.pdf` everywhere (Canvas page nav still points to 2024)
 - About page image `bike-hex.png` still hotlinked
 - Typos carried over from Webflow to fix during migration: "thier" (APF), "conincidental" (HR), "constrainsts" (REI), "cirucmstances", "accomodate", "mutliple", "deviatons", "prioducrs", "anomolous" (AT&T), "An complete overhaul" (AT&T)
+
+## Migration notes
+
+### Austin Parks Foundation (migrated → `work-apf.html`)
+- Timeframe "August–December 2019" inferred from the project timeline diagram + screenshot filename dates. Confirm.
+- Webflow labelled the design-criteria groups out of order ("Design criteria for insight 2" sat above the park-identity criteria, which answer insight 1). The new page groups them in insight order without numeric labels.
+- The "Robert" quote was an image caption on Webflow; it stays a caption on the photo of him.
+- `ac4dxapf.org` link kept but unverified (can't reach it from the build environment). Check it's still live.
+- Still missing: an outcome. What did APF do with the recommendations?

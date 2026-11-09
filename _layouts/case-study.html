@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{%- assign work = site.data.work -%}
+{%- for p in work -%}{% if p.slug == page.slug %}{% assign idx = forloop.index0 %}{% assign me = p %}{% endif %}{%- endfor -%}
+{%- assign next_i = idx | plus: 1 | modulo: work.size -%}
+{%- assign next = work[next_i] -%}
+<article class="cs c-{{ me.color | default: 'lemon' }}-accent">
+  <header class="cs-hero">
+    <div class="cs-hero-text">
+      <p class="eyebrow">{{ me.org | default: page.org }}</p>
+      <h1>{{ page.title }}</h1>
+      {%- if page.dek %}<p class="cs-dek">{{ page.dek }}</p>{% endif %}
+    </div>
+    {%- if page.meta %}
+    <dl class="cs-meta">
+      {%- for m in page.meta %}<div><dt>{{ m[0] }}</dt><dd>{{ m[1] }}</dd></div>{% endfor %}
+    </dl>
+    {%- endif %}
+    <div class="cs-cover">{% include img.html src=page.cover alt=page.cover_alt eager=true sizes="(min-width: 1300px) 1200px, 100vw" %}</div>
+  </header>
+
+  <section class="cs-trio" aria-labelledby="summary-h">
+    <h2 id="summary-h" class="sr-only">Summary</h2>
+    <div><h3>The challenge</h3><p>{{ page.challenge }}</p></div>
+    <div><h3>My contribution</h3><p>{{ page.contribution }}</p></div>
+    <div><h3>The solution</h3><p>{{ page.solution }}</p></div>
+  </section>
+
+  <div class="cs-body">
+{{ content }}
+  </div>
+</article>
+
+<nav class="next-project c-{{ next.color }}" aria-label="Next case study">
+  <p class="eyebrow">Next case study</p>
+  <a href="{{ next.url }}">
+    <span class="next-title">{{ next.title }}</span>
+    <span class="next-org">{{ next.org }}</span>
+  </a>
+</nav>

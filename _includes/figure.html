@@ -1,0 +1,10 @@
+{%- comment -%}
+  Params: src, alt, caption (optional), variant: wide | full | inset (default wide),
+  diagram: true puts the image on a white panel so transparent PNG diagrams stay legible.
+{%- endcomment -%}
+{%- assign size = include.variant | default: "wide" -%}
+{%- if size == "inset" %}{% assign sz = "(min-width: 900px) 560px, 100vw" %}{% elsif size == "full" %}{% assign sz = "100vw" %}{% else %}{% assign sz = "(min-width: 1200px) 1100px, 100vw" %}{% endif -%}
+<figure class="fig fig--{{ size }}{% if include.diagram %} fig--diagram{% endif %}">
+  {% include img.html src=include.src alt=include.alt sizes=sz %}
+  {%- if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>
