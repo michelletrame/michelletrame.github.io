@@ -283,3 +283,44 @@ ul[role="list"], .plain { list-style: none; padding: 0; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* 12 Case study extras: principles + journeys --------------------------- */
+.principle { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: clamp(24px, 4vw, 56px); align-items: center; max-width: var(--wide) !important; }
+.principle > * { margin: 0 !important; }
+.principle .fig img { background: #f6f2ea; }
+.principle-text > * + * { margin-top: 1em; }
+.principle-text h2 { font-size: clamp(30px, 3.6vw, 44px); }
+.principle-text h3 { font-size: 18px; margin-top: 1.4em; }
+.principle-text h3 + ul { margin-top: .4em; }
+.principle-text ul { padding-left: 1.1em; font-size: 17px; }
+.principle--flip .principle-text { order: 2; }
+.principle-no { display: inline-block; font-family: var(--display); font-weight: 700; font-size: 14px; background: var(--accent); border-radius: 99px; padding: 4px 12px; }
+
+.journey { max-width: var(--wide) !important; background: var(--cream-2); border-radius: var(--radius-lg); padding: clamp(20px, 3vw, 36px); }
+.journey-head { max-width: var(--measure); }
+.journey-head h3 { font-size: clamp(24px, 2.6vw, 32px); margin: 6px 0 8px; }
+.journey-head p:last-child { color: var(--muted); }
+.journey-track { overflow-x: auto; margin-top: 24px; padding-bottom: 8px; }
+.journey-track:focus-visible { outline: 3px solid var(--tomato); outline-offset: 4px; }
+.journey ol { list-style: none; padding: 0; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(150px, 1fr); position: relative; }
+.journey li { position: relative; padding: 34px 14px 0 0; margin: 0; }
+.journey li::before { content: ""; position: absolute; left: 0; right: 0; top: 30px; border-top: 2px dashed var(--muted); }
+.journey li::after { content: ""; position: absolute; left: 0; top: 24px; width: 14px; height: 14px; border-radius: 50%; background: var(--cream-2); border: 2px solid var(--plum); }
+.journey li.dated::after { background: var(--plum); }
+.journey li:last-child::before { right: auto; width: 14px; }
+.j-date { position: absolute; top: 0; left: 0; font-family: var(--display); font-weight: 700; font-size: 14px; }
+.j-event { display: block; margin-top: 18px; font-family: var(--display); font-weight: 600; font-size: 16px; line-height: 1.25; }
+.j-detail { display: block; margin-top: 6px; font-size: 15px; line-height: 1.4; color: var(--muted); }
+
+@media (max-width: 900px) {
+  .principle { grid-template-columns: 1fr; }
+  .principle--flip .principle-text { order: 0; }
+  .journey ol { grid-auto-flow: row; grid-auto-columns: auto; }
+  .journey li { padding: 0 0 18px 32px; }
+  .journey li::before { left: 6px; right: auto; top: 14px; bottom: 0; border-top: 0; border-left: 2px dashed var(--muted); }
+  .journey li:last-child::before { display: none; }
+  .journey li::after { top: 4px; }
+  .j-date { position: static; display: block; }
+  .j-event { margin-top: 2px; }
+}
+.principle-no + h2 { margin-top: .35em; }

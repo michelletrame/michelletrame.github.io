@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Turn the built Jekyll site (_site) into a self-contained preview folder.
 
-Usage: python3 tools/make-preview.py OUT_DIR
-Run `bundle exec jekyll build` first. Copies the migrated pages plus only
+Usage: python3 tools/make-preview.py OUT_DIR [SITE_DIR]
+Build first: `bundle exec jekyll build` (public) or, to include the
+confidential AT&T page, the private build described in _config.private.yml
+with SITE_DIR=_site-private. Copies the migrated pages plus only
 the assets they reference, rewrites root-relative links (/assets/x) to
 relative ones (assets/x), and points pages that aren't in the preview
 (REI and AT&T, which are password protected) at the live site.
@@ -12,9 +14,11 @@ host adds its own; the other pages keep theirs.
 import re, shutil, sys
 from pathlib import Path
 
-SITE = Path('_site')
 OUT = Path(sys.argv[1])
+SITE = Path(sys.argv[2] if len(sys.argv) > 2 else '_site')
 PAGES = ['index.html', 'about.html', 'work-canvas.html', 'work-apf.html']
+if 'staticrypt' not in (SITE / 'work-att.html').read_text()[:2000]:
+    PAGES.append('work-att.html')  # private build: the new AT&T page
 LIVE = 'https://michelletrame.github.io/'
 
 if OUT.exists():

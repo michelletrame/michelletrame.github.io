@@ -1,0 +1,23 @@
+{%- comment -%}
+  Customer journey timeline. Params: j (hash with id, name, title, setup, steps[]),
+  each step: date (optional), event, detail (optional).
+{%- endcomment -%}
+{%- assign j = include.j -%}
+<figure class="journey" aria-labelledby="{{ j.id }}-h">
+  <figcaption class="journey-head">
+    <p class="eyebrow">Customer journey</p>
+    <h3 id="{{ j.id }}-h">{{ j.title }}</h3>
+    <p>{{ j.setup }}</p>
+  </figcaption>
+  <div class="journey-track" tabindex="0" role="region" aria-label="{{ j.title }} timeline, scrolls sideways">
+    <ol>
+      {%- for s in j.steps %}
+      <li{% if s.date %} class="dated"{% endif %}>
+        <span class="j-date">{{ s.date | default: "&nbsp;" }}</span>
+        <span class="j-event">{{ s.event }}</span>
+        {%- if s.detail %}<span class="j-detail">{{ s.detail }}</span>{% endif %}
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</figure>
