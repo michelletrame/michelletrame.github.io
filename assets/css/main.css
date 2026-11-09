@@ -95,8 +95,8 @@ ul[role="list"], .plain { list-style: none; padding: 0; }
 /* 5 Home ----------------------------------------------------------------- */
 .hero { position: relative; padding: 56px var(--gutter) 80px; overflow: hidden; }
 .hero h1 {
-  font-weight: 760; font-size: clamp(52px, 10vw, 148px); line-height: .92; letter-spacing: -.035em;
-  max-width: 11ch; position: relative; z-index: 1;
+  font-weight: 760; font-size: clamp(42px, 7.6vw, 132px); line-height: .92; letter-spacing: -.035em;
+  position: relative; z-index: 1;
 }
 .hl { background: linear-gradient(transparent 58%, var(--lemon) 58% 90%, transparent 90%); }
 .hero-intro {
