@@ -51,6 +51,7 @@
 "grading-private/grading-configuration": [2880, 1800]
 "grading-private/grading-workspace": [2880, 1800]
 "grading-private/rubric-builder": [2000, 1229]
+"grading-private/rubric-in-assignment": [2000, 1224]
 "hack-reactor/card-hr-four-pairs-tall": [664, 501]
 "hack-reactor/group-maker": [852, 786]
 "hack-reactor/hack-reactor": [700, 467]
