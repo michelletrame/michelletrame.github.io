@@ -49,6 +49,13 @@ for page in PAGES:
     refs |= set(re.findall(r'(?:href|src)="((?:assets|[\w-]+\.(?:pdf|svg|png))[^"#]*)"', html))
     for srcset in re.findall(r'srcset="([^"]*)"', html):
         refs |= {part.split()[0] for part in srcset.split(', ')}
+    # The preview viewer carries the scroll position over when you follow a link to
+    # another page; real browsers start a new page at the top. Reset it, except for
+    # links to a #section and for Back/Forward.
+    TOP = ('<script>(function(){var n=performance.getEntriesByType&&performance.getEntriesByType("navigation")[0];'
+           'if(location.hash||(n&&n.type==="back_forward"))return;var t=function(){scrollTo(0,0)};t();'
+           'addEventListener("DOMContentLoaded",t);addEventListener("load",function(){t();setTimeout(t,50);setTimeout(t,250)})})();</script>')
+    html = html.replace('</body>', TOP + '</body>') if '</body>' in html else html + TOP
     if page == 'index.html':
         html = re.sub(r'<title>[^<]*</title>', '<title>Portfolio Redesign Preview</title>', html)
         html = re.sub(r'<!doctype html>\s*<html[^>]*>\s*<head>|</head>\s*<body[^>]*>|</body>\s*</html>\s*$', '', html, flags=re.I)
