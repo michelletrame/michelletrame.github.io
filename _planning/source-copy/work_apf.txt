@@ -1,0 +1,98 @@
+p: Michelle Trame | Austin Parks Foundation
+IMG: 5ea63f9f808bdfa72896bba1_lemon.png | alt='michelle-trame-illustration' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ea63f9f808bdfa72896bba1_lemon.png
+div: Michelle Trame
+div: WORK RESUMEAbout
+IMG: 5e6fe2a4ede7cabaa89b9667_menu-icon.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7cabaa89b9667_menu-icon.png
+h1: Addressing Inclusion in Parks
+div: Austin Parks Foundation
+div: The Challenge
+div: Austin Parks Foundation was seeking to elevate their impact by improving brand recognition and engagement among park users.
+div: Our Solution
+div: My team delivered solutions to senior organizational stakeholders for several opportunity areas. In particular, we focused on volunteerism and engagement, park identities, and equity and inclusion.
+div: My Contributions
+div: My teammates and I were equally involved in the initial design research, the analysis and synthesis of the data, and the development of presentations of our work to the client throughout the process.
+IMG: 5e79483d592c525f17c4341e_dog-walker.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e79483d592c525f17c4341e_dog-walker.jpg
+div: A park user walking her dog in a popular Austin park.
+div: Who are parks for?
+p: Upon partnering with Austin Parks Foundation, we read their strategic plan and noted a range of stakeholders from the City of Austin to donors to vendors to the media. In total, their current strategic plan has 13 stakeholders. However, we noticed one main group was missing: park users. ‍ While the mission of APF is to improve parks for the users, their day-to-day operations don't involve interactions with park users. Our team was able to bridge that gap for the organization. We started by doing in-context generative research with 20 people in 16 different Austin parks. Our focus was observing what people do to better understand their values and their motivations. In addition to shadowing them on park visits, we led them through exercises such as drawing a mental map of parks in Austin.
+IMG: 5e7957eed6522b1767b97f93_apf-timeline-wide-01.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e7957eed6522b1767b97f93_apf-timeline-wide-01.jpg
+div: Project Timeline
+div: Increasing community buy-in
+IMG: 5e794c6df4f331031b57e1e2_participant-tumbnails.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e794c6df4f331031b57e1e2_participant-tumbnails.png
+div: Thumbnails of each of our participants.
+p: The majority of park users we talked with expressed an interest in a greater degree of engagement with thier park, either by giving back to parks through financial support or volunteering. Despite that expressed interest, most weren't actually doing it. Why? As a non-profit, having the support of the community is essential to APF. We wanted to understand more about what separated those who had chosen to actively support APF's work from those who felt passionately, but who hadn't taken action.
+p: The organization's narrow messaging about the role of volunteers meant that the users we talked to felt that getting involved in APF was only focused on physical labor. While leadership within APF was aware of the benefit that other skills (event production, web development, activism) would have for their organization, there were no pathways that existed to engage community members who were interested in contributing in alternative ways. We spoke with people who had passions for organizing events, gatherings and meetups, but felt that the Parks Department (and by extension APF) were actively hostile to their efforts. These event organizers were also the users who were most successful in cultivating an inclusive view of parks.
+div: “I have back problems, so doing physical work, like path restoration, or tree planting would be hard on me. So you know what I would love to do? Organize a neighborhood cleanup.” -Sally
+div: “I did a lot of [volunteering] in San Francisco for the outdoors, but the weather there is a lot better. But here, the idea of going out and planting a tree, it’s like ‘I don’t know…’” -Anders
+div: Unearthing patterns of exclusion
+p: After we affinitized the hours of transcriptions to find patterns in values, beliefs, motivations and behaviors, several themes emerged from our interactions with park users. While parks can be a 'third place' shared and cared for by the entire community, we saw a theme of exclusion emerge from many Austinites we spoke with. In one to two hours time people began revealing ways that they have experienced or perpetuated exclusion in parks. We saw people express narrow and specific criteria for who belongs in their parks and what they can or should be doing. It wasn't all bad news, we also saw very specific patterns that countered these exclusionary views. There were park users and types of parks that fostered an expansive view of who belongs.
+IMG: 5e794ded00ccdec59d521b25_interviewing.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e794ded00ccdec59d521b25_interviewing.jpg
+div: Robert tells me about the conflict between old Austin and new Austin, “We're in the thick of new development in Austin. Just trying to make sure developers don't run rampant over the neighbors.”
+div: “It was a wealthier neighborhood around that park, and [the neighbors] were complaining about bicycles to some of the Park and Rec directors. They found out when the bike classes were. Then a park police officer would show up and [say] ‘Y’all need to get out of here.’” -Bryan
+div: “This is considered a local neighborhood park. It's not a citywide park like Zilker. This is a local, small town park. But the people who really love it don't live here. They tend to be Hispanic. There's just this usurping.” -Daniel
+div: A Deep Dive with Super Users
+IMG: 5e795c87d6522b14dcb996ec_complexity-curve.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e795c87d6522b14dcb996ec_complexity-curve.png
+div: We developed this complexity curve diagram as we mapped systems of power within the parks.
+p: While our primary focus was the average park user, we also had the opportunity to interview Park Adopters, highly engaged volunteers. Their perspectives were especially important because APF interfaces directly with this population of users. Implementing design ideas with this population had high potential to be especially impactful because of their outsized impact on how resources were allocated. Mapping power relationships amongst park adopters revealed the ways in which current systems were perpetuating inequality. This detailed look also helped us identify effective ways of subverting these patterns. While being in a highly resourced area was correlated with better outcomes for those parks, we also identified a different variable that dictated the amount of leverage for affecting change: time as a park adopter. Surprisingly the relationship between time and influence was not purely linear. The volunteers struggling the most were not the early-stage adopters. Mid-stage park adopters were experiencing peak complexity. They had developed avenues of access to help, but hadn’t yet culled them to only the most effective resources like their more experienced counterparts. This point of overwhelm often preceded disengagement, except for those adopters who had access to a strong network of people engaged in similar civic projects.
+h1: Identifying the Roadblocks
+div: We developed three primary insights about the factors blocking APF from meeting the needs of park users equitably and inclusively while nurturing the relationship that the organization has to communities in Austin.
+IMG: 5e796e7a41a5f893fef9890d_jim-invasive-removal.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e796e7a41a5f893fef9890d_jim-invasive-removal.jpg
+div: INSIGHT 1
+div: Place-based or neutral park identities incubate exclusion, while use-based identities foster inclusion. ‍
+IMG: 5e796ed02484577401e0fc87_sally-heart.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e796ed02484577401e0fc87_sally-heart.jpg
+div: INSIGHT 2
+div: Users are trying to support APF but don't see pathways for matching their interests and talents to what the parks need. ‍
+IMG: 5e796e78b5d3eeecac6ac86f_rico-grafitti.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e796e78b5d3eeecac6ac86f_rico-grafitti.jpg
+div: INSIGHT 3
+div: Access to social capital influences the allocation of park resources, perpetuating historical inequities. ‍
+div: We then developed nine design criteria to address the three insights.
+div: DESIGN CRITERIA FOR INSIGHT 2
+h1: APF should create vibrant park identities that…
+div: Communicate purpose.
+div: Use physical cues in parks to communicate the purpose of green spaces and the associated values and boundaries that are expected.
+div: Grant acceptance.
+div: Convey a strong stance on the rights of people experiencing homelessness to use public green space.
+div: Are aligned with specific uses.
+div: Facilitate experiences that encourage people from different areas of the city to cross into parks outside their neighborhoods.
+div: DESIGN CRITERIA FOR INSIGHT 1
+h1: APF should expand volunteer opportunities that…
+div: Prioritize user autonomy.
+div: Volunteer opportunities that are open-ended and non-prescriptive encourage engagement from users with unique interests and talents.
+div: Consider physical abilities.
+div: Create visible programs that are inclusive of different abilities to counteract misconceptions that volunteering is only physical.
+div: Leverage self-interest.
+div: Allow users to participate in projects that both fulfill the needs of the user (i.e. establishing a portfolio, meeting new neighbors, etc.) and the needs of APF (i.e. free specialized labor).
+div: DESIGN CRITERIA FOR INSIGHT 3
+h1: APF should ensure equal access to resources for all Austinites by…
+div: Collecting use-based donations.
+div: Rather than collecting personal donations for specific parks, offer users the ability to contribute based on interests and use.
+div: Distributing social capital.
+div: Create Park Adopter teams that represent a demographically diverse park portfolio, rather than a single park adopter.
+div: Balancing voices.
+div: Neighborhood associations and political squeaky wheels are overrepresented in privileged neighborhoods. Gather feedback directly from citizens to balance this inequity.
+div: Park Adopters as Change Agents
+IMG: 5ebf3991b4e86b40fdee474a_Park Adopter structure.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ebf3991b4e86b40fdee474a_Park%20Adopter%20structure.png
+div: The existing Park Adopter model and the nearly identical model that APF was beginning to implement in some parks.
+p: Iterating on the Park Adopter program will have an outsized impact because of APF's complete control over the program (unlike other programs that were jointly managed by the Parks and Rec Department).
+div: Park Adopters operating within the existing model experienced several challenges:
+li: Insufficient bandwidth to become experts at working with all the relevant agencies
+li: Vast disparities in social and political capital amongst Adopters
+li: Adopters who didn't effectively represent neighborhood wants and needs
+li: Unequal access to mentorship
+div: Moving to a model where one neighborhood had two or more adopters was an attempt to make park adoption more representative. However, it was not disrupting existing geographic inequities and in some cases was fostering power struggles between two devoted park adopters with different visions for what was best for their park, exacerbating an "us versus them" dynamic in some rapidly gentrifying neighborhoods.
+div: A Park Portfolio Model
+div: We recommended implementing a Park Adopter Portfolio model that would strategically group parks across socio-economic and cultural lines. This small team of five to seven people would be small enough to still be nimble, while allowing for specialization of different team members in different roles. Rico, the all-star neighborhood morale builder and communicator, could share his expertise with Daniel and Robert who at times struggled to engage their neighbors, or he could just take on the role of communicating with neighbors for the whole group. Politically-connected Daniel could introduce Rico and Robert to the right people to get things done in their park or even go to City Hall to lobby on behalf of any of the parks in his portfolio. While APF had hoped to see cross-pollination like this happening at the Park Adopter trainings it hosted, those were a single weekend once a year and not always well-attended. Enduring partnership with mutual investment and expectations for reciprocal support would create different expectations for how people advocate for "their" park.
+IMG: 5ecde58c5425b3a7a14dec65_Park Portfolio model.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ecde58c5425b3a7a14dec65_Park%20Portfolio%20model.png
+div: Our model for collaborative Park Adoption teams with adopters representing each neighborhood working alongside similarly resourced Park Activator teams.
+div: Park Adopters Portfolio model has several strengths:
+li: Challenging the NIMBYism and resource hoarding happening in the current model
+li: Rebalancing the distribution of social and political capital
+li: Opportunities for organic mentorship, resource sharing and specialization
+li: Accountability to and oversight from other Park Adopters
+div: Our portfolio model also calls for the creation of a Park Activators program with resources equal to those devoted to Park Adopters. The activators, or event planners that we spoke to were incredibly inspired, devoted and effective, yet felt that at every step they were being blocked from creating free and inclusive events in local parks. This program will allow for similar sharing of resources, knowledge and social and political capital. Public events were the most reliable way that we saw people challenging assumptions about who belongs in parks and institutional support of these events would go a long way to encourage more events at more parks. ‍
+h3: Want to find out more?
+p: A complete case study is available at our our project website.
+p: www.ac4dxapf.org
+IMG: 5e6fe2a4ede7ca332b9b966c_webflow-w-small@2x.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7ca332b9b966c_webflow-w-small%402x.png
+div: Powered by Webflow
+div: MEDIUM LINKEDIN GITHUB

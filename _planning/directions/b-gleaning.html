@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Direction B · Gleaning</title>
+<style>
+@font-face{font-family:Bricolage;src:url(../../assets/fonts/bricolage-grotesque-latin-wght-normal.woff2) format("woff2");font-weight:200 800;font-display:swap}
+@font-face{font-family:Newsreader;src:url(../../assets/fonts/newsreader-latin-wght-normal.woff2) format("woff2");font-weight:200 800;font-display:swap}
+@font-face{font-family:Newsreader;src:url(../../assets/fonts/newsreader-latin-wght-italic.woff2) format("woff2");font-weight:200 800;font-style:italic;font-display:swap}
+:root{--cream:#fbf6ea;--plum:#2b1d2e;--muted:#5d4f5f;--lemon:#f6c544;--tomato:#d8492f;--leaf:#3f6b33;--sky:#a9cfdc;--blush:#f2c2b0;--sage:#cfdcb6;
+--display:Bricolage,system-ui,sans-serif;--body:Newsreader,Georgia,serif;--gutter:clamp(16px,4vw,56px)}
+*{box-sizing:border-box;margin:0}
+body{background:var(--cream);color:var(--plum);font-family:var(--body);font-size:19px;line-height:1.55}
+a{color:inherit}
+img{display:block;max-width:100%;height:auto}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px var(--gutter);font-family:var(--display)}
+.logo{display:flex;align-items:center;gap:10px;white-space:nowrap;font-weight:700;font-size:19px;text-decoration:none}
+.logo svg{width:30px;height:30px}
+header ul{display:flex;gap:6px;list-style:none;padding:0}
+header ul a{display:block;padding:8px 16px;border-radius:99px;text-decoration:none;font-weight:500;font-size:15px}
+header ul a:hover{background:var(--plum);color:var(--cream)}
+.hero{position:relative;padding:64px var(--gutter) 80px;overflow:hidden}
+.hero h1{font-family:var(--display);font-weight:760;font-size:clamp(52px,10vw,148px);line-height:.92;letter-spacing:-.035em;max-width:11ch;position:relative;z-index:1}
+.hero h1 .hl{background:linear-gradient(transparent 58%,var(--lemon) 58% 90%,transparent 90%)}
+.hero .intro{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin-top:44px;position:relative;z-index:1;max-width:min(62%,60em)}
+.hero .intro p:first-child{font-size:23px;line-height:1.4}
+.hero .intro p:last-child{color:var(--muted);font-style:italic}
+.fruit{position:absolute;right:calc(var(--gutter) - 60px);top:10px;width:min(36vw,500px);aspect-ratio:1;z-index:0}
+.fruit circle{transform-origin:center}
+.ribbon{display:flex;gap:40px;overflow:hidden;white-space:nowrap;background:var(--plum);color:var(--cream);padding:14px 0;font-family:var(--display);font-weight:600;font-size:15px;letter-spacing:.04em;text-transform:uppercase}
+.ribbon span::after{content:"✺";margin-left:40px;color:var(--lemon)}
+section{padding:72px var(--gutter)}
+h2{font-family:var(--display);font-weight:700;font-size:clamp(30px,4vw,48px);letter-spacing:-.02em;margin-bottom:32px}
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:20px;list-style:none;padding:0}
+.tile{grid-column:span 2;border-radius:28px;padding:22px;display:flex;flex-direction:column;gap:18px;text-decoration:none;height:100%;transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.tile:hover{transform:translateY(-6px) rotate(-.6deg)}
+.tile .media{border-radius:16px;overflow:hidden;aspect-ratio:4/3}
+.tile .media img{width:100%;height:100%;object-fit:cover}
+.tile .org{font-family:var(--display);font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.tile h3{font-family:var(--display);font-weight:650;font-size:26px;line-height:1.08;letter-spacing:-.015em}
+.tile p{font-size:17px}
+.big{grid-column:span 3}
+.big h3{font-size:clamp(28px,3vw,40px)}
+.wide{grid-column:span 6;display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:36px;padding:28px}
+.wide h3{font-size:clamp(32px,4vw,56px)}
+.c-lemon{background:var(--lemon)}.c-sky{background:var(--sky)}.c-blush{background:var(--blush)}.c-sage{background:var(--sage)}.c-plum{background:var(--plum);color:var(--cream)}.c-white{background:#fff}
+.ethos{display:grid;grid-template-columns:1fr 1.3fr;gap:48px;align-items:center;background:var(--leaf);color:var(--cream);border-radius:36px;margin:0 var(--gutter) 72px;padding:56px}
+.ethos h2{margin:0;font-size:clamp(34px,5vw,64px);line-height:1}
+.ethos p{font-size:21px}
+footer{padding:32px var(--gutter);display:flex;justify-content:space-between;font-family:var(--display);font-size:15px}
+@media (max-width:900px){.grid{grid-template-columns:1fr 1fr}.tile,.big{grid-column:span 1}.wide{grid-column:span 2;grid-template-columns:1fr}
+.hero .intro{grid-template-columns:1fr;max-width:none}.fruit{opacity:.35;width:70vw;right:-20vw}.ethos{grid-template-columns:1fr;padding:32px}}
+@media (max-width:560px){.grid{grid-template-columns:1fr}.tile,.big,.wide{grid-column:span 1}header ul a{padding:8px 10px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#"><svg viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="17" rx="12" ry="10" fill="#f6c544" stroke="#2b1d2e" stroke-width="1.5"/><path d="M16 7c2-4 6-5 8-4-1 3-4 5-8 4z" fill="#3f6b33"/></svg>Michelle Trame</a>
+  <nav aria-label="Primary"><ul><li><a href="#work">Work</a></li><li><a href="#">About</a></li><li><a href="#">Resume</a></li></ul></nav>
+</header>
+<main>
+<div class="hero">
+  <svg class="fruit" viewBox="0 0 500 500" aria-hidden="true">
+    <circle cx="300" cy="190" r="150" fill="#f6c544"/>
+    <circle cx="150" cy="340" r="95" fill="#d8492f"/>
+    <circle cx="380" cy="390" r="60" fill="#a9cfdc"/>
+    <path d="M300 40c30-40 90-48 120-30-20 40-70 55-120 30z" fill="#3f6b33"/>
+  </svg>
+  <h1>Designing for <span class="hl">happy places.</span></h1>
+  <div class="intro">
+    <p>Hi, I'm Michelle. I'm a collaboration-loving, research-oriented product designer working on Canvas, and formerly at REI Co-op and AT&amp;T.</p>
+    <p>Most design starts with pain points. I hunt for those too, and just as hard for the joyful moments worth making more of.</p>
+  </div>
+</div>
+<div class="ribbon" aria-hidden="true"><span>Generative research</span><span>Service design</span><span>Co-design</span><span>Content design</span><span>Systems thinking</span><span>Prototyping</span><span>Generative research</span><span>Service design</span></div>
+
+<section id="work" aria-labelledby="w">
+  <h2 id="w">Recent work</h2>
+  <ul class="grid">
+    <li class="wide c-lemon tile"><div><span class="org">Canvas · Instructure</span><h3><a href="#" style="text-decoration:none">Making teaching tools work for teachers</a></h3><p>A lightweight way for teachers to sort students and assign differentiated work, shipped in two stages.</p></div><div class="media"><img src="../../assets/img/home/color-800.webp" alt="" width="800" height="800"></div></li>
+    <li class="big"><a class="tile c-sky" href="#"><div class="media"><img src="../../assets/img/rei/card-pxl-20220628-184436577-800.webp" alt=""></div><span class="org">REI Co-op 🔒</span><h3>Efficient, optimized store fulfillment</h3></a></li>
+    <li class="big"><a class="tile c-blush" href="#"><div class="media"><img src="../../assets/img/att/card-att-bill-800.webp" alt=""></div><span class="org">AT&amp;T 🔒</span><h3>A high-trust, low-stress phone bill</h3></a></li>
+  </ul>
+</section>
+
+<div class="ethos">
+  <h2>Catching falling fruit.</h2>
+  <p>In Santa Cruz I joined a group gleaning fruit from median trees and backyard orchards, food that would otherwise go to waste. It taught me how much abundance is right in front of us. As a designer, I try to capture the goodness that's already at hand.</p>
+</div>
+
+<section aria-labelledby="e" style="padding-top:0">
+  <h2 id="e">Earlier work</h2>
+  <ul class="grid">
+    <li><a class="tile c-sage" href="#"><div class="media"><img src="../../assets/img/apf/interviewing-800.webp" alt="" loading="lazy"></div><span class="org">Austin Parks Foundation</span><h3>Addressing inclusion in parks</h3></a></li>
+    <li><a class="tile c-white" href="#"><div class="media"><img src="../../assets/img/vouch/card-vouch-screens-cover-01-800.webp" alt="" loading="lazy"></div><span class="org">Vouch</span><h3>Borrowing money and protecting relationships</h3></a></li>
+    <li><a class="tile c-plum" href="#"><div class="media"><img src="../../assets/img/in-the-test/hero-800.webp" alt="" loading="lazy"></div><span class="org">In the Test</span><h3>Raising the bar for test prep apps</h3></a></li>
+    <li><a class="tile c-blush" href="#"><div class="media"><img src="../../assets/img/ixda-vera-ember/ember-fox-800.webp" alt="" loading="lazy"></div><span class="org">IxDA20: Meet Vera</span><h3>Creating space for emotional sharing</h3></a></li>
+    <li><a class="tile c-sky" href="#"><div class="media"><img src="../../assets/img/backcountry-babes/card-backcountry-splitboard-touring-breckenridge-800.webp" alt="" loading="lazy"></div><span class="org">Backcountry Babes</span><h3>Rebuilding sponsor relationships</h3></a></li>
+    <li><a class="tile c-lemon" href="#"><div class="media"><img src="../../assets/img/hack-reactor/card-hr-four-pairs-tall-800.webp" alt="" loading="lazy"></div><span class="org">Hack Reactor</span><h3>Co-designing for perfect teams</h3></a></li>
+  </ul>
+</section>
+</main>
+<footer><span>© 2026 Michelle Trame</span><span>Medium · LinkedIn · GitHub</span></footer>
+</body>
+</html>

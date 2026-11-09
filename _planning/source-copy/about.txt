@@ -1,0 +1,20 @@
+p: Michelle Trame | About
+IMG: 5ea63f9f808bdfa72896bba1_lemon.png | alt='michelle-trame-illustration' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ea63f9f808bdfa72896bba1_lemon.png
+div: Michelle Trame
+div: WORK RESUMEAbout
+IMG: 5e6fe2a4ede7cabaa89b9667_menu-icon.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7cabaa89b9667_menu-icon.png
+div: Let's Connect!
+h2: Where to find me
+p: I’m currently based in beautiful Oakland, CA and always happy to meet up with other designers, developers, makers, educators and creators. I maintain balance by regularly unplugging on bike tours, backcountry skiing, climbing or kayaking adventures. If you are interested in the intersection of adventure and design check out my Medium post about how my work as an outdoor guide informs my work as a designer.
+IMG: 5ecd93b3723fd2616dcf1fe4_bike-hex.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ecd93b3723fd2616dcf1fe4_bike-hex.png
+div: My design Ethos
+h2: Catching Falling Fruit
+p: Collaboration is at the core of my values. In my early twenties while living in a house with probably too many people and even more bikes in Santa Cruz I was introduced to a group of people who were gleaning, collecting fruit from trees in medians of busy boulevards, in front yards or even tiny backyard orchards. The goal was to intercept food (with permission) that would otherwise go to waste and turn it into something delicious, nourishing and useful. In addition to sharing the fresh fruit with friends and food banks, we made ciders, preserves and fruit butters. It felt radical. This experience opened my eyes to how much abundance is around us all the time that we fail to take advantage of. As a designer, I aim to capture the goodness that is right at hand. Whether on the level of small details or complex systems, I work in the space of things beyond our notice or that we haven't yet put to use to create enduringly joyful products, services or experiences. ‍
+div: Medium
+p: /
+p: LinkedIn
+p: /
+p: Github
+IMG: 5e6fe2a4ede7ca332b9b966c_webflow-w-small@2x.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7ca332b9b966c_webflow-w-small%402x.png
+div: Powered by Webflow
+div: MEDIUM LINKEDIN GITHUB

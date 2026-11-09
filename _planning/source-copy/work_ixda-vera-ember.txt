@@ -1,0 +1,68 @@
+p: Michelle Trame | IxDA: Vera/Ember
+IMG: 5ea63f9f808bdfa72896bba1_lemon.png | alt='michelle-trame-illustration' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ea63f9f808bdfa72896bba1_lemon.png
+div: Michelle Trame
+div: WORK RESUMEAbout
+IMG: 5e6fe2a4ede7cabaa89b9667_menu-icon.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7cabaa89b9667_menu-icon.png
+h1: Creating Space for Sharing
+div: IxDA20 design charette
+div: The Challenge
+div: As a finalist chosen to participate in the Design Charette, teams from IxDA and Amazon gave us a brief to develop a device or service that improves the lives of people facing unique challenges.
+div: Our Solution
+div: A voice interface that prompts asynchronous emotional sharing between a person receiving care and their care and support team. Our concept leverages meta-data from the interactions to glean mental health and physical health data.
+div: My Contributions
+div: I engaged in collaborative research and design in a team of three. We created low fidelity prototypes, conducted interviews and testing, and applied the feedback to develop a final iteration of the concept. We shared our work on the main stage at the IxDA20 Conference in Milan.
+div: “[When I was in the hospital] I stopped being a complete person. The only thing they could see about me was my illness.” -Jasmine
+div: Emotional Isolation of Care Recipients
+p: Upon arriving in Milan the team members met for the first time and chose a population to design for. Given an extremely short timeframe and limited access to populations for research, we chose to explore a problem space that we had firsthand experience with. Two members of our team had emotionally resonant experiences of receiving care in a hospital and being part of a care team for a family member. Both strongly identified with the challenges of communicating emotional needs during this time. People receiving care often struggle to connect with their families and health care professionals. How can we make sure they have the emotional and medical support they need?
+IMG: 5ec5917fa27548e970c96011_Group.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec5917fa27548e970c96011_Group.png
+div: The team (Shib, Michelle, Lynne). Furrowed brows, cups of coffee and so many post-it notes.
+h1: The Neuroscience Behind How We Relate to Machines
+p: Early research in Human-Computer Interaction gave us a glimpse into how a human brain wired for emotional connection can relate to even a minimalist technical interface. I won’t tell my blender my secrets, but some of the first computer interfaces were incredibly successful at mobilizing users to engage in emotional sharing. We've long known that the powerful human need for connection can be met in some ways by non-human companions from pets to houseplants. The development of a computer therapist suggested that even digital interactions would meet our needs for emotional connection and sharing.
+IMG: 5ec5954c9ccc7a407bb3b5cd_elizabot.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec5954c9ccc7a407bb3b5cd_elizabot.png
+div: ELIZA is a natural language processing computer program created from 1964 to 1966 at the MIT Artificial Intelligence Laboratory by Joseph Weizenbaum and was an early success in creating an interface for emotional sharing.
+h1: Digital Interfaces Increase Comfort with Sharing
+p: Academics continue to investigate the mechanisms of applications for emotional sharing via computer interactions. Researchers at USC have developed a modern-day ELIZA named Ellie that works with veterans to help diagnose mental illness upon returning from deployment. Ellie has been especially valuable in this context in diagnosing depression and PTSD using AI to analyze language in ways more precise than human diagnosis. Additionally, Ellie can increase emotional sharing. Speaking to a real person (either via an interface or in person) can cause people to be anxious about judgements being made by the psychologist. However, users shared significantly more during interactions with Ellie than they shared with a human therapist. ‍
+IMG: 5ec59695eb8f245bf5b62974_ellie.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec59695eb8f245bf5b62974_ellie.jpg
+div: Ellie uses biometirc data and speech content data to respond appropriately during interactions and also uses that data to build a profile of the mental and emotional health of the patient.
+h1: Building Trust and Honoring Privacy Concerns
+p: Our concept was an interface (Ember) that could use open-ended prompts to initiate emotional sharing for users in a care context. Their thoughts and feelings can be shared with the family care team. Ember would also use AI to analyze the voice to provide mental health and physical health data. Before we could answer the question of how we could communicate this data, we needed to understand how it would flow through the different user types. ‍
+li: Would the primary user need to reaffirm consent at each sharing instance?
+li: What types of information would users feel comfortable sharing with medical professionals or family caregivers?
+li: Would knowing that Ember was sharing your data compromise trust and/or change what users wanted to share?
+IMG: 5ec5b2c98682f610b7dd886d_Ember Map.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec5b2c98682f610b7dd886d_Ember%20Map.png
+div: With privacy concerns at the fore of ethical debates about designing voice interactions, we sought to understand how users felt about sharing personal information and meta-data with Ember.
+div: "I never thought my doctors gave a shit at all [about my emotional wellness], so if they were using [Ember] to access data about my mental health that would only be a plus." -Caroline
+p: Interviews with people who had experience in long-term care (as either a caregiver or recipient) revealed low levels of concern about data privacy or disclosure to the care team. People felt confident that this information in the hands of family members or medical professionals would only improve care. They expressed near universal comfort with sharing content of speech and health data derived from interactions with Ember.
+h1: Form Following Function
+h1: Leveraging Thought Leaders of IxDA20
+IMG: 5ec5d8c366486facfb02ce25_IMG_20200207_142402.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec5d8c366486facfb02ce25_IMG_20200207_142402.jpg
+div: Early sketches of Ember on the Echo Show, on a mobile phone or embodied in a form built to house an Echo.
+p: Having a rough idea of how Ember would function we set out to prototype the form that it might take. ‍ We wanted to a form that would:
+li: prompt engagement in a passive, non-intrusive way
+li: be differentiated from the cast of semi-anonymous medical professionals that cycle through the life of a person receiving care
+li: preserve or enhance the agency and autonomy of the primary user
+p: We reached out to leading researchers and practitioners at IxDA20 to better understand the ways that people connect emotionally to interfaces. Hadar Maximov and Carla Diana both influenced the trajectory of our concept . Their work articulating the emotional dimensions of our relationships to robots led us to consider what elements make our digital companions beloved family members or pesky annoyances. In particular we were captivated with Hadar’s exploration of the ways that people connect with robots, even seemingly unemotional robots like a military robot for disarming landmines or a lawn mowing or pool cleaning robot. How can we design Ember such that interactions spark an emotional connection?
+IMG: 5ec5ddfae2d02e7b2a232a47_roomba-tweet.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec5ddfae2d02e7b2a232a47_roomba-tweet.png
+div: Tweets from Michaela Okland that epitomize how we project emotional and social dimensions onto our interactions with robots like Roomba.
+h1: Why are we obsessed with houseplants, love Roomba, and hate Clippy?
+IMG: 5ec5f4da8ff98d6c675782da_venn.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec5f4da8ff98d6c675782da_venn.png
+div: Exploring the characteristics of some of our beloved and reviled non-human interactions.
+p: With the goal of optimizing for emotional sharing we created simple paper prototypes to test reactions to different types of interfaces. We mocked up a human, several pets (dog, turtle, cat), Clippy (Microsoft’s infamous digital assistant), a robot, and created a short interaction script. We also asked people about the digital characters in their lives. Who was fun? Or frustrating? Or effective? Or comforting? Users responded most positively to Ember in the form of a dog and many testers also volunteered that they liked the idea of the dog as a companion for a family member. Our rendering of Clippy evoked visceral negative reactions and sparked conversation about how characters can go wrong.
+IMG: 5ec5fb1fd0db4b542b891129_Ember-prototype-2.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec5fb1fd0db4b542b891129_Ember-prototype-2.png
+div: Paper prototypes of Ember as a dog.
+IMG: 5ec5fb8ce2d02e987a23a4f2_Ember-prototype.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec5fb8ce2d02e987a23a4f2_Ember-prototype.png
+h1: "My dad got a dog a few years ago after he retired. A beagle. And he is crazy about her...The feeling of agency can be important to someone who is losing their agency in other respects." -Luna ‍
+p: While preferences of our research participants influenced our choice in creating Ember to resemble a pet dog, the feedback about why certain types of interactions were fun or frustrating was more about identifying themes common to positive interactions. Microsoft's Clippy could have looked like a dog and been just as annoying as a talking paper clip. ‍ Our take-aways from our research were that coming on strong with a 'personality' might make interacting with Ember less pleasant. Taking after ELIZA and Roomba, our interface would have a minimalist personality. We also wanted to let users connect with Ember when the time is right and not see Ember popping up like a notification demanding attention. And finally, we wanted to let users care for Ember in some way. We wanted the user to read subtle cues from Ember as an invitation to connect and see a positive impact of their interaction with her. ‍
+IMG: 5ec5f8e742de9047e7d31e30_ember-fox.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec5f8e742de9047e7d31e30_ember-fox.png
+div: Our first mock-up of Ember on the Echo Show screen. A neutral expression invites users to interact. After talking to Ember her expression is happier.
+div: One Final Pivot
+IMG: 5ec6093cd0db4b20be8964b6_ember-plant-screen-2perky.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec6093cd0db4b20be8964b6_ember-plant-screen-2perky.png
+div: Vera (formerly Ember) looking 'perked up' after an interaction with the user.
+IMG: 5ec60bb202d99ee4f4664edf_vera-data.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec60bb202d99ee4f4664edf_vera-data.png
+div: Example of a mental and physical health sharing screen for care providers.
+IMG: 5ec607d0686a146b0c703aab_vera-cover.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec607d0686a146b0c703aab_vera-cover.png
+div: Example of an interface for family members listening to important Vera moments.
+p: In the final moments of the charette as we were putting finishing touches on our presentation, we decided to pivot to a different version of Ember. Although there was a strong stated preference for Ember as a pet, we worried that she felt somewhat childish. Would a person receiving care feel condescended to if asked by their physician to interact with a cartoon dog? We decided to reimagine Ember the fox as Vera the houseplant. The design principles that we established for Ember (minimalist personality, user-driven connection, and an element of providing care) were a natural fit for a houseplant.
+IMG: 5e6fe2a4ede7ca332b9b966c_webflow-w-small@2x.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7ca332b9b966c_webflow-w-small%402x.png
+div: Powered by Webflow
+div: MEDIUM LINKEDIN GITHUB

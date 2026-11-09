@@ -1,0 +1,16 @@
+p: Canvas
+IMG: 5ea63f9f808bdfa72896bba1_lemon.png | alt='michelle-trame-illustration' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ea63f9f808bdfa72896bba1_lemon.png
+div: Michelle Trame
+div: WORK RESUMEAbout
+IMG: 5e6fe2a4ede7cabaa89b9667_menu-icon.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7cabaa89b9667_menu-icon.png
+h1: Making teaching tools work for teachers
+div: CANVAS
+div: The Challenge
+div: Teachers want ways to sort and organize students in their classes for differentiated learning.
+div: Our Solution
+div: A lightweight and a full-featured implementation of the tool. The lightweight version allowed us to go to market quickly while gathering more information about the size of the demand for the full-featured option.
+div: My Contributions
+div: I was the lead designer for all work related to building this feature, including preliminary surveys, generative research, content design, user testing and creation of all relevant design files and specs.
+IMG: 5e6fe2a4ede7ca332b9b966c_webflow-w-small@2x.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7ca332b9b966c_webflow-w-small%402x.png
+div: Powered by Webflow
+div: MEDIUM LINKEDIN GITHUB

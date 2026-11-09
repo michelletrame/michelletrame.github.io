@@ -1,0 +1,231 @@
+Stride Handoff
+
+
+Hidden Groups / Assign To
+Getting started with tags
+   Stride handoff
+                                                                                                                                     Manage Tags
+
+   What is a Differentiation Tag?                                                                             Tags can be created,
+                                                                                                                                        Search...
+
+                                                                                                                                       Tag
+   A way of sorting students into groups. Tags are not visible to students                                      edited or deleted.
+   and are not for collaboration (like our collaborative groups).
+                                                                    Honors
+   Tags can be created on the People page.                                                                                            Single tag
+
+                                                                                                                                      12 students
+
+
+
+
+                      Create Tag                                                                                                      Transfer Students
+                                                                                                                                      Single tag
+
+                                                                                                                                      4 students
+
+
+                               Tags are not visible to students.
+                                                                                                                                      Reading Groups
+
+                      Tag Name *                                                   Tags can be single tags                             Macroeconomics     24 students
+
+                                                                                   or tag sets that contain                            Macroeconomics      8 students
+
+
+
+                          Add another tag
+                                                                                   several variants
+                      Tag Set *
+
+                         Add as single tag                                                             Variants can be added or
+                                                                                                           deleted or re-named
+                                                                   Cancel   Save
+
+
+
+
+Engage: Hidden Groups / Assign To
+                                                                                                                                      11
+Instructure March 2025
+    Stride handoff
+
+
+
+    Tag a Student
+    You can select one or more students from the People page and use the                                                        Use this button to select
+    “Tag As” apply an existing tag to those students. You can remove the tag                                                    which tag to apply (or
+    by selecting one or more currently tagged students and using the “Tag
+    As” button to untag.                                                                                                        create a new tag)
+
+
+                                                            Geology for Poets   People                                                                                                                       View as Student
+
+
+
+                                                  Home                                                                                                          Use this button to open
+                                       Account
+                                                  Announcements                                                                                                  the Manage Tags tray
+                                                  Assignments                                                                                                                                                   Group Set
+                                       Admin                                     Everyone       Geology Project   Scientific Method Project     Planetarium Project
+                                                  Discussions
+                                                                                    Search people                 Student (4)                                                                                      People
+                                      Dashboard   Grades
+                                                  People
+ Use the checkboxes                                                              Tag As           Manage Tags
+                                       Courses    Pages
+to indicate to which                              Files
+                                                                                Name                                Login ID                  SIS ID                  Section    Role
+
+ students you would                   Calendar
+                                                  Syllabus                               Name
+                                                                                                 Natalie Baker
+                                                                                                                                                Login ID SIS ID Section          Role    Last Activity Total Activity
+                                                                                                                   Nat.baker@school.edu       natalie.baker        GEOL 44A      Student
+      like to add or                    Inbox
+                                                  Outcomes
+                                                                                                 Bill Blend
+     remove the tag                               Rubrics
+                                                                                                                   William.blend@school.edu william.blend             GEOL 44A   Student
+
+                                       History    Quizzes                                        David Chen        David.chen@school.edu      david.chen2             GEOL 44A   Student
+                                           10
+                                                  Modules
+                                        Help                                                     Jack Connors      Jack.connoner@school.edu john.connors              GEOL 44B   Student
+ Engage: Hidden Groups / Assign To
+               BigBlueButton                                                                                                                                                                11
+ Instructure March 2025
+                                                  Collaborations                                 Krissy Darter     Krissy.darter@school.edu   kristina.darter         GEOL 44A   Student
+                                                  Lucid (Whiteboard)
+   Stride handoff
+
+
+
+
+   Assign a module to a tag                                                                                                                       You can find the ‘Assign to’
+                                                                                                                                                  Action in the 3 dot More
+   You can use tags to assign modules to specific groups of students. You can also use tags to
+   assign a Quiz, a Page, a Discussion or an Assignment to tagged students.                                                                       Menu of the module
+
+
+                                                                          Grade 5 Math   Assignments
+
+
+                                                                  Home
+                                                                                         Modules       All Assignments
+                                                       Account    Announcements
+
+                                                                  Assignments              Search assignments                                                  Collapse All   View Progress           Module
+
+                                                      Dashboard   Discussions
+     You can assign content to                                    Grades
+                                                                                              Introduction Module                                                                Complete All Items
+
+
+     individual students, sections                     Courses    People                        Self Intro                                                                                    20pts
+                                                                                                10 pts | View
+
+     or a differentiation tag                                     Pages
+                                                                                                This is an assignment that requires peer review
+                                                       Groups     Files                                                                                                                       20pts
+                                                                                                10 pts | Jun 7, 2020
+                                                                                                    2 Peer Reviews | Jun 22, 2020 | 5 pts each
+                                                                  Syllabus
+
+                                                       Calendar   Outcomes                      Week 2 Quiz                                                                                   20pts
+                                                                                                Not Yet Assigned | Jun 22, 2020 | 20 pts
+                                                           2      Quizzes
+
+                                                                  Modules                       Assignment Title                                                                              20pts
+                                                        Inbox
+                                                                                                Jun 7, 2020 | 20 pts
+
+                                                                  Conferences
+
+                                                        Help      Collaborations              Second Module                                                                      Complete All Items
+
+                                                                  Settings      NEW
+                                                                                                Self Intro                                                                                    20pts
+                                                                                                10 pts | View
+
+
+Engage: Hidden Groups / Assign To
+                                                              This is an assignment that requires peer review
+                                                                                                10 pts | Jun 7, 2020
+                                                                                                                                                                                              20pts            11
+Instructure March 2025                                                                              2 Peer Reviews | Jun 22, 2020 | 5 pts each
+
+
+                                                                                                Week 2 Quiz
+   Stride handoff
+
+
+
+
+   Selecting your tags
+   You can use tags to assign modules to specific groups of students.
+
+
+
+
+                                                                          Grade 5 Math   Assignments
+
+Students that have not been                                       Home
+
+assigned this module will not                         Account
+                                                                  Announcements          Modules       All Assignments
+
+
+see it in their student view                                      Assignments              Search assignments                                        Collapse All   View Progress           Module
+                                                                  Discussions
+                                                      Dashboard
+                                                                  Grades                      Introduction Module                                                      Complete All Items
+
+                                                                  People
+                                                       Courses                                  Self Intro                                                                          20pts
+                                                                  Pages                         10 pts | View
+
+
+                                                                  Files                         This is an assignment that requires peer review                                     20pts
+                                                       Groups
+                                                                                                10 pts | Jun 7, 2020
+                                                                  Syllabus                          2 Peer Reviews | Jun 22, 2020 | 5 pts each
+
+
+When you start typing you                             Calendar
+                                                                  Outcomes
+                                                                                                Week 2 Quiz                                                                         20pts
+                                                                  Quizzes                       Not Yet Assigned | Jun 22, 2020 | 20 pts
+
+will see the tags that you                                 2
+
+
+                                                        Inbox
+                                                                  Modules                       Assignment Title
+                                                                                                                                                  *You can assign 2content
+                                                                                                                                                                    pts              0
+have created.                                                     Conferences
+                                                                                                Jun 7, 2020 | 20 pts
+
+
+                                                                  Collaborations
+                                                                                                                                                  to multiple tags.
+                                                        Help                                  Second Module                                                            Complete All Items
+                                                                  Settings
+                                                                                NEW
+                                                                                                Self Intro                                                                          20pts
+                                                                                                10 pts | View
+
+
+Engage: Hidden Groups / Assign To
+                                                              This is an assignment that requires peer review
+                                                                                                10 pts | Jun 7, 2020
+                                                                                                                                                                                    20pts            11
+Instructure March 2025                                                                              2 Peer Reviews | Jun 22, 2020 | 5 pts each
+
+
+                                                                                                Week 2 Quiz
+Questions?
+Reach out to the Canvas Engage product team
+

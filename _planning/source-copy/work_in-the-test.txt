@@ -1,0 +1,80 @@
+p: In The Test
+IMG: 5ea63f9f808bdfa72896bba1_lemon.png | alt='michelle-trame-illustration' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ea63f9f808bdfa72896bba1_lemon.png
+div: Michelle Trame
+div: WORK RESUMEAbout
+IMG: 5e6fe2a4ede7cabaa89b9667_menu-icon.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7cabaa89b9667_menu-icon.png
+h1: Raising the Bar for Test Prep Apps
+div: In The Test
+div: The Challenge
+div: Creating an app that prepares students to demonstrate their process knowledge (an ability to find a solution to a problem), a rapidly growing testing model for standardized test.
+div: Our Solution
+div: An educational experience unlike any other that supports student success in process knowledge testing, while breaking lackluster patterns of existing test prep apps.
+div: My Contributions
+div: I was the only designer on the team and did all wireframes, process flows, user testing, and visual design. I collaborated with teammates on some of the user research and competitive analysis.
+IMG: 5f6995e428fd28c5dd5c094d_hero.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5f6995e428fd28c5dd5c094d_hero.png
+div: Content knowledge vs. process knowledge
+p: While previous generations relied on content knowledge (what you know) to be successful in academia or professions, education is shifting to focus more on process knowledge (what you can do). As educators retool to teach in new ways, assessment of students is also changing. A new wave of standardized testing is arriving that attempts to gauge students’ process knowledge. ‍ We sought to create a tool that would help students prepare to be successful with these new types of exams and build confidence in their problem solving abilities.
+p: Examples of Content Knowledge
+li: the US state capitals
+li: the number of bones in the human hand
+li: the definition of the word “penumbra”
+p: Examples of Process Knowledge
+li: how to find who was the mayor of your hometown 100 years ago
+li: how to interpret a graph of voter registration data
+li: how to troubleshoot code with a bug in it
+IMG: 5f68d8caa6596c2f4d8630c9_star-reference.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5f68d8caa6596c2f4d8630c9_star-reference.png
+div: 57 Phecda has a surface temperature of approximately 9500 K and a luminosity of 63. Identify the name of the star found that has a surface temperature and luminosity closest to Phecda.
+div: 6 Which star is cooler and less luminous than the sun? (1) Promixa Centauri (2) Pollux (3) Rigel (4) 40 Eridani B
+p: Questions and the relevant reference table from the the NY Regents Exam, an early adopter of process knowledge testing. The Regents have made decades of test questions and answers publicly available. We used this test data for the first version of our app, with plans to create additional versions that used other process knowledge exam content in the future.
+div: Finding dead ends through competitive analysis of educational apps
+IMG: 5f68ebaba1bdc85d87ebec1a_traditional-flow.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5f68ebaba1bdc85d87ebec1a_traditional-flow.png
+p: We explored the existing landscape of test prep and general educational apps, including popular language learning, coding and STEM education apps targeted to high school and adult learners.
+p: Everyone is copying everyone else The all rely on more or less the same model of posing multiple choice questions and providing instant feedback about the learner’s response.
+p: None of them are actually fun They rely on gold stars and badges to “gamify” an essentially dull experience with rewards to make the experience more enjoyable. Many of the most popular of these apps makes sure to carefully pace the challenges so that successes outweigh the failures, and the task feels “easy.”
+p: Teachers endorse these learning models Interviewing educators in the early stages of our design work, they felt confident that these repetitious interactions were successful in building knowledge as well as increasing students’ comfort with the testing format.
+div: Early Prototyping
+p: We built our first prototype copying many of existing conventions educational app conventions, planning to later layer on features that made the interaction more engaging or rewarding.
+p: Adapting the format to a new type of test The first version of the app solved some unique challenges, such as rendering large complex graphs and diagrams on a small phone screen and organizing data in a way that would best mimic the testing context.
+p: Following existing patterns ‍Our early prototypes did not stray far from the patterns established by industry-leading educational apps. We utilized a familiar question and answer format with instantaneous feedback about whether an answer was correct.
+p: Gamifying? Knowing that the experience of using the app was not intrinsically rewarding, we brainstormed ways of incorporating external rewards. Unlocking AR experiences? Earning badges?
+p: Getting student buy-in ‍Testing with users revealed that the app was usable, and learners felt cautiously optimistic that the app would help them get a better score on the exam. However, participants often communicated their growth in terms that referenced content knowledge rather than process knowledge.
+p: Setting the Tone ‍We attempted to break student expectations about traditional content knowledge exams by reminding them that this was a different kind of test.
+div: Forging a new path with analogous research
+IMG: 5f69298f5707ef55da599ed2_laptops.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5f69298f5707ef55da599ed2_laptops.jpg
+IMG: 5f6929d0b21c7d9cdb370ec2_postits.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5f6929d0b21c7d9cdb370ec2_postits.jpg
+p: Starting fresh with new insights Because our initial research only led us down a path of reproducing a well-worn solution to our problem, we wanted to zoom out and re-contextualize the challenge of creating an educational experience for demonstrating process knowledge.
+p: How does developing process knowledge work in real life? We took advantage of an opportunity to observe and analyze student experiences in a course that was taking a process knowledge approach to learning web development. (I was the teacher.)
+p: How do learners’ beliefs about themselves as learners inform how they engage with process knowledge tasks? Through in-person conversations, written self-reflections and course feedback from students, we began to better understand how students felt about a process-knowledge approach. Transitioning to a new mindset about learning after spending a decade or more in traditional content-oriented academic models was hard!
+p: Synthesizing student experience We began to develop fresh insights about the learner experience and create new design criteria to guide development of a truly unique solution.
+div: Old solutions won’t solve new problems
+div: Breaking out of existing patterns
+p: Students have deeply ingrained preconceptions about testing and academic tasks. ‍While these may be useful in a content knowledge-based academic environment, they don’t serve students well when acquiring process knowledge. ‍
+li: Students believe that arriving at a correct answer is more important than having an effective process for finding an answer.
+li: Students believe that a "fair" assessment will only cover topics they have had the opportunity to commit to memory.
+li: Students believe that feedback about their current performance is information about how they will do in the future.
+p: We need to create an experience that isn’t burdened by existing expectations and assumptions. ‍We can do this by abandoning or purposefully inverting the traditional patterns and language of testing and academia. ‍
+li: Normalize guessing. To take the emphasis away from “right answers” we need to normalize employing guessing as a strategy, both because guessing can be a path towards a correct answer and because it lowers the dissatisfaction experienced from getting negative feedback. ‍
+li: Provide opportunities to demonstrate process independent of outcomes. ‍Giving students a chance to flex their process muscles before asking any questions that could be mistaken for a content knowledge question. Don’t just tell students that this is a different type of task, show them. ‍
+li: Separate wrong answers from feedback about that answer. ‍The pattern of providing immediate feedback about answers undermines the intrinsic satisfaction of completing an intellectual task. Popular intellectual hobbies like crossword puzzles and sudoku puzzles don’t give immediate feedback. ‍
+IMG: 5f694a4bc0f4bb614c935d24_new-flow.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5f694a4bc0f4bb614c935d24_new-flow.png
+div: A new user flow for the app. The first stage gives students practice with finding information, the second give students practice with making inferences from data, the third using those inferences to answer a question. Feedback about the success of the ‘mission’ isn’t tied to an individual answer, but a set of answers.
+h1: A totally new approach
+IMG: 5f69759536f73141cd736949_sketches.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5f69759536f73141cd736949_sketches.jpg
+div: We kept the outer space imagery, but scrapped most other aspects of the initial design. We created an interaction that felt like a game, rather than a test prep experience that was “gamified.”
+div: We continued to use the test data from the NY Regents Earth Science exam, but built the interface keeping in mind that we wanted it to someday be home to different types of test content.
+div: A Story Arc
+IMG: 5f6986b6ad1199407701cc00_story.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5f6986b6ad1199407701cc00_story.png
+p: In previous iterations, each question and answer stood alone with no relationship to or dependency on any other question. Now the challenges are organized into multi-step missions, making departing from the game after just a few questions feel like leaving a party early (almost). The length of the challenge is a signal about how much time is the right amount of time to spend on the app. The creation of a finish line increases the intrinsic reward of completing a mission.
+div: Playful Way-finding
+IMG: 5f697bd19bb4aba34f6b491f_multi-planet.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5f697bd19bb4aba34f6b491f_multi-planet.png
+IMG: 5f697b3a4f54f5ad6b5addb9_one-planet.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5f697b3a4f54f5ad6b5addb9_one-planet.png
+p: Testing with our teenage users revealed familiarity with using gestures for common interactions (such as scrolling, zooming and swiping). This allowed us to clean many of our interfaces and reduce the number of controls on each screen. While the “resource drawer” solution that we created in the first iteration was a functional way of exploring large test content on a small screen, putting the materials on their own thematic planets and allowing students to explore the planets with gyro controls on their phone was more playful. ‍
+div: No Wrong Answers
+IMG: 5f697dbf727b7b48d02447b4_journey.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5f697dbf727b7b48d02447b4_journey.png
+p: Our analogous research showed us just how frustrated students were when seeking answers that seemed inaccessible. To reinforce that with process knowledge, it’s the journey, not the destination, we ask users to capture their journey (many times!) before we ever ask them to give an answer. While existing process testing paradigms require that students ultimately provide an answer, we can prepare them to be successful by giving many opportunities to practice the process.
+div: Impact and next steps
+p: Initial Successes ‍ ‍Because of our "show-don't tell" approach to disrupting expectations about success in process knowledge tasks, students were less intimidated, less anxious and less frustrated when encountering questions that seemed impossible at first. Observations during usability testing allowed us to discover more intuitive ways for users to navigate within the app that were also more simple visually. Measuring success by finding the relevant data, rather than arriving at the correct answer, makes the app less similar to the testing context, but a more accurate proxy for the skills being tested.
+p: Long-term Goals ‍ We would love to test this with students who are taking the NY Regents Earth Science exam to see how their use of the app impacts their score. Two groups that are often prepping for the NY Regents exams are advanced students who make take the exam as early as 8th grade to "get ahead" before high school, and special education students who need to pass a minimum number of exams to graduate. Our testers did not include either of these groups, and we think understanding both would be important from an equity perspective. We are eager to adapt In The Test to different test content. The State of California has recently introduced process knowledge science testing for 5th, 8th and 10th grade students. We would also be interested in adapting it for testing content outside the sciences. Finally, we are also interested in exploring AR options for students who have printed versions of test references on hand and could capture their images using the phone on their camera. ‍ ‍
+IMG: 5e6fe2a4ede7ca332b9b966c_webflow-w-small@2x.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7ca332b9b966c_webflow-w-small%402x.png
+div: Powered by Webflow
+div: MEDIUM LINKEDIN GITHUB

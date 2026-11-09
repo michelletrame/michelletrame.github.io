@@ -1,0 +1,29 @@
+p: Michelle Trame | Design Portfolio
+IMG: 5ea63f9f808bdfa72896bba1_lemon.png | alt='michelle-trame-illustration' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ea63f9f808bdfa72896bba1_lemon.png
+div: Michelle Trame
+div: WORK RESUMEAbout
+IMG: 5e6fe2a4ede7cabaa89b9667_menu-icon.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7cabaa89b9667_menu-icon.png
+h1: Hi, I'm Michelle.
+h1: I'm a collaboration-loving, research-oriented product designer working on Canvas. Formerly a team member designing employee tools at REI Co-op and on the innovation team at AT&T's in-house design studio. As designers we are often concerned with discovering pain points and implementing solutions to address those. I am just as concerned with exploring joyful moments and happy places so that I can design not just for alleviating discomfort, but for maximizing happiness. This is some of my work. ‍
+IMG: 5e9e35a969e4ffc411a2f28c_color.png | alt='Overhead shot of five hands collaborating on an intricate coloring page with colored pencils.' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e9e35a969e4ffc411a2f28c_color.png
+div: Making Teaching Tools Work for Teachers
+div: canvas
+div: Efficient, Optimized Store Fulfillment
+div: REI Co-op
+div: A High-Trust, Low-Stress Phone Bill
+div: AT&T
+div: Addressing Inclusion in Parks
+div: Austin Parks Foundation
+div: Borrowing Money and Protecting Relationships
+div: Vouch
+div: Raising the Bar for Test Prep Apps
+div: IN THE TEST
+div: Creating Space for Emotional Sharing
+div: IxDA20: Meet Vera
+div: Rebuilding Sponsor Relationships
+div: Backcountry Babes
+div: Co-designing for Perfect Teams
+div: Hack Reactor
+IMG: 5e6fe2a4ede7ca332b9b966c_webflow-w-small@2x.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7ca332b9b966c_webflow-w-small%402x.png
+div: Powered by Webflow
+div: MEDIUM LINKEDIN GITHUB

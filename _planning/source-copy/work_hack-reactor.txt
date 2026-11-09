@@ -1,0 +1,76 @@
+p: Michelle Trame | Hack Reactor
+IMG: 5ea63f9f808bdfa72896bba1_lemon.png | alt='michelle-trame-illustration' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ea63f9f808bdfa72896bba1_lemon.png
+div: Michelle Trame
+div: WORK RESUMEAbout
+IMG: 5e6fe2a4ede7cabaa89b9667_menu-icon.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7cabaa89b9667_menu-icon.png
+h1: Co-Designing for Perfect Teams
+div: Hack Reactor
+div: The Challenge
+div: Transforming the process for splitting students into project groups to increase focus on coding and minimize time spent defusing conflicts.
+div: Our Solution
+div: A co-creation process that engaged students and increased transparency. Together we developed a new system for collecting data and a lightweight algorithm to manage the data.
+div: My Contributions
+div: I led a student experience team that was responsible for delivering and iterating on the student experience. I worked with engineering, instruction and operations teams to give students the "Harvard of bootcamps" experience.
+IMG: 5ea880568b4bc047943523eb_hr-summary-tiles.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ea880568b4bc047943523eb_hr-summary-tiles.png
+div: Growing Pains & Interpersonal Conflicts
+IMG: 5e98cc1da264bd252afa388a_josh-and-dan.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e98cc1da264bd252afa388a_josh-and-dan.jpg
+div: Technical mentors, Josh and Dan, advising a thesis group.
+p: As we were gradually scaling from cohorts of 24 students to cohorts of 40 students, addressing the interpersonal conflicts in group project work grew from being a minor stressor on students to a major source of frustration and resentment. We didn't collect data on rates of students crying in the hallways, but if we had, I'm sure it would have shown huge growth during this period. At the same time what had been a back burner concern for staff grew to be an outsized strain on the time that technical staff had to spend mentoring students. While learning to manage conflict in groups is an important skill, the amount of conflict was distracting students from our primary purpose, learning to code.
+div: "I'm spending all my time helping them talk to each other and we haven't even looked at their code." -Maddie, student mentor
+h1: Can We Design More Perfect Teams?
+div: STAFF OBSERVATION
+div: Increasing cohort sizes mean we are less in tune with exponentially more complex interpersonal dynamics.
+div: STAFF OBSERVATION
+div: Students are blaming staff for putting them in 'bad groups,' rather than learning to work effectively with their teams.
+div: STAFF OBSERVATION
+div: Teams experiencing intense conflict aren't necessarily learning from the experience, they are just flailing.
+h1: Collecting the right data to solve the problem
+div: OLD PROCESS
+div: Collect a preference list from students asking them to indicate who they would like to work with (up to 8 people).
+div: Old PROCESS
+div: Staff record notes about students' ability to collaborate, multiple red flags are discussed amongst leadership team.
+div: Old PROCESS
+div: Staff intervene to adjudicate and remediate when groups are experiencing challenges.
+div: NEW PROCESS
+div: Meet with students identified as challenging to set clear boundaries and expectations about project work and support we can provide.
+div: NEW PROCESS
+div: If students identify people they are not willing to work with, they indicate if it is interpersonal or technical.
+div: NEW PROCESS
+div: Collect data about preferences that each student has for every other student.
+IMG: 5e98c95f4a1b905a5cb2165a_IMG_2787.JPG | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e98c95f4a1b905a5cb2165a_IMG_2787.JPG
+p: We realized we needed to be collecting different data from students to better understand the causes of the problem. We determined that we needed:
+li: more actionable preference data
+li: a way of identifying which individuals were struggling to collaborate before they were assigned to project groups
+li: a more nuanced picture of the experiences that struggling students were having
+div: "I don't know why I had to be in this group. Nobody listens to each other...It's not what I would have chosen." -Brandon, student
+div: "I feel like I was put in a group of people who are weaker than I am technically to slow me down and to make the teams appear more equal for the final presentations." -Eduardo, student
+h1: How Are Students Processing Their Experience? ‍
+div: INSIGHT 1
+div: Students are annoyed when the group preferences they provided to staff aren't reflected in the group they are assigned.
+div: INSIGHT 3
+div: Students are making conspiratorial assumptions about outcomes that were conincidental or unintentional.
+div: INSIGHT 2
+div: Students are stressed about not knowing how their expressed preferences translate into project groups.
+div: When attempting to support struggling groups many group members resisted interventions to support their process. They instead explained their difficult situation in terms of what social psychologists call the Fundamental Attribution error. They believed that their interpersonal skills were not to blame, but the situation that they had been put in (a bad group) was blame. Students like Brandon who struggled technically were historically difficult to place in groups because no one would express a preference for working them. The group he ended up in resented his inability to contribute at their level and the fact that no one had chose to be in a group with him. His lack of self-awareness about his technical limitations compounded his struggle to collaborate. ‍ The absence of a transparent system for transforming preference data into project groups meant that students like Eduardo were developing theories about the complicated social engineering schemes that would result in the project groups that we created. ‍
+div: For Students - It's Not About the Group, It's About the Black Box
+IMG: 5e98d861795d7d24cca131a4_students-mylani.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e98d861795d7d24cca131a4_students-mylani.jpg
+div: Students pair programming in the first half of the course.
+p: As we spoke with students, we came to realize that as much as they were stressed about their situation, the opaque process was responsible for the way that they were interpreting the cause of their stress. We believed that if we could open up the process and give students greater insight into our process they would be compelled to take ownership of the dynamics of their groups. Previously, data about who had a low preference ranking was obscured because it was not fully actionable. We usually didn't know if low scores were attributable to interpersonal deficits, technical deficits or both. By collecting better data we were able to support struggling students better through developing specialized study plans for them or even having them work independently so that their full focus could be on technical growth, not project management or collaboration. ‍ With our improved data, we also wanted to systematize the process and make it obvious that the outcome was a result of us trying to accomodate preferences across the cohort, rather than optimizing for some other outcomes.
+h1: Bring Students in as Co-Designers and Building Empathy Through Hacking
+IMG: 5e98cbe54a1b90eab0b22e09_me-at-hack-reactor.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e98cbe54a1b90eab0b22e09_me-at-hack-reactor.jpg
+div: Looking at Adam's code.
+p: We started by inviting the students into our process to see how we were currently working to assign project groups. We were transparent about the fact that we were actively iterating on the process and shared how we had already changed the way we were collecting data. ‍ We announced a mini hackathon and invited students to help us write code to solve the problem. We gave them a quick briefing about why we were collecting preference data differently, the output that we wanted from their solution (maximized happiness for the whole cohort, not at the expense of any sacrificial groups), and gave them anonymized datasets to work with. While forming ten perfectly cohesive four-person teams might not be feasible, we wanted to reframe the group-making process as a collaboration, not a edict. Inviting students into the problem solving also gave them an opportunity to empathize with how complex this seeming simple task actually is.
+h1: A Lightweight First Pass at Solving the Problem
+p: I also joined the hackathon as a participant. While I was not as savvy as many of them with complex coding solutions, I leveraged my familiarity with the problem to create a spreadsheet-based solution. Working with students enabled me to better understand their perspectives as I saw their prioritization and problem-solving strategies and they saw my investment in working on the problem alongside them. To form highly compatible groups, I wrote a very lightweight algorithm that rank sorted students into teams by using our new preference data to create a scoring system and then matching low-scorers to high-scorers that had indicated preference for a low-scorer. This was a strategy I had used with some success in the past when making groups with the old data.
+IMG: 5e98e033edae5df085537dfd_group-maker.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e98e033edae5df085537dfd_group-maker.png
+div: Less Anxiety About Groups and More Ownership
+IMG: 5ec45b47d1b75e7e24f17d47_hack reactor.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec45b47d1b75e7e24f17d47_hack%20reactor.jpg
+p: Although initially the focus had been on improving the outcome (good groups), through research and co-design we learned that the biggest pain point was the process. Opening up our process to students had a huge impact. It changed the way they understood their responsibility toward managing team dynamics and ended the conspiratorial theorizing about the social engineering we might have been doing behind their backs. The hackathon generated a python script that we mashed up with my simple algorithm to create a rough but workable and efficient process for forming project groups.
+div: The PROBLEM WE SOLVED Was not the problem wE STARTED WITH
+div: Teams That Are Coding and Collaborating
+IMG: 5e98e6e09c91d481d956d0b1_HR-BBP_5307-Casual.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e98e6e09c91d481d956d0b1_HR-BBP_5307-Casual.jpg
+p: The success of this initiative at targeting resources to students who were struggling to work effectively in teams led us to expand our collection of interpersonal data into the first half of the course when students are pair programming. Some support strategies initially developed for students that were struggling in the second half of the course were expanded into feedback and reflection processes that all students participated in during the first half of the course.
+div: EARLIER AND BETTER INTERVENTIONS FOR STUDENTS THAT STRUGGLE
+IMG: 5e6fe2a4ede7ca332b9b966c_webflow-w-small@2x.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7ca332b9b966c_webflow-w-small%402x.png
+div: Powered by Webflow
+div: MEDIUM LINKEDIN GITHUB

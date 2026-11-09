@@ -1,0 +1,115 @@
+p: Michelle Trame | Vouch
+IMG: 5ea63f9f808bdfa72896bba1_lemon.png | alt='michelle-trame-illustration' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ea63f9f808bdfa72896bba1_lemon.png
+div: Michelle Trame
+div: WORK RESUMEAbout
+IMG: 5e6fe2a4ede7cabaa89b9667_menu-icon.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7cabaa89b9667_menu-icon.png
+h1: Borrowing Money and Protecting Relationships
+div: Vouch
+div: The Challenge
+div: JUST, a non-profit that facilitates micro-loans for Spanish-speaking female entrepreneurs in the US wanted to better understand opportunities in communities adjacent to the population they serve.
+div: Our Solution
+div: We created a lending platform for friends and family members that addresses the problems that people experience when borrowing and lending to friends and family.
+div: My Contributions
+div: I worked in a team of three to conduct generative research which was presented to our partners at JUST at the end of phase one. In phase two, we utilized our research as the foundation for building Vouch, a new venture that is making individuals and communities more financially resilient.
+IMG: 5ecde17c1757d30440771d3d_vouch-screens.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ecde17c1757d30440771d3d_vouch-screens.png
+div: When the Playbook Fails
+p: We spoke to workers in the gig economy to see how their financial habits might vary from other populations. We found that most had come to gig work in response to a experiencing a financial challenge and lacking an adequate safety net to meet their needs. For most gig work was just one strategy they leaned on when times were tough. We heard about having to sell possessions, dramatically cutting back on expenses, taking out predatory loans, using debt consolidation or credit repair services, and borrowing money from friends and family. Each of these was emotional in their own ways, but the shame and anxiety of borrowing money from friends and family was especially acute.
+div: “One of the things that my parents do, even though I’m almost 40, is try to control me by saying, 'We can help you. We can give you money for this.' No more. No more.” -Holly
+div: “My family had to bail me out of a mess financially and they are still salty about it. Now they think I’m nothing but a poor decision maker and that puts a huge strain on us.” -Jack
+div: Zooming in on the Challenges of Borrowing and Lending
+IMG: 5ec6ce171f8ca8050fbaf7a7_Vouch illustrations.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec6ce171f8ca8050fbaf7a7_Vouch%20illustrations.png
+div: We shared simple vignettes with research participants who were borrowing from or lending money to friends and family members to spark conversations about what tools they currently use, what would be valuable to them, and what their current pain points were.
+p: We conducted additional research to understand the specific issues related to borrowing and lending money. We created simple models of what the service might look like and how it might address problems for borrowers and lenders.
+p: We also looked into who was currently meeting needs for people who needed to borrow money from friends and family. We found organizations facilitating peer-to-peer lending (between strangers), micro-loans, and payday lending.
+li: About 88 million Americans lend about $183 billion annually to friends and family.
+li: Of people who have lent money to friends or family 46% report that it ended poorly, either with damage to the relationship, not being paid back or both.
+li: An average interest rate for a loan to a friend or family member is around 4%. Payday lenders can charge interest rates of up to 700%.
+p: ‍Could we support these transactions such that people were not being forced to choose between their financial health and the health of their relationships?
+IMG: 5ecc646ff9b509c7e3f22f3e_JUST-participants.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ecc646ff9b509c7e3f22f3e_JUST-participants.png
+div: Participants in our generative research phase share their goals for their futures, how they balance working and living, the tools they use to manage money, and their strategies for coping with financial challenges.
+h1: Creating Conditions for Success
+div: We developed three insights about the ways that borrowing can become problematic and identified three design principles to address these problems
+div: INSIGHT 1
+div: People feel shame and embarrassment about borrowing money. ‍
+div: Principle 1
+div: We must build borrower and lender confidence. ‍
+div: Principle 2
+div: We must compel proactive communication. ‍
+div: Principle 3
+div: We must foster support and flexibility.
+div: INSIGHT 2
+div: Uncomfortable power dynamics cause people to avoid talking about loans. ‍
+div: INSIGHT 3
+div: People are anxious about damaging their relationships. ‍
+div: Pilot and Prototype Timeline
+p: We ran a pilot that allowed us to acquire users at each stage while building prototypes that we would test with current users and testing participants. At different stages our iterations focused on effectively communicating the value promise, building trust with users, usability, and brand identity.
+IMG: 5ec96d20a489f529f35e89d7_timeline.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec96d20a489f529f35e89d7_timeline.png
+p: Landing Page v1
+p: MVP Onboarding
+p: MVP Deliverables
+p: Landing Page v2
+p: Concierge Onboarding
+p: Wireframes
+p: Landing Page v3
+p: First Mocks
+div: We Made
+p: A simple landing page to gauge interest in the product.
+div: We Learned
+p: Users need more clarity about what the product is and who it is for. We had a surprisingly high conversion rate after running Google ads.
+IMG: 5ec8466b107e46b2291d39e2_vouch-landing-v1.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec8466b107e46b2291d39e2_vouch-landing-v1.png
+div: We Made
+p: An onboarding form flow for Vouch users.
+div: We Learned
+p: Users didn't know what to expect at the end. We needed to do more to build trust before asking people to onboard. Some questions were confusing. Dividing users into four pathways with customized questions for each type was an unnecessary complication.
+IMG: 5ec951c24966c21f1e581bf1_onboarding.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec951c24966c21f1e581bf1_onboarding.png
+div: We Made
+p: The first term sheet prototype including a summary of the terms and overview of the loan and a repayment schedule along with additional concerns and considerations.
+div: We Learned
+p: Users found this document valuable because it was more simple than amortization schedules and felt more personal. This was a tool that a user could bring to a conversation with their lender or borrower. People wanted to be able to make changes to the document if circumstances changed.
+IMG: 5ec6da4a4dc52a68607da6f0_template.jpg | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec6da4a4dc52a68607da6f0_template.jpg
+div: We Made
+p: A landing page explaining Vouch and the value promises and features with an option for people to onboard loan with us.
+div: We Learned
+p: Users were still confused about what we were offering and why this would be valuable and who it was for. Certain phrases (i.e., "Turn a hard conversation into a simple request") were resonating with people. People hated the idea of scheduling a phone call for onboarding.
+IMG: 5ec95743f56b093e374dc5aa_vouch-landing-v2.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec95743f56b093e374dc5aa_vouch-landing-v2.png
+div: We Made
+p: An onboarding flow done via a schedule phone call with a Vouch loan coach.
+div: We Learned
+p: Users weren't arriving at the on boarding with a clear idea of what they wanted from their loan, they wanted the ability to move numbers around to understand what different options for a loan might look like. They wanted to know what other people do, what's normal or average. I began doing onboarding calls with a spreadsheet app so that I could mock up different loan scenarios. Explaining these over the phone, however, was not ideal. One of my 'back of napkin' spreadsheets became the first draft of our loan calculator.
+IMG: 5ec97169a489f574e55eb2e8_loan-calc.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec97169a489f574e55eb2e8_loan-calc.png
+div: We Made
+p: Wireframes and clickable prototypes that translated our current concierge experience and deliverables into a mobile web platform that would allow us to scale our onboarding to more users.
+div: We Learned
+p: Users expressed greater trust in the app version of the onboarding than in the form onboarding and were happen to give up some agency in exchange for simplicity and ease of use. ‍ Older people in particular wanted to be able to access it from a desktop. Younger testers cited app fatigue as a reason for not wanting to use an app-based tool (especially one relying on inviting another user to also use it).
+IMG: 5ec95db5a391aa0ae975438e_wireframes.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec95db5a391aa0ae975438e_wireframes.png
+div: We Made
+p: The current iteration of the Vouch landing page explaining the service and offering options for onboarding with an email, form or scheduled phone call.
+div: We Learned
+p: The value promise is clear. The process is clear. Different users had different response to images used in testing (stock photos vs illustrations). With more resources we would want to invest in finding better aligned visuals.
+IMG: 5ec9790181c5519469f0e250_vouch-landing-v3.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec9790181c5519469f0e250_vouch-landing-v3.png
+div: We Made
+p: Medium fidelity mocks to get some of the same general usability feedback that we had gotten with our wireframes, while also getting input about the look and feel. Is it friendly? Is it supportive? Is it easy? What type of person would use this?
+div: We Learned
+p: The interface was intuitive, but dry and didn't communicate the tone/identity we wanted. Users felt like it was not differentiated from other banking apps.
+IMG: 5ec6e294d85c771516a2a8b4_version1.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec6e294d85c771516a2a8b4_version1.png
+IMG: 5ecdb7bbc500a02c706467bf_v1-mock-1.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ecdb7bbc500a02c706467bf_v1-mock-1.png
+div: Falling in Love with the Problem and Bringing Our Design Principles to Life
+IMG: 5ecdbbeaf1473a1b3f8400b8_designing.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ecdbbeaf1473a1b3f8400b8_designing.png
+p: While we relied on user testing to guide each new iteration of the product, our North Star was the design principles that we identified early on. We regularly revisited and updated our principles, treating them as both sacred and malleable. We referenced banking and lending apps to see how other designers solved similar problems, but we developed through research an acute sense of the problems people experience when lending and borrowing and wanted those to inform each step of our project. One of our project mentors told us the most remarkable thing about our work was our teams ability to fall in love with our problem, but not our solution.
+div: Building Borrower and Lender Confidence
+IMG: 5ecde2c394d2b6989a30fbf3_loan-builders-new.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ecde2c394d2b6989a30fbf3_loan-builders-new.png
+p: The loan calculator is the first step in creating a loan request. Our calculator reduces stress by allowing borrowers to quickly understand the relationship between interest rates, repayment amount and timeframe. ‍ We start the process by determining what the borrower needs to be successful. Borrowers give their amount, what they can repay and when, and interest if that’s important to them and then we give them a plan.
+div: Compelling Proactive Communication
+IMG: 5ec6e81f45395e6eb932ad69_agreements.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec6e81f45395e6eb932ad69_agreements.png
+p: User wanted a tool that was not just going to help them manage the financial side of their loan, but also support them in managing tough interpersonal dynamics. Our onboarding sets up both the borrower and the lender to think about the type of communication they want to engage in throughout the life of the loan. When users look at the status of the loan, the first thing they see are the agreements they made at the creation of the loan.
+div: Fostering support and flexibility.
+IMG: 5ec6eba926905c0248d0e490_Loan Dashboard.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5ec6eba926905c0248d0e490_Loan%20Dashboard.png
+p: A big thing that differentiates friends and family lending is flexibility. On our platform borrowers can repay early or modify their repayment schedule without penalties. ‍ Any changes spark a conversation between the borrower and lender so there are no surprises. Because we heard from lenders that having to remind the borrower about repayments was an aspect of lending they strongly disliked, Vouch sends the borrower reminders when their payments are due and follows up about missed payments.
+div: Current State of Vouch
+p: My co-founders and I are continuing to work on Vouch, exploring the possibilities and opportunities that exist when we challenge long-held assumptions about lending money to friends and family and the myth of rugged individualism.
+h3: LET US HELP YOU MANAGE YOUR LOAN!
+p: On-board your loan today, or become a beta tester to get access to the latest features.
+p: www.vouchtogether.com
+IMG: 5e6fe2a4ede7ca332b9b966c_webflow-w-small@2x.png | alt='' | https://cdn.prod.website-files.com/5e6fe2a422bca46cf2d1d31d/5e6fe2a4ede7ca332b9b966c_webflow-w-small%402x.png
+div: Powered by Webflow
+div: MEDIUM LINKEDIN GITHUB
