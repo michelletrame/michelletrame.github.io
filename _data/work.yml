@@ -3,6 +3,7 @@
 # cover: key in _data/images.yml (folder/name, no size suffix).
 # color: tile color on the homepage and accent on the case study (lemon, sky, blush, sage, plum, white).
 # locked: shows a password note on the card.
+# tags: type-of-work labels shown at the top of the case study.
 
 - slug: canvas
   url: /work-canvas.html
@@ -13,6 +14,7 @@
   cover: home/color # placeholder until the Unsplash cover is added
   cover_alt: Overhead view of five people's hands coloring an intricate pattern together with colored pencils.
   color: lemon
+  tags: [Product Design, User Research, Usability Testing]
   featured: true
 
 - slug: rei
@@ -23,6 +25,7 @@
   cover: rei/card-pxl-20220628-184436577
   cover_alt: Bikes waiting to be packed in an REI store backroom, with shelves of boxed products behind them.
   color: sky
+  tags: [Generative Research, Service Design]
   featured: true
   locked: true
 
@@ -34,6 +37,7 @@
   cover: att/card-att-bill
   cover_alt: Illustrated woman seated beside two phone screens, a text message confirming an autopay date and a bill showing $60 paid.
   color: blush
+  tags: [Interaction Design, User Research]
   featured: true
   locked: true
 
@@ -45,6 +49,7 @@
   cover: apf/interviewing
   cover_alt: Michelle talks with Robert, a park adopter, under the live oaks of his neighborhood park in Austin.
   color: sage
+  tags: [Generative Research, Service Design]
 
 - slug: vouch
   url: https://www.michelletrame.com/work/vouch
@@ -54,6 +59,7 @@
   cover: vouch/card-vouch-screens-cover-01
   cover_alt: Rows of Vouch app screens laid out at an angle on a blue background.
   color: white
+  tags: [Product Design, User Research, Usability Testing]
 
 - slug: in-the-test
   url: https://www.michelletrame.com/work/in-the-test
@@ -63,6 +69,7 @@
   cover: in-the-test/hero
   cover_alt: Five phone screens from the In the Test app showing a planet-themed earth science journey.
   color: plum
+  tags: [Product Design, User Research, Usability Testing]
 
 - slug: ixda-vera-ember
   url: https://www.michelletrame.com/work/ixda-vera-ember
@@ -72,6 +79,7 @@
   cover: ixda-vera-ember/ember-fox
   cover_alt: A smart display on a counter showing a friendly cartoon fox face.
   color: blush
+  tags: [Product Design, Prototyping, Secondary Research]
 
 - slug: backcountry-babes
   url: https://www.michelletrame.com/work/backcountry-babes
@@ -81,6 +89,7 @@
   cover: backcountry-babes/card-backcountry-splitboard-touring-breckenridge
   cover_alt: A line of splitboarders skinning uphill through snowy pines near Breckenridge.
   color: sky
+  tags: [Interaction Design, User Research]
 
 - slug: hack-reactor
   url: https://www.michelletrame.com/work/hack-reactor
@@ -90,3 +99,4 @@
   cover: hack-reactor/card-hr-four-pairs-tall
   cover_alt: Students pair-programming at long rows of desks in a busy coding classroom.
   color: lemon
+  tags: [Service Design, Co-Design]

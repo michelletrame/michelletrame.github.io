@@ -8,7 +8,10 @@ layout: default
 <article class="cs c-{{ me.color | default: 'lemon' }}-accent">
   <header class="cs-hero">
     <div class="cs-hero-text">
-      <p class="eyebrow">{{ me.org | default: page.org }}</p>
+      <ul class="cs-labels" role="list">
+        <li class="eyebrow cs-org">{{ me.org | default: page.org }}</li>
+        {%- for t in me.tags %}<li class="cs-tag">{{ t }}</li>{% endfor %}
+      </ul>
       <h1>{{ page.title }}</h1>
       {%- if page.dek %}<p class="cs-dek">{{ page.dek }}</p>{% endif %}
     </div>
