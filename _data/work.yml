@@ -1,6 +1,7 @@
 # One entry per case study, in homepage order.
 # url: where the card links. Not-yet-migrated case studies still point at Webflow.
 # cover: key in _data/images.yml (folder/name, no size suffix).
+# cover_position: optional CSS object-position for the card crop (default: center).
 # color: tile color on the homepage and accent on the case study (lemon, sky, blush, sage, plum, white).
 # locked: shows a password note on the card.
 # tags: type-of-work labels shown at the top of the case study.
@@ -77,6 +78,7 @@
   org: "IxDA20: Meet Vera"
   summary: A design charrette concept for a companion device that helps care recipients share how they feel.
   cover: ixda-vera-ember/vera-cover
+  cover_position: right center # keep the phone clear of the card edge
   cover_alt: A person silhouetted at a sunny street corner beside a phone screen from the Vera app, connected to Margaret's Vera and showing her older moments.
   color: blush
   tags: [Product Design, Prototyping, Secondary Research]

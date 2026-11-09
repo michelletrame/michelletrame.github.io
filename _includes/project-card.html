@@ -2,7 +2,7 @@
 {%- assign p = include.p -%}
 {%- if include.variant == "wide" %}{% assign sz = "(min-width: 900px) 45vw, 100vw" %}{% elsif include.variant == "big" %}{% assign sz = "(min-width: 900px) 45vw, 100vw" %}{% else %}{% assign sz = "(min-width: 900px) 30vw, (min-width: 560px) 50vw, 100vw" %}{% endif -%}
 <li class="card card--{{ include.variant | default: 'small' }} c-{{ p.color }}">
-  <div class="card-media">{% include img.html src=p.cover alt="" sizes=sz eager=include.eager %}</div>
+  <div class="card-media">{% include img.html src=p.cover alt="" sizes=sz eager=include.eager position=p.cover_position %}</div>
   <div class="card-body">
     <p class="card-org">{{ p.org }}{% if p.locked %} <span class="lock">· Password protected</span>{% endif %}</p>
     <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
