@@ -36,6 +36,8 @@ def rewrite(html):
         target = path.split('#')[0]
         if target == '':
             path = 'index.html' + path  # "/" or "/#work"
+        elif target.endswith('.pdf'):
+            return f'{attr}="{LIVE}{path}"'  # the preview viewer can't show PDFs in its frame
         elif target.endswith('.html') and target not in PAGES:
             return f'{attr}="{LIVE}{path}"'
         return f'{attr}="{path}"'
