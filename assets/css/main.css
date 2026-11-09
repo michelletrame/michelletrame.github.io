@@ -119,7 +119,7 @@ ul[role="list"], .plain { list-style: none; padding: 0; }
   content: "✺"; position: absolute; left: 0; top: 50%; transform: translate(-50%, -50%); color: var(--lemon);
 }
 /* Narrow: wrap onto centred lines; each item carries its own star so none dangle at a line end. */
-@media (max-width: 760px) {
+@media (max-width: 1000px) {
   .ribbon ul { flex-wrap: wrap; justify-content: center; gap: 8px 22px; }
   .ribbon li { flex: 0 0 auto; padding: 0; }
   .ribbon li::before, .ribbon li + li::before {
