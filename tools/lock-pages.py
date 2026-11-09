@@ -7,7 +7,7 @@ Usage:
 
 For each page in PAGES this:
   1. takes the rendered page from _site-private/,
-  2. embeds its confidential images (assets/img/*-private/) as data URIs, so no
+  2. embeds its confidential images and audio (assets/*/*-private/) as data URIs, so no
      unencrypted copy of them is ever published,
   3. encrypts the whole page with StaticCrypt, writing the result to the repo
      root (work-att.html etc.), which the public build serves as-is.
@@ -23,6 +23,7 @@ from pathlib import Path
 PAGES = ['work-att.html', 'work-rei.html', 'work-canvas.html']
 SITE = Path('_site-private')
 PRIVATE_IMG = re.compile(r'/assets/img/[a-z-]+-private/[^"\s,]+\.webp')
+PRIVATE_AUDIO = re.compile(r'/assets/audio/[a-z-]+-private/[^"\s]+\.m4a')
 STATICRYPT = os.environ.get('STATICRYPT', 'npx staticrypt')
 
 password = os.environ.get('LOCK_PASSWORD')
@@ -40,6 +41,7 @@ def inline(html):
     # Drop srcset on private images (we embed one size), then swap src for a data URI.
     html = re.sub(r'\s+srcset="[^"]*-private/[^"]*"', '', html)
     html = re.sub(r'\s+sizes="[^"]*"(?=[^>]*src="data:)', '', html)
+    html = PRIVATE_AUDIO.sub(lambda m: 'data:audio/mp4;base64,' + base64.b64encode((SITE / m.group(0).lstrip('/')).read_bytes()).decode(), html)
     return PRIVATE_IMG.sub(lambda m: data_uri(m.group(0)), html)
 
 with tempfile.TemporaryDirectory() as tmp:
@@ -48,7 +50,7 @@ with tempfile.TemporaryDirectory() as tmp:
         if 'staticrypt' in html[:3000]:
             sys.exit(f'{SITE / page} is already encrypted: run the private build first.')
         html = inline(html)
-        left = PRIVATE_IMG.findall(html)
+        left = PRIVATE_IMG.findall(html) + PRIVATE_AUDIO.findall(html)
         if left:
             sys.exit(f'{page}: private images still linked: {left[:3]}')
         (Path(tmp) / page).write_text(html)

@@ -422,3 +422,13 @@ kbd { font-family: var(--display); font-size: .85em; font-weight: 600; backgroun
 .photo-credits a { color: inherit; }
 .ethos-photo { width: min(100%, 320px); aspect-ratio: 1; object-fit: cover; object-position: 50% 45%; border-radius: 50%; margin-top: 28px; box-shadow: 0 0 0 8px var(--lemon); }
 @media (max-width: 900px) { .ethos-photo { width: min(60vw, 240px); } }
+
+/* Voice: a recorded quote with audio and transcript */
+.voice { margin-top: 2em !important; max-width: var(--wide) !important; background: var(--white); border-radius: var(--radius-lg); padding: clamp(20px, 3vw, 36px); border-left: 8px solid var(--accent); }
+.voice blockquote p { font-size: clamp(20px, 2vw, 26px); line-height: 1.4; font-style: italic; }
+.voice figcaption { font-family: var(--display); font-weight: 600; font-size: 15px; margin-top: 12px; }
+.voice figcaption::before { content: "— "; }
+.voice audio { display: block; width: 100%; max-width: 420px; margin-top: 18px; }
+.voice details { margin-top: 14px; font-size: 16px; }
+.voice summary { cursor: pointer; font-family: var(--display); font-weight: 600; font-size: 15px; }
+.voice details p { margin-top: 8px; color: var(--muted); }
