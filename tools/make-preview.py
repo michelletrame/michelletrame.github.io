@@ -11,7 +11,7 @@ relative ones (assets/x), and points pages that aren't in the preview
 The home page loses its <html>/<head>/<body> wrapper because the preview
 host adds its own; the other pages keep theirs.
 """
-import re, shutil, sys
+import re, shutil, subprocess, sys
 from pathlib import Path
 
 OUT = Path(sys.argv[1])
@@ -68,6 +68,16 @@ refs |= {'assets/fonts/' + f for f in re.findall(r'url\(\.\./fonts/([^)]+)\)', c
 refs.discard('assets/css/main.css')
 (OUT / 'assets/css').mkdir(parents=True)
 (OUT / 'assets/css/main.css').write_text(css)
+
+# The preview viewer serves .mp3 but not .m4a: convert any m4a audio for the preview.
+for ref in sorted(r for r in refs if r.endswith('.m4a')):
+    mp3 = ref[:-4] + '.mp3'
+    (OUT / mp3).parent.mkdir(parents=True, exist_ok=True)
+    subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', str(SITE / ref), '-b:a', '96k', str(OUT / mp3)], check=True)
+    for page in PAGES:
+        f = OUT / page
+        f.write_text(f.read_text().replace(ref, mp3))
+refs = {r for r in refs if not r.endswith('.m4a')}
 
 for ref in sorted(refs):
     src = SITE / ref
