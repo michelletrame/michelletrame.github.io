@@ -27,6 +27,7 @@ PRIVATE_AUDIO = re.compile(r'/assets/audio/[a-z-]+-private/[^"\s]+\.m4a')
 ICONS = ('        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n'
          '        <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />\n'
          '        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />')
+PUBLIC_OG = 'https://michelletrame.github.io/assets/img/home/color-1600.webp'
 STATICRYPT = os.environ.get('STATICRYPT', 'npx staticrypt')
 
 password = os.environ.get('LOCK_PASSWORD')
@@ -41,6 +42,10 @@ def data_uri(url):
     return 'data:image/webp;base64,' + base64.b64encode(path.read_bytes()).decode()
 
 def inline(html):
+    # Link previews can't see inside an encrypted page, so point og:image at a public
+    # image instead of letting a private cover get embedded a second time.
+    html = re.sub(r'(<meta property="og:image" content=")[^"]*-private/[^"]*(")',
+                  lambda m: m.group(1) + PUBLIC_OG + m.group(2), html)
     # Drop srcset on private images (we embed one size), then swap src for a data URI.
     html = re.sub(r'\s+srcset="[^"]*-private/[^"]*"', '', html)
     html = re.sub(r'\s+sizes="[^"]*"(?=[^>]*src="data:)', '', html)
